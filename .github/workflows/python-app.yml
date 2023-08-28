@@ -19,4 +19,4 @@ jobs:
         python-version: 3.x  # Specify your desired Python version
         
     - name: Run Python script
-      run: python AEPMigrator/main.py
+      run: python main.py
