@@ -1,0 +1,90 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/f819ac5b8cc8509c5c8b56ced568524daf318d7d28c64e75",
+    "meta:altId": "_prudential.mixins.f819ac5b8cc8509c5c8b56ced568524daf318d7d28c64e75",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "ClientLink Event Object Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "activity": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Activity",
+                            "meta:xdmType": "string"
+                        },
+                        "activityOutcome": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Activity Outcome",
+                            "meta:xdmType": "string"
+                        },
+                        "accountId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Account Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "eventId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "eventId",
+                            "meta:xdmType": "string"
+                        },
+                        "whoId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Who Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "whatId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "What Id",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669027732184,
+        "repo:lastModifiedDate": 1669027732184,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "c00f02bf0b069465a16ba4fec6997f103dc06feaba1b5fdeeea9785371fbcd6e",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

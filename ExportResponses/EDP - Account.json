@@ -1,0 +1,34 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/8504f25bcac869dc28b7cc24c7281942749f697da165f8db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/account/accountId",
+        "xdm:namespace": "EDPAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "2cfff83c-2095-44cb-bff8-3c209514cb04",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/8504f25bcac869dc28b7cc24c7281942749f697da165f8db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": ""
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "2cfff83c-2095-44cb-bff8-3c209514cb04",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    }
+]

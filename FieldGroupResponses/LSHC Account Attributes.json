@@ -1,0 +1,160 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/ef289bd8c67d85fbafa58c1ff27ff6608b6dba4b91f740d6",
+    "meta:altId": "_deloitteemeanorthpartnersand.mixins.ef289bd8c67d85fbafa58c1ff27ff6608b6dba4b91f740d6",
+    "meta:resourceType": "mixins",
+    "version": "1.4",
+    "title": "LSHC Account Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitteemeanorthpartnersand": {
+                    "type": "object",
+                    "properties": {
+                        "accountDetails": {
+                            "title": "Account Details",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "accountNumber": {
+                                    "title": "Account Number",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "accountTier": {
+                                    "title": "Account Tier",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "accountCreatedDate": {
+                                    "title": "Account Created Date",
+                                    "description": "",
+                                    "type": "object",
+                                    "isRequired": false,
+                                    "required": [],
+                                    "properties": {
+                                        "createdDate": {
+                                            "title": "Created Date",
+                                            "description": "",
+                                            "type": "string",
+                                            "format": "date-time",
+                                            "required": [],
+                                            "meta:xdmType": "date-time"
+                                        },
+                                        "createdMonth": {
+                                            "title": "Created Month",
+                                            "description": "",
+                                            "type": "integer",
+                                            "required": [],
+                                            "meta:xdmType": "int"
+                                        },
+                                        "createdYear": {
+                                            "title": "Created Year",
+                                            "description": "",
+                                            "type": "integer",
+                                            "required": [],
+                                            "meta:xdmType": "int"
+                                        }
+                                    },
+                                    "meta:xdmType": "object"
+                                },
+                                "accountStatus": {
+                                    "title": "Account Status",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "accountName": {
+                                    "title": "Account Name",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        },
+                        "ownerDetails": {
+                            "title": "Owner Details",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "ownerName": {
+                                    "title": "owner Name",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "preferredLanguage": {
+                                    "title": "Preferred Language",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "emailOptedInMethod": {
+                                    "title": "Email Opted In Method",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "hasOptedOutofEmail": {
+                                    "title": "Has Opted Out of Email",
+                                    "description": "",
+                                    "type": "boolean",
+                                    "required": [],
+                                    "meta:xdmType": "boolean"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1645019423494,
+        "repo:lastModifiedDate": 1648198368705,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "89f8488d3af66e73b419c411c7ce3c2e1d8abf5718662715abf9aab21dcd4efa",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:allFieldAccess": true
+}

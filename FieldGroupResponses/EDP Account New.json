@@ -1,0 +1,161 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/809d99b235b47438fb29e6a5504f33f8b7efcb7ef9d644f9",
+    "meta:altId": "_prudential.mixins.809d99b235b47438fb29e6a5504f33f8b7efcb7ef9d644f9",
+    "meta:resourceType": "mixins",
+    "version": "1.2",
+    "title": "EDP Account New",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "accountDetails": {
+                            "items": {
+                                "properties": {
+                                    "accountId": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Account id",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "accountEffectiveDate": {
+                                        "required": [],
+                                        "format": "date",
+                                        "type": "string",
+                                        "title": "Account Effective  Date",
+                                        "meta:xdmType": "date"
+                                    },
+                                    "accountTerminationDate": {
+                                        "required": [],
+                                        "format": "date",
+                                        "type": "string",
+                                        "title": "Account Termination Date",
+                                        "meta:xdmType": "date"
+                                    },
+                                    "accountStatusCode": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Account Status Code",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "institutionId": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Institution Id",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "institutionName": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Institution Name",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "lineOfBusinessCode": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Line Of Business Code",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "partyRelationshipCode": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Party Relationship Code",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "productClass": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Product Class",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "productDescription": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Product Description",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "productId": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Product Id",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "productName": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "productName",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "sourceCode": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Source Code",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "marketingPermissionInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Marketing Permission Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "deletedInd": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Deleted Indicator",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "productTypeCode": {
+                                        "required": [],
+                                        "type": "string",
+                                        "title": "Product Type Code",
+                                        "meta:xdmType": "string"
+                                    }
+                                },
+                                "required": [],
+                                "type": "object",
+                                "meta:xdmType": "object"
+                            },
+                            "required": [],
+                            "type": "array",
+                            "title": "Account Details",
+                            "meta:xdmType": "array"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1672833098805,
+        "repo:lastModifiedDate": 1672842096285,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "6ea8f3b1b851323d9197fda6e298d9dae0100cf1e623730c48cbc5963b10a90b",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,11 @@
+{
+    "updateTime": 1668512585289,
+    "code": "HouseholdMemberId",
+    "status": "ACTIVE",
+    "id": 13009976,
+    "createTime": 1668512585289,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Household Member Id",
+    "custom": true
+}

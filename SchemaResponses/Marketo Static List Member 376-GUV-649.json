@@ -1,0 +1,42 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/a7466f014a829d2b0e88308b16fb451ae396f5862798da9c",
+    "meta:altId": "_prudential.schemas.a7466f014a829d2b0e88308b16fb451ae396f5862798da9c",
+    "meta:resourceType": "schemas",
+    "version": "1.2",
+    "title": "Marketo Static List Member 376-GUV-649",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/classes/marketing-list-member",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/mixins/record-status",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/classes/marketing-list-member",
+        "https://ns.adobe.com/xdm/common/external-source-system-audit-details"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658131311472,
+        "repo:lastModifiedDate": 1661519722210,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "46B43B00629DE77C0A495EC9@AdobeID",
+        "eTag": "fd9946c4207aa9463d169dcbb6170f150bf5c0407ebbe896848966409cf18387",
+        "meta:globalLibVersion": "1.37.4"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/classes/marketing-list-member",
+    "meta:containerId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

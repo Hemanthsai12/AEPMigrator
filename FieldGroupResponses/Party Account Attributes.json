@@ -1,0 +1,169 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/61a0bca50a4733e5a279a95af8975a2986808a919db7d29e",
+    "meta:altId": "_prudential.mixins.61a0bca50a4733e5a279a95af8975a2986808a919db7d29e",
+    "meta:resourceType": "mixins",
+    "version": "1.6",
+    "title": "Party Account Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "properties": {
+                        "marketingPermissionInd": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Marketing Permission Ind",
+                            "meta:xdmType": "string"
+                        },
+                        "instittutionId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Institution Id",
+                            "meta:xdmType": "string"
+                        },
+                        "institutionName": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Institution Name",
+                            "meta:xdmType": "string"
+                        },
+                        "accountTerminationDate": {
+                            "required": [],
+                            "format": "date",
+                            "type": "string",
+                            "description": "",
+                            "title": "Account Termination Date",
+                            "meta:xdmType": "date"
+                        },
+                        "accountEffectiveDate": {
+                            "required": [],
+                            "format": "date",
+                            "type": "string",
+                            "description": "",
+                            "title": "Account Effective Date",
+                            "meta:xdmType": "date"
+                        },
+                        "productDescription": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Product Description",
+                            "meta:xdmType": "string"
+                        },
+                        "productClass": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Product Class",
+                            "meta:xdmType": "string"
+                        },
+                        "productId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Product Id",
+                            "meta:xdmType": "string"
+                        },
+                        "accountStatusCode": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Account Status Code",
+                            "meta:xdmType": "string"
+                        },
+                        "lineOfBusinessCode": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Line of Business Code",
+                            "meta:xdmType": "string"
+                        },
+                        "sourceCode": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Source Code",
+                            "meta:xdmType": "string"
+                        },
+                        "deletedInd": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Deleted Ind",
+                            "description": "",
+                            "meta:xdmType": "string"
+                        },
+                        "partyRelationshipCode": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Party Relationship Code",
+                            "meta:xdmType": "string"
+                        },
+                        "accountId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Account Id",
+                            "meta:xdmType": "string"
+                        },
+                        "partyAccountRelId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Party Account Rel Id",
+                            "meta:xdmType": "string"
+                        },
+                        "partyIdExp": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Party Id Exp",
+                            "meta:xdmType": "string"
+                        },
+                        "productNameExp": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Product Name Exp",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1670494245554,
+        "repo:lastModifiedDate": 1670499989240,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "C7CC583662DD5B6E0A495E97@c01c0af162dd3819495c7b.e",
+        "xdm:lastModifiedUserId": "C7CC583662DD5B6E0A495E97@c01c0af162dd3819495c7b.e",
+        "eTag": "8317eab7ecdc3e9287a23373a6d772f771f748c56e0dcccf5edd6871e78ab31a",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "ef19d81d-7d73-4f28-99d8-1d7d733f282f",
+    "meta:sandboxId": "ef19d81d-7d73-4f28-99d8-1d7d733f282f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

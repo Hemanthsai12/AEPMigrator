@@ -1,0 +1,213 @@
+{
+    "id": "63bd9709-6e5e-46c3-9755-bc187a4e0fa0",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "sandboxName": "training",
+        "type": "development",
+        "default": false
+    },
+    "name": "test_shalini_ajo",
+    "description": "",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"fnApply\",\"fnName\":\"and\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"or\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"or\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"CA\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"CO\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"GA\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"ID\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"MI\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"MN\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"MO\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"MT\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"NC\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"OR\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"TX\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"UT\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"WA\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"WI\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"country_code_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"US\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"or\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"ATLANTA\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"AUSTIN\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"BRENTWOOD\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"BROOKFIELD\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"LAKEWOOD\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"MADISON\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"PORTLAND\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"RALEIGH\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"SAN DIEGO\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"SAN FRANCISCO\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"SEATTLE\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"TROY\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}]}]},{\"nodeType\":\"chain\",\"array\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"xEvent\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}},\"timestampField\":{\"nodeType\":\"lambda\",\"varNames\":[\"v0\"],\"body\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"timestamp\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"v0\"}}},\"elements\":[{\"nodeType\":\"element\",\"name\":\"C0\",\"negated\":false,\"what\":{\"nodeType\":\"lambda\",\"varNames\":[\"v0\"],\"body\":{\"nodeType\":\"fnApply\",\"fnName\":\">\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"netamount_sh\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"v0\"}}},{\"literalType\":\"Integer\",\"nodeType\":\"literal\",\"value\":10}]}}}]}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": false
+        },
+        "continuous": {
+            "enabled": true
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1649484832000,
+    "updateEpoch": 1675179644,
+    "updateTime": 1675179644000,
+    "createEpoch": 1649484832,
+    "_etag": "\"0c0157bf-0000-0200-0000-63d9367c0000\"",
+    "dependents": [],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "ansibleDataModel": {
+        "dataModel": {
+            "expression": {
+                "isValid": true,
+                "logicalOperator": "and",
+                "profileAttributesContainer": {
+                    "exclude": false,
+                    "items": [
+                        {
+                            "comparisonType": "equals",
+                            "component": {
+                                "id": "profile._deloitte_digitalengage.state_code_sh",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isCaseSensitive": false,
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [
+                                "CA",
+                                "CO",
+                                "GA",
+                                "ID",
+                                "MI",
+                                "MN",
+                                "MO",
+                                "MT",
+                                "NC",
+                                "OR",
+                                "TX",
+                                "UT",
+                                "WA",
+                                "WI"
+                            ],
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "comparisonType": "equals",
+                            "component": {
+                                "id": "profile._deloitte_digitalengage.country_code_sh",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [
+                                "US"
+                            ],
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "comparisonType": "equals",
+                            "component": {
+                                "id": "profile._deloitte_digitalengage.city_sh",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [
+                                "ATLANTA",
+                                "AUSTIN",
+                                "BRENTWOOD",
+                                "BROOKFIELD",
+                                "LAKEWOOD",
+                                "MADISON",
+                                "PORTLAND",
+                                "RALEIGH",
+                                "SAN DIEGO",
+                                "SAN FRANCISCO",
+                                "SEATTLE",
+                                "TROY"
+                            ],
+                            "itemType": "segmentRule"
+                        }
+                    ],
+                    "logicalOperator": "or",
+                    "itemType": "segmentContainer"
+                },
+                "xEventAttributesContainer": {
+                    "exclude": false,
+                    "items": [
+                        {
+                            "exclude": false,
+                            "items": [
+                                {
+                                    "container": {
+                                        "exclude": false,
+                                        "isPlaceholder": false,
+                                        "items": [
+                                            {
+                                                "comparisonType": ">",
+                                                "component": {
+                                                    "id": "xEvent._deloitte_digitalengage.netamount_sh",
+                                                    "__entity__": true,
+                                                    "type": "n"
+                                                },
+                                                "isPlaceholder": false,
+                                                "originalLocation": [],
+                                                "value": 10,
+                                                "itemType": "segmentRule"
+                                            }
+                                        ],
+                                        "logicalOperator": "and",
+                                        "mapKey": "",
+                                        "multiValuedParentFriendlyName": "XDM ExperienceEvent",
+                                        "multiValuedParentsAllData": [
+                                            {
+                                                "id": "xEvent"
+                                            }
+                                        ],
+                                        "occurrenceCount": 1,
+                                        "occurrenceCountUpper": 2,
+                                        "occurrenceOperator": "atLeast",
+                                        "originalLocation": [],
+                                        "subType": "array",
+                                        "useAnyMapKey": false,
+                                        "variableRef": {
+                                            "friendlyName": "Any1",
+                                            "id": "18BC9A46-4245-8273-865D-CA05F2C64CF2",
+                                            "isMapVariable": false,
+                                            "name": "_Any1",
+                                            "payloadExports": [],
+                                            "type": "event",
+                                            "itemType": "variable"
+                                        },
+                                        "xdmPathIds": [
+                                            "xEvent"
+                                        ],
+                                        "itemType": "multiValueParentContainer"
+                                    },
+                                    "eventType": {
+                                        "id": "__ansibleAnyEventType",
+                                        "__entity__": true,
+                                        "type": "n"
+                                    },
+                                    "id": "8C104793-7D23-F635-033B-8AAE170DF8F9",
+                                    "itemType": "eventTypeCard"
+                                }
+                            ],
+                            "logicalOperator": "and",
+                            "itemType": "eventTypeCardContainer"
+                        }
+                    ],
+                    "logicalOperator": "then",
+                    "itemType": "eventTypeCardContainer"
+                },
+                "itemType": "segmentDefinition"
+            }
+        },
+        "hash": "1366001459",
+        "version": "1.0.0"
+    },
+    "overridePerformanceWarnings": false,
+    "createdBy": "77A46BAE60195E780A495EDB@AdobeID",
+    "lastModifiedBy": "B0BF1D1561937C9B0A495F92@AdobeID",
+    "lifecycle": "active",
+    "namespace": "AEPSegments",
+    "isSystem": false,
+    "saveSegmentMembership": true,
+    "origin": "REAL_TIME_CUSTOMER_PROFILE",
+    "lifecycleState": "published",
+    "originName": "REAL_TIME_CUSTOMER_PROFILE"
+}

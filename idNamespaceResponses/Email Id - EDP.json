@@ -1,0 +1,12 @@
+{
+    "updateTime": 1659440424620,
+    "code": "EmailId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the email",
+    "id": 12396156,
+    "createTime": 1659440424620,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "Email Id - EDP",
+    "custom": true
+}

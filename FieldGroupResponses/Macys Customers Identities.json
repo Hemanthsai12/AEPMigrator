@@ -1,0 +1,80 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/868da598405760b8a15a422751dd39dbf55071b562cbcbb8",
+    "meta:altId": "_deloitte_digitalengage.mixins.868da598405760b8a15a422751dd39dbf55071b562cbcbb8",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Macys Customers Identities",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "acctNbr": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Account Number",
+                            "meta:xdmType": "string"
+                        },
+                        "acctTypCd": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Account type code",
+                            "meta:xdmType": "string"
+                        },
+                        "ampId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Amperity ID",
+                            "meta:xdmType": "string"
+                        },
+                        "ampIdDiv": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Amperity Id Division Hash",
+                            "meta:xdmType": "string"
+                        },
+                        "finDivNbr": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Financial Division Number",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659506370969,
+        "repo:lastModifiedDate": 1659506370969,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "eTag": "7dc0cd77ca625336f1727b1a9ffdd777c012a61bfcc8a5d844179f1d95a41d2b",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,53 @@
+{
+    "id": "39a9ea6b-75d0-4ba1-8678-5fc241cdedb2",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "1F6324765762BE0E7F000101@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "02df70fd-9823-48f7-9f70-fd982378f723",
+        "sandboxName": "aepenablementfy21",
+        "type": "development",
+        "default": false
+    },
+    "name": "lacoimbra - Interest in Zeppelin Yoga Pant (RTCDP - lacoimbra)",
+    "description": "lacoimbra - Interest in Zeppelin Yoga Pant (RTCDP - lacoimbra)",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"chain\",\"array\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"xEvent\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}},\"timestampField\":{\"nodeType\":\"lambda\",\"varNames\":[\"v0\"],\"body\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"timestamp\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"v0\"}}},\"elements\":[{\"nodeType\":\"element\",\"name\":\"C0\",\"negated\":false,\"what\":{\"nodeType\":\"lambda\",\"varNames\":[\"v0\"],\"body\":{\"nodeType\":\"fnApply\",\"fnName\":\"exists\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"productListItems\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"v0\"}},{\"nodeType\":\"lambda\",\"varNames\":[\"_Any1__Product_list_items1\"],\"body\":{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"name\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"_Any1__Product_list_items1\"}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Zeppelin Yoga Pant\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}}]}}}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": false
+        },
+        "continuous": {
+            "enabled": true
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1640016579000,
+    "updateEpoch": 1640016580,
+    "updateTime": 1640016580000,
+    "createEpoch": 1640016579,
+    "_etag": "\"27013dbf-0000-0200-0000-61c0aac40000\"",
+    "dependents": [],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "02df70fd-9823-48f7-9f70-fd982378f723",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "overridePerformanceWarnings": false,
+    "lifecycle": "active",
+    "namespace": "AEPSegments"
+}

@@ -1,0 +1,12 @@
+{
+    "updateTime": 1659440631511,
+    "code": "PartyAccountId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the party account",
+    "id": 12396196,
+    "createTime": 1659440631511,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "Party Account Id - EDP",
+    "custom": true
+}

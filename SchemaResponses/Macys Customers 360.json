@@ -1,0 +1,53 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/7f2f35a49744897a86657b3ef739dee55963b69ee574d428",
+    "meta:altId": "_deloitte_digitalengage.schemas.7f2f35a49744897a86657b3ef739dee55963b69ee574d428",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "Macys Customers 360",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/f3654a4ad40ec6b2e471db8166e46a69ebb2531118ea963c",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/868da598405760b8a15a422751dd39dbf55071b562cbcbb8",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/868da598405760b8a15a422751dd39dbf55071b562cbcbb8",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/f3654a4ad40ec6b2e471db8166e46a69ebb2531118ea963c"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659506805981,
+        "repo:lastModifiedDate": 1659506805981,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "eTag": "5b85b041ddfe5cfc0c0226bdcbbfd3357974f2b894008b3577a76d0e1cdfa1a8",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

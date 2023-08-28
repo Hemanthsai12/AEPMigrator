@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/2030f180a0a04a2905d067556aec1839f01dbbdbeccd7599",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/accountKey/sourceKey",
+        "xdm:namespace": "RJN",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/d28c677134dd49766c2128806863a260902695ba0d433456",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyId",
+        "xdm:namespace": "EDPPartyId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/d28c677134dd49766c2128806863a260902695ba0d433456",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyAccountKey",
+        "xdm:namespace": "EDPPartyAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

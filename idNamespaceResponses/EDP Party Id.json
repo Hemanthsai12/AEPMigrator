@@ -1,0 +1,12 @@
+{
+    "updateTime": 1668496822061,
+    "code": "EDPPartyId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the party",
+    "id": 13008496,
+    "createTime": 1668496822061,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "EDP Party Id",
+    "custom": true
+}

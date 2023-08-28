@@ -1,0 +1,11 @@
+{
+    "updateTime": 1666212204507,
+    "code": "lyid",
+    "status": "ACTIVE",
+    "id": 12869456,
+    "createTime": 1666212204507,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "LYID",
+    "custom": true
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/a7466f014a829d2b0e88308b16fb451ae396f5862798da9c",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/marketingListMemberKey/sourceKey",
+        "xdm:namespace": "XRT",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

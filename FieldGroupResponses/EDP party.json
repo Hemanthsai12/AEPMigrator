@@ -1,0 +1,67 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/6c35fe1e37e36f4db0e9599c9f7a945fc544507d53387ebb",
+    "meta:altId": "_deloitte_digitalengage.mixins.6c35fe1e37e36f4db0e9599c9f7a945fc544507d53387ebb",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "EDP party",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "partycity": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Party City",
+                            "meta:xdmType": "string"
+                        },
+                        "partyname": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Party Name",
+                            "meta:xdmType": "string",
+                            "description": "",
+                            "meta:enum": {}
+                        }
+                    },
+                    "meta:xdmType": "object",
+                    "required": [
+                        "partyname"
+                    ]
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1663059086785,
+        "repo:lastModifiedDate": 1665655326873,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "xdm:lastModifiedUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "eTag": "757a94a1dadd6b728ae0f0f2e33385049bf7d512ee1ba88a5004793fcf092cb5",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

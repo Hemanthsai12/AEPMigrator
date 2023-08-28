@@ -1,0 +1,42 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/5d43fbf5307236837278b3c7de3ccd420946eea1ea58cdba",
+    "meta:altId": "_prudential.schemas.5d43fbf5307236837278b3c7de3ccd420946eea1ea58cdba",
+    "meta:resourceType": "schemas",
+    "version": "1.2",
+    "title": "Marketo Opportunity Contact Role 376-GUV-649",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/classes/opportunity-person",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/classes/opportunity-person",
+        "https://ns.adobe.com/xdm/mixins/record-status",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/common/external-source-system-audit-details"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658131310094,
+        "repo:lastModifiedDate": 1661519838001,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "46B43B00629DE77C0A495EC9@AdobeID",
+        "eTag": "6bee163d7f3a2037378cee06e640a4c104af6328ba6244c1958509d6e94690a5",
+        "meta:globalLibVersion": "1.37.4"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/classes/opportunity-person",
+    "meta:containerId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

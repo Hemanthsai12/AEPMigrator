@@ -1,0 +1,63 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/schemas/e4c38ad23b26e2bfbc7ec75dffd53b6bbab0b9279bc70eb6",
+    "meta:altId": "_deloitteemeanorthpartnersand.schemas.e4c38ad23b26e2bfbc7ec75dffd53b6bbab0b9279bc70eb6",
+    "meta:resourceType": "schemas",
+    "version": "1.12",
+    "title": "Retail Customer Details",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile-person-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile-personal-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/ef9ebd0e199c7e9d74a7a090057f13f1493b4f751cf562c",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/context/profile-person-details",
+        "https://ns.adobe.com/xdm/context/profile-personal-details",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/ef9ebd0e199c7e9d74a7a090057f13f1493b4f751cf562c"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1644481709278,
+        "repo:lastModifiedDate": 1648197257765,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "d5df0476ab1e47c0f5cdb55a4c508092c76aa18a6375eeb7dad02d0a6a02f833",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:hidden": [],
+    "meta:allFieldAccess": true
+}

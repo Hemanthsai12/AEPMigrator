@@ -1,0 +1,26 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/42b66ba94c80ae5846d3f9f6b615ff063fc2c0e53a4f575d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/endUserIDs/_experience/mcid/id",
+        "xdm:namespace": "ECID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "02df70fd-9823-48f7-9f70-fd982378f723",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/42b66ba94c80ae5846d3f9f6b615ff063fc2c0e53a4f575d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/endUserIDs/_experience/emailid/id",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "02df70fd-9823-48f7-9f70-fd982378f723",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

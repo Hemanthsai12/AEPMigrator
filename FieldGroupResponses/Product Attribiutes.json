@@ -1,0 +1,100 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/933925d1cc0b1638dd997f038421824c7a218aa91cb94798",
+    "meta:altId": "_deloitte_digitalengage.mixins.933925d1cc0b1638dd997f038421824c7a218aa91cb94798",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Product Attribiutes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "productName": {
+                            "title": "Product Name",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productSKU": {
+                            "title": "Product SKU",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productType": {
+                            "title": "Product Type",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productBrand": {
+                            "title": "Product Brand",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "inventoryStatus": {
+                            "title": "Inventory Status",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "priceRange": {
+                            "title": "Price Range",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "price": {
+                            "title": "Price",
+                            "description": "",
+                            "type": "number",
+                            "required": [],
+                            "meta:xdmType": "number"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1644491132737,
+        "repo:lastModifiedDate": 1644566661257,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "96110fa35dc525dec3795d9a1e1ba8f5ddade3d4ea89b173e9382727325ee068",
+        "meta:globalLibVersion": "1.32.3"
+    },
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage"
+}

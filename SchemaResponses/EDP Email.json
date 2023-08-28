@@ -1,0 +1,66 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+    "meta:altId": "_prudential.schemas.25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+    "meta:resourceType": "schemas",
+    "version": "1.3",
+    "title": "EDP Email",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/partyEmailAddressId",
+                "/_prudential/partyId"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/emailAttributes[*]/emailAddress/address",
+                "/_prudential/emailAttributes[*]/emailAddress/label",
+                "/_prudential/emailAttributes[*]/undeliverableEmailInd",
+                "/_prudential/emailAttributes[*]/emailConsentInd",
+                "/_prudential/emailAttributes[*]/deletedInd",
+                "/_prudential/emailAttributes[*]/preferredEmailInd",
+                "/_prudential/emailAddress"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/deededa211e1b512695dffe4a7db177d87ecb4b24e0ff292",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/prudential/mixins/deededa211e1b512695dffe4a7db177d87ecb4b24e0ff292"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703526228,
+        "repo:lastModifiedDate": 1672828343698,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "7d66f2c4d4c77f1dab7b95df9a70f9c92d2a2d738c5017b08f0dea5d72b3a2e5",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

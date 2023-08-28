@@ -1,0 +1,48 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/schemas/da4e681a1a23eaa874656f25852b8c17b9395a38bf0cb68",
+    "meta:altId": "_deloitteemeanorthpartnersand.schemas.da4e681a1a23eaa874656f25852b8c17b9395a38bf0cb68",
+    "meta:resourceType": "schemas",
+    "version": "1.4",
+    "title": "B2B Contact Schema",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/d163b5cd8e5059b6834eb998cf67001563160fa07deb0df4",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/d163b5cd8e5059b6834eb998cf67001563160fa07deb0df4"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1648196346228,
+        "repo:lastModifiedDate": 1648203732917,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "4477065439afa78a060be9b0a8e50b7722b1a24f5746480aded86dd132be0dbc",
+        "meta:globalLibVersion": "1.34.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:hidden": [],
+    "meta:allFieldAccess": true
+}

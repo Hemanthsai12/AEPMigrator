@@ -1,0 +1,74 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+    "meta:altId": "_prudential.schemas.3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+    "meta:resourceType": "schemas",
+    "version": "1.7",
+    "title": "Marketo Person 376-GUV-649",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/b2b-person-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/b2b-person-components",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/identitymap",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/88ed427191c9d09c5a390b2e522ba01991bfc58fb31e03e6",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/mixins/b2b-person-components",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/common/external-source-system-audit-details",
+        "https://ns.adobe.com/xdm/mixins/record-status",
+        "https://ns.adobe.com/xdm/context/profile-person-details",
+        "https://ns.adobe.com/prudential/mixins/88ed427191c9d09c5a390b2e522ba01991bfc58fb31e03e6",
+        "https://ns.adobe.com/xdm/context/profile-personal-details",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/xdm/context/profile-other-work-details",
+        "https://ns.adobe.com/xdm/mixins/b2b-person-details",
+        "https://ns.adobe.com/xdm/context/profile-work-details"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658131309167,
+        "repo:lastModifiedDate": 1661524866040,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "46B43B00629DE77C0A495EC9@AdobeID",
+        "eTag": "33ef99e2fea94a4f4fa0f847694bbcabf284f5224240d17b3a17a549e646299c",
+        "meta:globalLibVersion": "1.37.4"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:allFieldAccess": true
+}

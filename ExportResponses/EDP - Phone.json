@@ -1,0 +1,704 @@
+[
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mobilePhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homePhone",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Details"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Composite Party Phone Identifier"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/temporaryPhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country  Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workPhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/otherPhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country  Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/faxPhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/faxPhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/otherPhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/otherPhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyId",
+        "xdm:namespace": "EDPPartyId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/primaryPhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mobilePhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/primaryPhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/otherPhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Other Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/primaryPhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homePhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country Code"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Country code of the phone number\nDefault: Country calling code (CC) as defined by E.164."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/unknownPhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mobilePhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Mobile Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workPhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Business Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/businessFax/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/businessFax/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/temporaryPhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/unknownPhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Unknown Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/temporaryPhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Temporary Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/businessFax/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Business Fax Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/faxPhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Home  Fax Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/unknownPhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homePhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Telephone extension number\nDefault: The internal dialing number used to call from a private exchange, operator, or switchboard."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/faxPhone",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Home Fax"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:namespace": "EDPPhoneId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/unknownPhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/temporaryPhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/primaryPhone/countryCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Country Code"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homePhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workPhone",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Business Phone"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workPhone/extension",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Extension Number"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mobilePhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homePhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Home Phone Value"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workPhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

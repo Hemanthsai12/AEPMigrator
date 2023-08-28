@@ -1,0 +1,303 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/f3654a4ad40ec6b2e471db8166e46a69ebb2531118ea963c",
+    "meta:altId": "_deloitte_digitalengage.mixins.f3654a4ad40ec6b2e471db8166e46a69ebb2531118ea963c",
+    "meta:resourceType": "mixins",
+    "version": "1.4",
+    "title": "Macys C360",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "Macys_customer_360": {
+                            "properties": {
+                                "gndrCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Gender Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "birthYrNbr": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Birth Year Number",
+                                    "meta:xdmType": "int"
+                                },
+                                "birthMnthNbr": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "description": "",
+                                    "title": "Birth Month Number",
+                                    "meta:xdmType": "int"
+                                },
+                                "birthDayNbr": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "description": "",
+                                    "title": "Birth Day Number",
+                                    "meta:xdmType": "int"
+                                },
+                                "ageNbr": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Age Number",
+                                    "meta:xdmType": "int"
+                                },
+                                "phnNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Phone Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "emailAddrTxt": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Email Address Text 360",
+                                    "meta:xdmType": "string",
+                                    "meta:enum": {}
+                                },
+                                "postCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Postal Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "cntryCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Country Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "sttCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "State Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "cityNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "City Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "addrLn3Txt": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Address Line 3 Text",
+                                    "meta:xdmType": "string"
+                                },
+                                "addrLn2Txt": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Address Line 2 Text",
+                                    "meta:xdmType": "string"
+                                },
+                                "addrLn1Txt": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Address Line 1 Text",
+                                    "meta:xdmType": "string"
+                                },
+                                "ttlNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Title Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "mddlNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Middle Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "lstNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Last Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "frstNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "First Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "loyaltyIdDiv": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "description": "",
+                                    "title": "Loyalty Id DIv",
+                                    "meta:xdmType": "array"
+                                },
+                                "registryIdDiv": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "description": "",
+                                    "title": "Registry DIV Id",
+                                    "meta:xdmType": "array"
+                                },
+                                "VisitorDiv": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "description": "",
+                                    "title": "Visitor Xref DIv",
+                                    "meta:xdmType": "array"
+                                },
+                                "PhoneDiv": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:enum": {},
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "title": "Phone Xref Div",
+                                    "meta:xdmType": "array",
+                                    "description": ""
+                                },
+                                "EmailIdAmpIdDivSrc": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "description": "",
+                                    "title": "Email Id Amp Id Division Source",
+                                    "meta:xdmType": "array"
+                                },
+                                "CrdtAccntDivTyp": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "description": "",
+                                    "title": "Credit Account Division Type",
+                                    "meta:xdmType": "array"
+                                },
+                                "confLvl": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Confidence Level",
+                                    "meta:xdmType": "string"
+                                },
+                                "AcctntIdTypDiv": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "description": "",
+                                    "title": "Account Id Type Division",
+                                    "meta:xdmType": "array"
+                                },
+                                "DeviceIDAmpIdDivSrc": {
+                                    "items": {
+                                        "type": "string",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "required": [],
+                                    "type": "array",
+                                    "description": "",
+                                    "title": "Device Id Div Id",
+                                    "meta:xdmType": "array"
+                                },
+                                "incmEstmtHhldHighRangesCD": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "INCM ESMT HHLD HIGH RANGES CD",
+                                    "meta:xdmType": "string"
+                                },
+                                "incmEstmtHhldHighRangesDesc": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "INCM ESMT HHLD HIGH RANGES DESC",
+                                    "meta:xdmType": "string",
+                                    "description": ""
+                                },
+                                "suffixNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "Name suffix, like Jr., Sr. etc",
+                                    "title": "Suffix name",
+                                    "meta:xdmType": "string"
+                                },
+                                "hhldIncmCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "Code denoting household income",
+                                    "title": "Household income code",
+                                    "meta:xdmType": "string"
+                                },
+                                "hhldIncmDesc": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "Household income description",
+                                    "title": "Household income description",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "required": [],
+                            "type": "object",
+                            "title": "Macys customer 360",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659506407384,
+        "repo:lastModifiedDate": 1665602554348,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "21324D52628FA9270A495E9F@c4e836675ab18e940a495cad",
+        "eTag": "bf1fd24305d322613cb68b2f21c1efecf56255b44305b1f3bbe23b1a3d60522a",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

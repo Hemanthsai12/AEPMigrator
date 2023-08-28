@@ -1,0 +1,11 @@
+{
+    "updateTime": 1667560014648,
+    "code": "EDPAccountProductId",
+    "status": "ACTIVE",
+    "id": 12962236,
+    "createTime": 1667560014648,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "EDP Account Product Id",
+    "custom": true
+}

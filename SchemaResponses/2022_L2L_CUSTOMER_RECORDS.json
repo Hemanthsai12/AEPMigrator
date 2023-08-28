@@ -1,0 +1,55 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/6341cc812819cc4fe5ba72c5d96b73e2d4a226097c3a605f",
+    "meta:altId": "_deloitte_digitalengage.schemas.6341cc812819cc4fe5ba72c5d96b73e2d4a226097c3a605f",
+    "meta:resourceType": "schemas",
+    "version": "1.7",
+    "title": "2022_L2L_CUSTOMER_RECORDS",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/19738324c31df60584dc78d4dbf16e75ab484f513b0f942f",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/identitymap",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/19738324c31df60584dc78d4dbf16e75ab484f513b0f942f"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1645641876153,
+        "repo:lastModifiedDate": 1645690069368,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "xdm:lastModifiedUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "eTag": "3563f38afe7186ca1203d38035862b71e8a53da1121c179b522f217ebcc4a5dc",
+        "meta:globalLibVersion": "1.31.3"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:immutableTags": [
+        "union"
+    ]
+}

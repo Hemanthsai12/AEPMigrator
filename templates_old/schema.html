@@ -1,0 +1,36 @@
+{% extends 'base.html' %}
+{% block title %} Schemas {% endblock title %}
+{% block body %}
+
+  <div class="container">
+    {% for message in get_flashed_messages() %}
+      <div class="alert alert-primary">
+          <!--button type="button" class="close" data-dismiss="alert">&times;</button>-->
+          {{ message }}
+          <button type="button" class="btn-close" aria-label="Close"></button>
+      </div>
+    {% endfor %}
+  </div>
+
+  <div class="container my-5" >
+    <form action="/schema" method="POST">
+      <div class="container my-3" method="GET" action="/schema" ></div>
+        <h3>Select Schema </h3>
+        <h5><i>(If your schemas have identities, migrate Identity Namespaces mapped to identity prior to migrating Schemas)</i></h5>
+        {%for schematitle in schemaList[0:]%}
+          <div class="form-check">
+              <input class="form-check-input" name="sourceSchemaCheckBox"type="checkbox" value="{{schematitle}}" id="flexCheckDefault">
+              <label class="form-check-label" for="flexCheckDefault">
+              {{schematitle}}
+              </label>
+          </div>
+        {%endfor%}
+      </div>
+      <div class="container my-3" >
+        <button type="submit" class="btn btn-dark">Submit</button>
+      </div>
+    </form>
+  </div>
+    
+   
+{% endblock body %}

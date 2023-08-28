@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/7f2f35a49744897a86657b3ef739dee55963b69ee574d428",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/ampIdDiv",
+        "xdm:namespace": "amperityDivID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    }
+]

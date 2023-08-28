@@ -1,0 +1,48 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/classes/7311af07820a7280a0540ab3429ff71fb0336bb27b2acd5",
+    "meta:altId": "_deloitte_digitalengage.classes.7311af07820a7280a0540ab3429ff71fb0336bb27b2acd5",
+    "meta:resourceType": "classes",
+    "version": "1.0",
+    "title": "Phone Xref",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {}
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/data/record",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/record"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1661861630137,
+        "repo:lastModifiedDate": 1661861630137,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "E4C564E162FCEABC0A495FFA@c4e836675ab18e940a495cad",
+        "xdm:lastModifiedUserId": "E4C564E162FCEABC0A495FFA@c4e836675ab18e940a495cad",
+        "eTag": "0b7baa4c70a0a764036237b9cd0fd495e6a281bf85f389141cd27853ce28eccc",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

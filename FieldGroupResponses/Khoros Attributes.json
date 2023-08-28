@@ -1,0 +1,240 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/faa0d0a6498dcb1c62a671a096306fadf7f515a020495a08",
+    "meta:altId": "_deloitte_digitalengage.mixins.faa0d0a6498dcb1c62a671a096306fadf7f515a020495a08",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Khoros Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "surveyID": {
+                            "title": "Survey ID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "boardTitle": {
+                            "title": "Board Title",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "boardUID": {
+                            "title": "Board UID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "conversationUID": {
+                            "title": "Conversation UID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "groupHubUID": {
+                            "title": "Grouphub UID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "messageUID": {
+                            "title": "Message UID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "parentConversationUID": {
+                            "title": "Parent Conversation UID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productUID": {
+                            "title": "Product UID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "actionKey": {
+                            "title": "Action Key",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "eventTimeMs": {
+                            "title": "Event Time MS",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "required": [],
+                            "meta:xdmType": "date-time"
+                        },
+                        "badgeActivationDate": {
+                            "title": "Badge Activation Date",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "required": [],
+                            "meta:xdmType": "date-time"
+                        },
+                        "badgeTitle": {
+                            "title": "Badge Title",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "communityApp": {
+                            "title": "Community App",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "conversationTitle": {
+                            "title": "Conversation Title",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "messageIsTopic": {
+                            "title": "Message Is Topic",
+                            "description": "",
+                            "type": "boolean",
+                            "required": [],
+                            "meta:xdmType": "boolean"
+                        },
+                        "messageType": {
+                            "title": "Message Type",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "nodeAncestorPath": {
+                            "title": "Node Ancestor Path",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "surveyType": {
+                            "title": "Survey Type",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "userCommunityRankName": {
+                            "title": "User Community Rank Name",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "userCommunityRoleName": {
+                            "title": "User Community Role Name",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productMentions": {
+                            "title": "Product Mentions",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productTags": {
+                            "title": "Product Tags",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productIsProductPage": {
+                            "title": "Product Is Product Page",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "productTitle": {
+                            "title": "Product Title",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "subscriptionType": {
+                            "title": "Subscription Type",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "emailAddressSD": {
+                            "title": "Email Address",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "cedsWebGuid": {
+                            "title": "Web GUID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1648015309054,
+        "repo:lastModifiedDate": 1648015309054,
+        "xdm:createdClientId": "9840e916304b43ef983641f264e3be3f",
+        "xdm:lastModifiedClientId": "9840e916304b43ef983641f264e3be3f",
+        "xdm:createdUserId": "03892394620BB47F0A495C74@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "03892394620BB47F0A495C74@techacct.adobe.com",
+        "eTag": "b7b05d617686b78883af13ecd315c67e29f1748e9ece692eba63fe02578b076b",
+        "meta:globalLibVersion": "1.32.3"
+    },
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage"
+}

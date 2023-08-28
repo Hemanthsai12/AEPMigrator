@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169377808,
+    "code": "MNV",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_company_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506556,
+    "createTime": 1677169377808,
+    "idType": "B2B_ACCOUNT",
+    "namespaceType": "Custom",
+    "name": "marketo_company_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "company",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

@@ -1,0 +1,48 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/classes/a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a",
+    "meta:altId": "_deloitte_digitalengage.classes.a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a",
+    "meta:resourceType": "classes",
+    "version": "1.0",
+    "title": "Account Master",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {}
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/data/record",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/record"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659508822334,
+        "repo:lastModifiedDate": 1659508822334,
+        "xdm:createdClientId": "6c6af4055ebb40f1bf69c5cff3169186",
+        "xdm:lastModifiedClientId": "6c6af4055ebb40f1bf69c5cff3169186",
+        "xdm:createdUserId": "80C5395C62E8CEB70A495C6D@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "80C5395C62E8CEB70A495C6D@techacct.adobe.com",
+        "eTag": "a416ff7b1962d81ce808e06da74ef854886b2d0e1725b15853eb46db42abd73c",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,464 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/d8dd4180ad6c7bdd12a928926fee1a4972167c87d004637a",
+    "meta:altId": "_deloitte_digitalengage.mixins.d8dd4180ad6c7bdd12a928926fee1a4972167c87d004637a",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Macys Credit",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "MacysCreditDetails": {
+                            "properties": {
+                                "daasUpdTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "DaaS record update timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "daasCrtTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "DaaS record create timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "daasStatCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Daas Status Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "daasJobName": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Daas Job Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "daasLoadId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "DaaS load id",
+                                    "meta:xdmType": "string"
+                                },
+                                "daasUserId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Daas User Id",
+                                    "meta:xdmType": "string"
+                                },
+                                "dataHashKey": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Data Hash Key",
+                                    "meta:xdmType": "string"
+                                },
+                                "sourceProcess": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Source Process",
+                                    "meta:xdmType": "string"
+                                },
+                                "sourceSystem": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Source System",
+                                    "meta:xdmType": "string"
+                                },
+                                "clientRecordLastModifyDtTime": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Client Record Last Modify Date/Time",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "processSystemDtTime": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Process System Date/Time ",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "clientRecordCreateDtTime": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Client Record Create Date/Time",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "accountOwnershipCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Account Ownership Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "first3ofHomePhoneNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "First 3 of HOME_PHONE_NBR",
+                                    "meta:xdmType": "string"
+                                },
+                                "sectionalCenterFacilityCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Sectional center facility code",
+                                    "meta:xdmType": "string"
+                                },
+                                "alternateLanguageCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Alternate Language Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "employeeInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Employee indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "employeeCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Employee Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "cardAccountCycleDelinquentCount": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "card account cycle delinquent count",
+                                    "meta:xdmType": "int"
+                                },
+                                "outofstoresaleslastpurchaseDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "out of store sales last purchase date",
+                                    "meta:xdmType": "date"
+                                },
+                                "inbrandLastPurchaseDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "in brand last purchase date",
+                                    "meta:xdmType": "date"
+                                },
+                                "lastPurchaseDate": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "Last Purchase Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "opentoBuyAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "open to buy amount",
+                                    "meta:xdmType": "object"
+                                },
+                                "currentVIPDescription": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Current VIP Description",
+                                    "meta:xdmType": "string"
+                                },
+                                "creditLineAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Credit line amount",
+                                    "meta:xdmType": "object"
+                                },
+                                "creditMarketingStarRewardSuppInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit marketing star reward suppress indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "creditMarketingNewAcctSuppInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit Marketing New Account Suppress Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "creditMarketingMailSuppressInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit Marketing Mail Suppress Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressTelemarketingInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress Telemarketing Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressNationalDonotcallInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress National Do not call Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressListSellInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress List Sell Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressLingerieInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress Lingerie Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressGlobalNotificationInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress Global Notification Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressFurInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress Fur Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressFragranceInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress Fragrance Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "supprCliInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Suppress Clienteling Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressEmailInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "suppress email indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressAffiliateSharingInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "suppress affiliate sharing indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressDirectMailInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "suppress direct mail indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "suppressAllAdvInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "suppress all  advertising indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "creditMarketingNewAccountUniverseInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit Marketing New Account Universe Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "creditMarketingCobrandUniverseInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit Marketing Cobrand Universe Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "crdtUnivrsInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "credit universal indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "creditMarketingDirectMailUniverseInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit marketing Direct Mail Universe indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "creditMarketingstarrewardUniverseInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit marketing star reward Universe indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "previousStarRewardSpendLevelDesc": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Previous Star Reward Spend Level Description",
+                                    "meta:xdmType": "string"
+                                },
+                                "starRewardSpendLevelDesc": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Star Reward Spend Level Description",
+                                    "meta:xdmType": "string"
+                                },
+                                "corporateEmployeeInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Corporate Employee Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "storeresideLocationCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Store reside location code",
+                                    "meta:xdmType": "string"
+                                },
+                                "storeloyalLocationCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Store loyal location code",
+                                    "meta:xdmType": "string"
+                                },
+                                "currentVIPCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Current VIP Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "loyalAccountId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Loyal Account ID",
+                                    "meta:xdmType": "string"
+                                },
+                                "cardExpirationDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "Card Expiration Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "accountOpeningDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "Account Opening Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "creditProductCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit Product Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "classicInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Classic Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "corpBrandCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "corpBrandCd",
+                                    "meta:xdmType": "string"
+                                },
+                                "accountTypeCategoryCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Account Type category code",
+                                    "meta:xdmType": "string"
+                                },
+                                "acctTypCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Account Type Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "hhldID": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Household ID",
+                                    "meta:xdmType": "string"
+                                },
+                                "financialDivNum": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Finanicial Division Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "indivId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Individual ID",
+                                    "meta:xdmType": "string"
+                                },
+                                "acctNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Account Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "ampId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Amperity ID",
+                                    "meta:xdmType": "string"
+                                },
+                                "crdtHash": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Credit Hash",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "required": [],
+                            "type": "object",
+                            "title": "MacysCreditDetails",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/ed4cd03d87d5e588d01a7d1d125d80f651114d33344249ca"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659509299261,
+        "repo:lastModifiedDate": 1659511573821,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "72373419625013850A495C7F@c4e836675ab18e940a495cad",
+        "eTag": "fb9fb15c45242e67ef268f484a85f715b1d84dd6bc57c5f8700269c536f2ac53",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

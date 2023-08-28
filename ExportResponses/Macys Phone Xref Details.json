@@ -1,0 +1,48 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/classes/7311af07820a7280a0540ab3429ff71fb0336bb27b2acd5",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.classes.7311af07820a7280a0540ab3429ff71fb0336bb27b2acd5",
+        "meta:resourceType": "classes",
+        "version": "1.0",
+        "title": "Phone Xref",
+        "type": "object",
+        "description": "",
+        "definitions": {
+            "customFields": {
+                "properties": {}
+            }
+        },
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/data/record",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "#/definitions/customFields",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "meta:extensible": true,
+        "meta:abstract": true,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/data/record"
+        ],
+        "meta:xdmType": "object",
+        "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+        "meta:sandboxType": "production"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/bba27f898b4309409af581a66a1dbd99e1eebb421a05da2a",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/Macys_Phone_Xref_Details/phoneXHash",
+        "xdm:namespace": "PhoneDivId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    }
+]

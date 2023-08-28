@@ -1,0 +1,113 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/6a4940b75441605c800bea2bc26f0fe7621b5d257029d2fb",
+    "meta:altId": "_prudential.mixins.6a4940b75441605c800bea2bc26f0fe7621b5d257029d2fb",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "ClientLink System Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "systemModstamp": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "description": "",
+                            "title": "System Modstamp",
+                            "meta:xdmType": "date-time"
+                        },
+                        "lastModifiedDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Last Modified Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "createdDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Created Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "name": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Label= System ID",
+                            "title": "Name",
+                            "meta:xdmType": "string"
+                        },
+                        "createdById": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Created By Id",
+                            "meta:xdmType": "string"
+                        },
+                        "lastModifiedById": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Last Modified By Id",
+                            "meta:xdmType": "string"
+                        },
+                        "userRecordAccessId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "User Record Access Id",
+                            "meta:xdmType": "string"
+                        },
+                        "connectionReceivedId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Connection Received Id",
+                            "meta:xdmType": "string"
+                        },
+                        "connectionSentId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Connection Sent Id",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1668512682804,
+        "repo:lastModifiedDate": 1668512682804,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "1221eaaccb096dc2a22baa0e837064bb554835427d62efb96100f8299c43746b",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

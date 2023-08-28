@@ -1,0 +1,50 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6e91973bd4a4efc51b54676cb7d805accac3f95b50ef4c3b",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/cart/productID",
+        "xdm:namespace": "ProductID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6e91973bd4a4efc51b54676cb7d805accac3f95b50ef4c3b",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/customer/customerUniqueID",
+        "xdm:namespace": "CUID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6e91973bd4a4efc51b54676cb7d805accac3f95b50ef4c3b",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/cart/cartID",
+        "xdm:namespace": "CartID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6e91973bd4a4efc51b54676cb7d805accac3f95b50ef4c3b",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/customer/email",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

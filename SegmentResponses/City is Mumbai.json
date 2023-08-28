@@ -1,0 +1,58 @@
+{
+    "id": "4851caf3-c834-4df4-8fe2-f1b553821e1b",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "sandboxName": "prod",
+        "type": "production",
+        "default": true
+    },
+    "name": "City is Mumbai",
+    "description": "",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"fnApply\",\"fnName\":\"or\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"CUSTOMER_ADDRESS\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"L2L_CUSTOMER_RECORDS\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Mumbai\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"city\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Mumbai\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": false
+        },
+        "continuous": {
+            "enabled": true
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1646032074000,
+    "updateEpoch": 1675185160,
+    "updateTime": 1675185160000,
+    "createEpoch": 1646032074,
+    "_etag": "\"6f048cce-0000-0200-0000-63d94c080000\"",
+    "dependents": [],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "tenant",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "overridePerformanceWarnings": false,
+    "lifecycle": "active",
+    "namespace": "AEPSegments",
+    "isSystem": false,
+    "saveSegmentMembership": true,
+    "origin": "REAL_TIME_CUSTOMER_PROFILE",
+    "lifecycleState": "published",
+    "originName": "REAL_TIME_CUSTOMER_PROFILE"
+}

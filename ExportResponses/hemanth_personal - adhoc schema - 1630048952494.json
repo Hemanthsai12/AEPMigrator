@@ -1,0 +1,63 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/classes/3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.classes.3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68",
+        "meta:resourceType": "classes",
+        "version": "1.0",
+        "title": "hemanth_personal - Adhoc class - 1630048952494",
+        "type": "object",
+        "description": "Adhoc class for dataset 612892a3c15e4819484ea98b",
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/data/adhoc",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "properties": {
+            "_3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68": {
+                "type": "object",
+                "properties": {
+                    "id": {
+                        "type": "string",
+                        "meta:xdmType": "string"
+                    },
+                    "first_name": {
+                        "type": "string",
+                        "meta:xdmType": "string"
+                    },
+                    "last_name": {
+                        "type": "string",
+                        "meta:xdmType": "string"
+                    },
+                    "date_of_birth": {
+                        "type": "string",
+                        "meta:xdmType": "string"
+                    },
+                    "gender": {
+                        "type": "string",
+                        "meta:xdmType": "string"
+                    },
+                    "email_id": {
+                        "type": "string",
+                        "meta:xdmType": "string"
+                    },
+                    "phone_number": {
+                        "type": "string",
+                        "meta:xdmType": "string"
+                    }
+                },
+                "meta:xdmType": "object"
+            }
+        },
+        "meta:extensible": true,
+        "meta:abstract": true,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/data/adhoc"
+        ],
+        "meta:xdmType": "object",
+        "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "meta:sandboxType": "development",
+        "meta:datasetNamespace": "_3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68"
+    }
+]

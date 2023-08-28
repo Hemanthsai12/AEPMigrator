@@ -1,0 +1,104 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/9bdb596c751bd71ef4f0f14a0da93d04d0d1142144e348af",
+    "meta:altId": "_deloitte_digitalengage.mixins.9bdb596c751bd71ef4f0f14a0da93d04d0d1142144e348af",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Prospect Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "isConverted": {
+                            "title": "Is Converted",
+                            "description": "",
+                            "type": "boolean",
+                            "required": [],
+                            "meta:xdmType": "boolean"
+                        },
+                        "prospectRating": {
+                            "title": "Prospect Rating",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "prospectStatus": {
+                            "title": "Prospect Status",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "prospectIdentities": {
+                            "title": "Prospect Identities",
+                            "description": "Identities related to LSHC Prospects",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "convertedAccountId": {
+                                    "title": "Converted Account Id",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "convertedContactId": {
+                                    "title": "Converted Contact Id",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "prospectId": {
+                                    "title": "Prospect Id",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "1F6324765762BE0E7F000101@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1652944279913,
+        "repo:lastModifiedDate": 1652944279913,
+        "xdm:createdClientId": "feb4ec6d2c524987930dd13bf20f2b93",
+        "xdm:lastModifiedClientId": "feb4ec6d2c524987930dd13bf20f2b93",
+        "xdm:createdUserId": "0D7234E86225AB8A0A495FC6@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "0D7234E86225AB8A0A495FC6@techacct.adobe.com",
+        "eTag": "15657d0f8f60790b8d9a33bc1bea0adab6724e2904b8b3ca1bf5982ce0b810f3",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:containerId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

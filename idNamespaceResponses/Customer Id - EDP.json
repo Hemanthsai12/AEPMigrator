@@ -1,0 +1,12 @@
+{
+    "updateTime": 1659434462051,
+    "code": "CustomerId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the customer",
+    "id": 12395656,
+    "createTime": 1659434462051,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Customer Id - EDP",
+    "custom": true
+}

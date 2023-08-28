@@ -1,0 +1,123 @@
+{
+    "id": "5ce53fa5-dd13-43ad-a5b5-9afb12708166",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+        "sandboxName": "aep-deloitte-aoe-poc",
+        "type": "development",
+        "default": false
+    },
+    "name": "Retail Customers on East Coast",
+    "description": "Send app notifications to High Life Time Value Customers based out of East Coast targeting them the new weather/fashion collection",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"fnApply\",\"fnName\":\"and\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"isNotNull\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"number\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"mobilePhone\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}]},{\"nodeType\":\"fnApply\",\"fnName\":\"or\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Connecticut\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"District of Columbia\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Florida\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Georgia\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Massachusetts\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"New Hampshire\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"New Jersey\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"New York\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"North Carolina\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Rhode Island\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"state\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"South Carolina\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}]},{\"nodeType\":\"fnApply\",\"fnName\":\">=\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"ltvScore\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"Integer\",\"nodeType\":\"literal\",\"value\":1}]}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": false
+        },
+        "continuous": {
+            "enabled": true
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1644844881000,
+    "updateEpoch": 1648200567,
+    "updateTime": 1648200567000,
+    "createEpoch": 1644844881,
+    "_etag": "\"4300a987-0000-0200-0000-623d8b770000\"",
+    "dependents": [],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "ansibleDataModel": {
+        "dataModel": {
+            "expression": {
+                "isValid": true,
+                "logicalOperator": "and",
+                "profileAttributesContainer": {
+                    "exclude": false,
+                    "items": [
+                        {
+                            "comparisonType": "isNotNull",
+                            "component": {
+                                "id": "profile.mobilePhone.number",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [],
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "comparisonType": "equals",
+                            "component": {
+                                "id": "profile.homeAddress.state",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [
+                                "Connecticut",
+                                "District of Columbia",
+                                "Florida",
+                                "Georgia",
+                                "Massachusetts",
+                                "New Hampshire",
+                                "New Jersey",
+                                "New York",
+                                "North Carolina",
+                                "Rhode Island",
+                                "South Carolina"
+                            ],
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "comparisonType": ">=",
+                            "component": {
+                                "id": "profile._deloitte_digitalengage.ltvScore",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": 1,
+                            "itemType": "segmentRule"
+                        }
+                    ],
+                    "logicalOperator": "and",
+                    "itemType": "segmentContainer"
+                },
+                "xEventAttributesContainer": {
+                    "exclude": false,
+                    "items": [],
+                    "logicalOperator": "then",
+                    "itemType": "eventTypeCardContainer"
+                },
+                "itemType": "segmentDefinition"
+            }
+        },
+        "hash": "-234454841",
+        "version": "1.0.0"
+    },
+    "overridePerformanceWarnings": false
+}

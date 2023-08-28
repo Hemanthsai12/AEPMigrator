@@ -1,0 +1,61 @@
+{% extends 'base.html' %}
+{% block title %} OAuth {% endblock title %}
+{% block body %}
+  <div class="container my-5" >
+    <div id="content" style="bottom:20%; overflow:auto;">
+      <h5>Add New Organization </h5>
+      <form action="/auth" method="POST" enctype="multipart/form-data">  
+        <div class="container my-3" >
+          <label for="org-name" class="form-label"><bold>Enter Organisation Name</bold></label>
+          <input type="text" class="form-control" name="org-name" placeholder="Enter Org Name"required>
+        </div>
+        <div class="container my-3">
+        <table>
+            <tbody>
+                <tr>
+                    <td style="padding-left: 0px; padding-right: 8px;">Select Config.json file</td>
+                    <td style="padding-left: 8px; padding-right: 10px;"><input type="file" accept=".json" class="form-control" name="config-json" id="config-json-input" aria-describedby="config-json-input" aria-label="Config Json"></td>
+                    <td style="padding-left: 10px;padding-right: 8px;">Select Private Key file</td>
+                    <td style="padding-left: 8px;padding-right: 10px;"><input type="file" accept=".key" class="form-control" name="private-key" id="private-key-input" aria-describedby="private-key-input" aria-label="Private Key"></td>
+                    <td style="padding-right: 0px;"> <button type="submit" class="btn btn-primary" style="font-size:15px;padding-left:15px; padding-right:15px">Add Org</button></td>
+                </tr>
+            </tbody>
+        </table>
+      </div> 
+      </form>
+    </div>
+    <hr></hr>
+    <div class="container my-3">
+        <h5>Check Existing Organizations</h5>
+        <div class="container my-3">
+        <table class="table table-striped table-bordered" style="width:100%;">
+        <thead>
+          <tr>
+            <td style="background-color:#000000; color:#ffffff" align="center">Organisation Name</td>
+            <td style="background-color:#000000; color:#ffffff" align="center">Tenant Id</td>
+            <td style="background-color:#000000; color:#ffffff" align="center">Option</td>
+          </tr>
+        </thead>
+        <tbody>
+          {% for orgdata in org %}
+            <tr>
+              <td><a href="/auth/edit/{{orgdata}}">{{orgdata}}</a></td>
+              <td>{{org[orgdata]['tenantId']}}</td>
+              <td align="center">
+                <a href="/auth/delete/{{orgdata}}"><button class="btn btn-delete btn-danger">Delete</button></a> 
+              </td>
+            </tr>
+          {% endfor %}
+        </tbody>
+        </table>
+      </div>
+      </div>
+    </div>
+  
+  <div id="footer" style="background-color:rgba(255,255,255,0.9); position:fixed; width:150%; bottom:0px; height:10%; padding-top: 1%; overflow:hidden;"> 
+    <a href="/sandbox/org">
+      <button class="btn btn-primary" style="position: fixed; opacity: 1; right:5%; font-size: 15px;">Next &#x2192;</button>
+    </a> 
+  </div>
+   
+{% endblock body %}

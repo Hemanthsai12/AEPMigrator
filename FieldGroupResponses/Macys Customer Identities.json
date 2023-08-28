@@ -1,0 +1,57 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/38aade7038f7efd2928fec6e2cbc5e3729085af2f5df454e",
+    "meta:altId": "_deloitte_digitalengage.mixins.38aade7038f7efd2928fec6e2cbc5e3729085af2f5df454e",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Macys Customer Identities",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "ampId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Amperity ID",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659509294431,
+        "repo:lastModifiedDate": 1659509294431,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "eTag": "58d43f0f67bb49b466d3882c7d2adfdb61efb7d82572df0e6272b557ca628c3a",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

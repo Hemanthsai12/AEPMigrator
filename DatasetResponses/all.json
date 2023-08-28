@@ -1,0 +1,5177 @@
+{
+    "620d0184c8293619498ad566": {
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "name": "AA Demo542 midValues",
+        "description": "Analytics Data Connector for report suite AA Demo542",
+        "serviceOwner": "adc_flow_provider",
+        "tags": {
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/analytics/experience-event-variation": [
+                "m"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "aa_demo542_midvalues"
+            ]
+        },
+        "dataSourceId": 403979,
+        "createdUser": "19666D61615D3C420A495EEF@AdobeID",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "adc_flow_provider",
+        "updatedUser": "19666D61615D3C420A495EEF@AdobeID",
+        "version": "1.0.0",
+        "created": 1645019524433,
+        "updated": 1646832397584,
+        "state": "DRAFT",
+        "viewId": "620d0184c8293619498ad567",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=620d0184c8293619498ad566",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/eec18709a8e0977e6b8a818b8d203162b404f95c6885bfef",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "619821a6f9cb15194ae3ed8c": {
+        "name": "aa transactions",
+        "state": "DEPRECATED",
+        "createdUser": "1AC24EFB606EA8D30A495C28@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "1AC24EFB606EA8D30A495C28@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "aa_transactions"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1637360038846,
+        "updated": 1646832397518,
+        "viewId": "619821a6f9cb15194ae3ed8d",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=619821a6f9cb15194ae3ed8c"
+    },
+    "6209f294331c4b19488043e4": {
+        "name": "aabb dataset",
+        "enableErrorDiagnostics": false,
+        "createdUser": "19666D61615D3C420A495EEF@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "19666D61615D3C420A495EEF@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "aabb_dataset"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1644819092475,
+        "updated": 1646832397563,
+        "state": "DRAFT",
+        "viewId": "6209f294331c4b19488043e5",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6209f294331c4b19488043e4",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/d6bea794f65b265b18725b88083fd13f5d863cfce9979ff0",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62048a965044a019489808ca": {
+        "name": "abc",
+        "description": "def",
+        "tags": {
+            "adobe-ui-file-adhoc-draft": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "abc"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "createdUser": "19666D61615D3C420A495EEF@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "19666D61615D3C420A495EEF@AdobeID",
+        "version": "1.0.0",
+        "created": 1644464790615,
+        "updated": 1646832397556,
+        "state": "DRAFT",
+        "viewId": "62048a965044a019489808cb",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=62048a965044a019489808ca"
+    },
+    "63b7273eccd2a51c07501083": {
+        "name": "Account-Grouping-Output-Dataset",
+        "description": "Account Grouping Output Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "account_grouping_writeback": [
+                "enabled:true"
+            ],
+            "adobe/pqs/table": [
+                "account_grouping_output_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1674665234968"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1674578776662"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2023-01-05 19:38:40"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1674578776771"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.19",
+        "created": 1672947518062,
+        "updated": 1674665237660,
+        "createdClient": "marketo-b2b-acctgrp",
+        "createdUser": "marketo-b2b-acctgrp@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "63b7273eccd2a51c07501084",
+        "fileDescription": {},
+        "files": "@/dataSetFiles?dataSetId=63b7273eccd2a51c07501083",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/e69a647a18a566b63b6a177d3eaaf09bc206c36ca4cb28a1",
+            "contentType": "application/vnd.adobe.xed+json;version=1"
+        }
+    },
+    "63eceae3becb2b1bd0cd9d0b": {
+        "name": "Account Lookup dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "account_lookup_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1676471241211"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1676471011421,
+        "updated": 1676471243740,
+        "createdClient": "exc_app",
+        "createdUser": "C5F86E0462DD5B730A495CF7@c01c0af162dd3819495c7b.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "63eceae3becb2b1bd0cd9d0c",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=63eceae3becb2b1bd0cd9d0b",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/9ade0093ab94be3836f4a069d3ecdbb8c693ae043c54e8c6",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6262508dfb96a91949f0639b": {
+        "name": "Account-Snapshot-Export-8b627cc2-d517-42ce-a139-ec5432222c20",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/gdprbroker/skip-dataset": [
+                "true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "account_snapshot_export_8b627cc2_d517_42ce_a139_ec5432222c20"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1677515023452"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1677428772773"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:false",
+                "mergePolicyId:71e49361-271b-49dd-afa9-e196aa8e597a",
+                "ups_snapshot_type:cardinal:full-attr"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1677428772864"
+            ]
+        },
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.436",
+        "created": 1650610317882,
+        "updated": 1677515026193,
+        "createdClient": "aep_core_profile_snapshot",
+        "createdUser": "aep_core_profile_snapshot@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6262508dfb96a91949f0639c",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6262508dfb96a91949f0639b",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/xdm/context/account__union",
+            "contentType": "application/vnd.adobe.xed-full-notext+json; version=1"
+        }
+    },
+    "622f25d373c2e3194991f04a": {
+        "name": "Adobe Web SDK Demo dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "adobe_web_sdk_demo_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1677243379385"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1677249791644"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-14 12:14:07"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1677249791879"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "622f25d373c2e3194991f04a",
+        "version": "1.0.80",
+        "created": 1647257043128,
+        "updated": 1677249791992,
+        "createdClient": "exc_app",
+        "createdUser": "88E732A161B978080A495EB7@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "622f25d373c2e3194991f04b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=622f25d373c2e3194991f04a",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/af4a200da2d8781f2e426e096b60127ca6b1c95ca1e637a8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6228356b5dc4511948b85c50": {
+        "name": "AEP Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-09 05:06:14"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "aep_dataset"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6228356b5dc4511948b85c50",
+        "version": "1.0.2",
+        "created": 1646802283848,
+        "updated": 1646832397591,
+        "createdClient": "exc_app",
+        "createdUser": "77A46BAE60195E780A495EDB@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "6228356b5dc4511948b85c51",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6228356b5dc4511948b85c50",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/4f5c2b3ab258be38689aa058c78cc746fa769fd63c5a9414",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62454b6ba11f091948ed5d9f": {
+        "name": "AEP-Integartion-KS",
+        "enableErrorDiagnostics": false,
+        "createdUser": "3F0841FB6172723C0A495E72@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "3F0841FB6172723C0A495E72@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "aep_integartion_ks"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1648708459909,
+        "updated": 1648708460574,
+        "state": "DRAFT",
+        "viewId": "62454b6ca11f091948ed5da0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62454b6ba11f091948ed5d9f",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/2a9977771b70076e849e95b502732bc5acf3fb073604ba4",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "61f297713e37ff1949d54e7f": {
+        "name": "AEP Member Dataset",
+        "enableErrorDiagnostics": false,
+        "createdUser": "29BA78BC61EFCD4F0A495C91@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "29BA78BC61EFCD4F0A495C91@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "aep_member_dataset"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1643288433917,
+        "updated": 1646832397548,
+        "state": "DRAFT",
+        "viewId": "61f297723e37ff1949d54e80",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=61f297713e37ff1949d54e7f",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/ea3a7d121c9572a410e1bbba2179442696c0bd25d1e5eabc",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6332915f324b801c076a919b": {
+        "name": "AEP September Training Dataset",
+        "enableErrorDiagnostics": false,
+        "createdUser": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "aep_september_training_dataset"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1664258400074,
+        "updated": 1664258400919,
+        "state": "DRAFT",
+        "viewId": "63329160324b801c076a919d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6332915f324b801c076a919b",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/eaf6066cba671f09087cff61611cb5cce37a7007c0275c18",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "621c772ce599e11949bd78d3": {
+        "name": "AEP Test Luma Loyalty-Dataset",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-01 19:58:19"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1646034750414"
+            ],
+            "adobe/pqs/table": [
+                "aep_test_luma_loyalty_dataset"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "621c772ce599e11949bd78d3",
+        "version": "1.0.7",
+        "created": 1646032684774,
+        "updated": 1646832397587,
+        "createdClient": "e584d0d5766849de9ae7fa02f1e6edb2",
+        "createdUser": "D0563DD96213764E0A495F95@techacct.adobe.com",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "621c772ce599e11949bd78d4",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=621c772ce599e11949bd78d3",
+        "schemaRef": {
+            "id": "_deloitte_digitalengage.schemas.c095aa8a9d34903c5b63841b7bde9f5b7fd36c9f8e5f7e44",
+            "contentType": "application/vnd.adobe.xed-full-notext+json; version=1"
+        }
+    },
+    "630def6fe4d45c1c071aac80": {
+        "name": "AEP_Training_30",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "aep_training_30"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1661859518515"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1661857647328,
+        "updated": 1661859521129,
+        "createdClient": "exc_app",
+        "createdUser": "AB5836AF62FB3CE40A495E5D@c01c0af162dd3819495c7b.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "630def6fe4d45c1c071aac81",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=630def6fe4d45c1c071aac80",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/3b4e6f00aeca47cf3a9f7d1567221842e3c6a40b69eea463",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "629ab6738ef67f1b9b2ee9de": {
+        "name": "AJO BCC Feedback Event Dataset",
+        "description": "Dataset for ingesting email bcc feedback events.",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "ajo_bcc_feedback_event_dataset"
+            ],
+            "eventType": [
+                "ajo.bcc.feedback"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "messageBCCFeedbackEvent"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.1",
+        "created": 1654306419650,
+        "updated": 1656081957324,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "cjm_provisioning_services@AdobeID",
+        "viewId": "629ab6738ef67f1b9b2ee9df",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=629ab6738ef67f1b9b2ee9de",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/7a5df48c964571039bdd8ed1221c331895f76a6921b6f32a",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "629ab66dabf7a91b9b7c079c": {
+        "name": "AJO Classification Dataset",
+        "description": "Dataset for ingesting email and push application feedback events from AJO. Created through SDK.",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "ajo_classification_dataset"
+            ],
+            "eventType": [
+                "cjm.profile.classification"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "ajoClassificationRecord"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.2",
+        "created": 1654306413906,
+        "updated": 1656103649053,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "cjm_provisioning_services@AdobeID",
+        "viewId": "629ab66dabf7a91b9b7c079d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=629ab66dabf7a91b9b7c079c",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/1c9c354816c68f1fbc2c4a86034b7d13f9eeac4712b3e9d",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "633bc2cf78281d1c0700870c": {
+        "name": "AJO Entity Dataset",
+        "description": "Dataset for ingesting AJO entities which are related to message sent to profile",
+        "tags": {
+            "eventType": [
+                "ajo.entities"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "ajo_entity_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1677567361223"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "ajoEntityRecord"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1677148791578"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1677148791691"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.17",
+        "created": 1664860879767,
+        "updated": 1677567364348,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "633bc2cf78281d1c0700870d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=633bc2cf78281d1c0700870c",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/abfbb47fdd9b542473e50bcdce98c741178f25c02a5ea040",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "633bc2c7a139761c0723f0d4": {
+        "name": "AJO Inbound Activity Event Dataset",
+        "description": "Dataset for AJO web & inApp channels for delivery & interaction events.",
+        "tags": {
+            "eventType": [
+                "decisioning.propositionSend",
+                "decisioning.propositionDisplay",
+                "decisioning.propositionInteract",
+                "decisioning.propositionDismiss",
+                "decisioning.propositionTrigger"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "ajo_inbound_activity_event_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1665427956544"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "inboundActivityEvent"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-10-04 05:21:39"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.6",
+        "created": 1664860871970,
+        "updated": 1665427959336,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "633bc2c7a139761c0723f0d5",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=633bc2c7a139761c0723f0d4",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/6e87c25699384012cf61e91460d9cd9139d267753658e958",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "633bc2d24503ba1c09e854c4": {
+        "name": "AJO Interactive Messaging Profile Dataset",
+        "description": "Dataset for Create Profile to support API Triggered Campaigns",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-10-04 05:21:47"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "ajo_interactive_messaging_profile_dataset"
+            ],
+            "eventType": [
+                "ajo.ApiTriggeredProfile"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "ajoApiTriggeredProfile"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.1",
+        "created": 1664860882868,
+        "updated": 1664860907740,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "633bc2d24503ba1c09e854c5",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=633bc2d24503ba1c09e854c4",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/854ae07e2c954e857aca6611f7cb6034415d0c746a5d5e30",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "633bc2cbd680931c07ed7b5c": {
+        "name": "AJO Surfaces Dataset",
+        "description": "Empty dataset related to AJO Inbound Surfaces schema",
+        "tags": {
+            "adobe_dx_ajo_provisioning": [
+                "ajoSurfaces"
+            ],
+            "adobe/pqs/table": [
+                "ajo_surfaces_dataset"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "cjm_provisioning_services",
+        "updatedUser": "cjm_provisioning_services@AdobeID",
+        "version": "1.0.0",
+        "created": 1664860875418,
+        "updated": 1664860875517,
+        "state": "DRAFT",
+        "viewId": "633bc2cbd680931c07ed7b5d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=633bc2cbd680931c07ed7b5c",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/11c71315f20053bdcb9bf54826cdca06fa6e6f9b1561a799",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "61bc55b6d4bddf1948b013e9": {
+        "name": "amit_dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "amit_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1639733093712"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1639732663070,
+        "updated": 1646832397539,
+        "createdClient": "exc_app",
+        "createdUser": "6F4A304161B883840A495FC8@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "61bc55b7d4bddf1948b013ea",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=61bc55b6d4bddf1948b013e9",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/9681f4adfeaddf8f50977bf8336f8205799f936700551380",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6209f8a02101ef194866f16b": {
+        "name": "AMIT_MOCKDATA",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "amit_mockdata"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-02-14 06:37:40"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6209f8a02101ef194866f16b",
+        "version": "1.0.5",
+        "created": 1644820640874,
+        "updated": 1646832397566,
+        "createdClient": "exc_app",
+        "createdUser": "D59A1DC361F7DD710A495C4B@AdobeID",
+        "updatedUser": "09183C5B6214B4710A495C11@AdobeID",
+        "viewId": "6209f8a02101ef194866f16c",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6209f8a02101ef194866f16b",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/ef26fb1a1afb1c7e2923d0a149e3c42684eb54a0f1f23c76",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "620a3fefd00a491948d82a50": {
+        "name": "AMIT_MOCKDATA3",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-02-23 14:41:53"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "adobe/pqs/table": [
+                "amit_mockdata3"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "620a3fefd00a491948d82a50",
+        "version": "1.0.4",
+        "created": 1644838895629,
+        "updated": 1646832397571,
+        "createdClient": "exc_app",
+        "createdUser": "D59A1DC361F7DD710A495C4B@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "620a3fefd00a491948d82a51",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=620a3fefd00a491948d82a50",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/77e877792338317e87436d2270e3e00b7e11f480abc7c2c4",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "620a418d39c2ff19486d1360": {
+        "name": "AMIT_MOCKDATA4",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "amit_mockdata4"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-02-14 11:48:40"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "620a418d39c2ff19486d1360",
+        "version": "1.0.6",
+        "created": 1644839309481,
+        "updated": 1646832397574,
+        "createdClient": "exc_app",
+        "createdUser": "D59A1DC361F7DD710A495C4B@AdobeID",
+        "updatedUser": "D59A1DC361F7DD710A495C4B@AdobeID",
+        "viewId": "620a418d39c2ff19486d1361",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=620a418d39c2ff19486d1360",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/77e877792338317e87436d2270e3e00b7e11f480abc7c2c4",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "620a4ed72cda9d19480198d5": {
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "name": "Analytics-Practice midValues",
+        "description": "Analytics Data Connector for report suite Analytics-Practice",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "analytics_practice_midvalues"
+            ],
+            "adobe/analytics/experience-event-variation": [
+                "m"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1674465979474"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1671441453498"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-02-23 13:23:17"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1671441453660"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "dataSourceId": 1182359,
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "id": "620a4ed72cda9d19480198d5",
+        "serviceOwner": "adc_flow_provider",
+        "version": "1.0.103",
+        "created": 1644842711465,
+        "updated": 1674465981478,
+        "createdClient": "adc_flow_provider",
+        "createdUser": "88E732A161B978080A495EB7@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "620a4ed72cda9d19480198d6",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=620a4ed72cda9d19480198d5",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/30411e61d53773cf6d1af81b0aa5313f19197b48fdfaa36f",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "624d78c01fea231949cc17ee": {
+        "name": "Ant - Progressive Profile - Websdk",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "ant_progressive_profile_websdk"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1665663957705"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1665665747294"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-04-06 11:50:44"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1665665747366"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "624d78c01fea231949cc17ee",
+        "version": "1.0.69",
+        "created": 1649244353047,
+        "updated": 1665665747425,
+        "createdClient": "exc_app",
+        "createdUser": "88E732A161B978080A495EB7@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "624d78c11fea231949cc17ef",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=624d78c01fea231949cc17ee",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/4a0b14687185fda6036074979e046b09973241834db1295b",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "631f0939e7fd8e1c081a1a5d": {
+        "name": "antm_events_dataset",
+        "enableErrorDiagnostics": false,
+        "createdUser": "BD2B578D62DD5B790A495F9B@c01c0af162dd3819495c7b.e",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "BD2B578D62DD5B790A495F9B@c01c0af162dd3819495c7b.e",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "antm_events_dataset"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1662978361877,
+        "updated": 1662978362276,
+        "state": "DRAFT",
+        "viewId": "631f093ae7fd8e1c081a1a5e",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=631f0939e7fd8e1c081a1a5d",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/b0240a74029173a26eeac6c96442a620330c771a44b782f5",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "63299d7a9da0111c0715afbf": {
+        "name": "antm_schema_dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:false",
+                "errors:UPDAEM-089032-500: UPS Store couldn't be created. Failed to create a store.,UPLIB-101500-500: Failed to create a store.,Internal error occurred. uri:ProfileInternalUrl/stores -> Status Code - 501 : message\n{\"requestId\":\"t:aep_catalog_event_prod_va7-p:2-o:741813769\",\"errors\":{\"501\":[{\"code\":\"UPAPI-113583-501\",\"message\":\"UPS Store Autoscaling is not enabled for this Sandbox.\"}]},\"type\":\"https://ns.adobe.com/aep/errors/UPAPI-113583-501\",\"title\":\"UPS Store Autoscaling is not enabled for this Sandbox.\",\"status\":501}"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "antm_schema_dataset"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "63299d7a9da0111c0715afbf",
+        "version": "1.0.4",
+        "created": 1663671674063,
+        "updated": 1663671824223,
+        "createdClient": "exc_app",
+        "createdUser": "BD2B578D62DD5B790A495F9B@c01c0af162dd3819495c7b.e",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "63299d7a9da0111c0715afc0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=63299d7a9da0111c0715afbf",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/b0240a74029173a26eeac6c96442a620330c771a44b782f5",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62da9b675d5dd11c07714587": {
+        "name": "API Test Dataset-with authentication",
+        "enableErrorDiagnostics": false,
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "api_test_dataset_with_authentication"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1658495330365"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1658497304490"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-07-22 12:56:36"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1658497304593"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.7",
+        "created": 1658493799474,
+        "updated": 1658497304875,
+        "createdClient": "exc_app",
+        "createdUser": "88E732A161B978080A495EB7@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62da9b675d5dd11c07714588",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62da9b675d5dd11c07714587",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/c481528b08a2de76e5759d4db6b01e1eebeb4f9c4b6b7db8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62b95a2421cf511c07eb6aa9": {
+        "name": "Array Test",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "array_test"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1656314441375"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1656314750990"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-27 07:20:29"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1656314751064"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62b95a2421cf511c07eb6aa9",
+        "version": "1.0.8",
+        "created": 1656314404512,
+        "updated": 1656314751163,
+        "createdClient": "exc_app",
+        "createdUser": "3B2745BA615FC5800A495E27@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62b95a2421cf511c07eb6aaa",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62b95a2421cf511c07eb6aa9",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/7a77372fc766fdb51ee6a7772f8dd0cb06adb8c6a9fd3333",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62b970af290c771c06e58da9": {
+        "name": "Array Test 1",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "array_test_1"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-27 08:57:02"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62b970af290c771c06e58da9",
+        "version": "1.0.4",
+        "created": 1656320175242,
+        "updated": 1656320223502,
+        "createdClient": "exc_app",
+        "createdUser": "3B2745BA615FC5800A495E27@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62b970af290c771c06e58daa",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62b970af290c771c06e58da9",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/7a77372fc766fdb51ee6a7772f8dd0cb06adb8c6a9fd3333",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "61c01a2838448019487edfb1": {
+        "name": "ashika_dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "ashika_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1639980323937"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1639979560737,
+        "updated": 1646832397545,
+        "createdClient": "exc_app",
+        "createdUser": "71E8321E61B883830A495FA2@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "61c01a2838448019487edfb2",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=61c01a2838448019487edfb1",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/5f44a5d06fbffa73e11d13005331c4b72dbcd4ac603efeb9",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "628f56575a05331b9ccd77ea": {
+        "name": "Attribute_Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "attribute_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1653939075377"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-05-26 10:28:57"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "628f56575a05331b9ccd77ea",
+        "version": "1.0.9",
+        "created": 1653560919515,
+        "updated": 1653939077055,
+        "createdClient": "exc_app",
+        "createdUser": "6CEF3A6562282A730A495FE8@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "628f56575a05331b9ccd77eb",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=628f56575a05331b9ccd77ea",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/1b9475cadde620cff8491fb1e6c315d6935d72c0f15b8855",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "622b59b70255f3194931cc8b": {
+        "name": "AU_CustEvents",
+        "enableErrorDiagnostics": false,
+        "createdUser": "7533331262282A720A495FB0@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "7533331262282A720A495FB0@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "au_custevents"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1647008183488,
+        "updated": 1647008183810,
+        "state": "DRAFT",
+        "viewId": "622b59b70255f3194931cc8c",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=622b59b70255f3194931cc8b",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/a3ec230e586da910fa200e8caaa4a4bc177e5173adfbbe68",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "622b56df72a5761949ea9532": {
+        "name": "AU_CustomerDataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "au_customerdataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1647007540203"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1647007455228,
+        "updated": 1647007543161,
+        "createdClient": "exc_app",
+        "createdUser": "7533331262282A720A495FB0@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "622b56df72a5761949ea9533",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=622b56df72a5761949ea9532",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/3d969296a61ab7acb1d3bf72514692f90c053034a74bc6c8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "617251390605a819487b3a3b": {
+        "name": "Bank",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "bank"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1634882044535"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2021-10-22 05:51:05"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "617251390605a819487b3a3b",
+        "version": "1.0.7",
+        "created": 1634881849602,
+        "updated": 1646832397515,
+        "createdClient": "exc_app",
+        "createdUser": "3B2745BA615FC5800A495E27@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "617251390605a819487b3a3c",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=617251390605a819487b3a3b",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/1c229d88cfdaaa8693dffdbb458a37ac3b6911c9c73bcf27",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "630c918607ac051c07dbe180": {
+        "name": "Banking UC_Profile",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "banking_uc_profile_20220829_101430_474"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1662370440310"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "errors:Internal error occurred. uri:PlatformUrl/data/foundation/schemaregistry/tenant/schemas/_xdm.context.profile__union -> Status Code - 400 : message\n{\"type\":\"http://ns.adobe.com/aep/errors/XDM-1413-400\",\"title\":\"Merge Schema Error\",\"status\":400,\"report\":{\"registryRequestId\":\"05d76c2f-13e4-4205-9500-98c065cdd983\",\"timestamp\":\"08-29-2022 10:32:22\",\"detailed-message\":\"Cannot merge incompatible data types. The path /properties/_deloitte_digitalengage/properties/ZIP5_CODE/type has already been defined in schema (id=) using a different data type. Types: string, integer\",\"sub-errors\":[]},\"detail\":\"Cannot merge incompatible data types. The path /properties/_deloitte_digitalengage/properties/ZIP5_CODE/type has already been defined in schema (id=) using a different data type. Types: string, integer\"}",
+                "enabled:true"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "630c918607ac051c07dbe180",
+        "version": "1.0.10",
+        "created": 1661768070479,
+        "updated": 1662370442677,
+        "createdClient": "exc_app",
+        "createdUser": "BE1009C062DD5B7B0A495E9D@c01c0af162dd3819495c7b.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "630c918607ac051c07dbe181",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=630c918607ac051c07dbe180",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/71d633a1b1b1b7f5f030d89c9bbdce753426f1e54858ef76",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "630cb9d9978ab31c09e5551d": {
+        "name": "Banking UC_Transaction",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "banking_uc_transaction"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1662372107596"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1662372107434"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "errors:Internal error occurred. uri:PlatformUrl/data/foundation/schemaregistry/tenant/schemas/_xdm.context.profile__union -> Status Code - 400 : message\n{\"type\":\"http://ns.adobe.com/aep/errors/XDM-1413-400\",\"title\":\"Merge Schema Error\",\"status\":400,\"report\":{\"registryRequestId\":\"08ef47e0-d1a0-48ad-a5aa-c114fbc29916\",\"timestamp\":\"08-29-2022 01:08:19\",\"detailed-message\":\"Cannot merge incompatible data types. The path /properties/_deloitte_digitalengage/properties/ZIP5_CODE/type has already been defined in schema (id=) using a different data type. Types: string, integer\",\"sub-errors\":[]},\"detail\":\"Cannot merge incompatible data types. The path /properties/_deloitte_digitalengage/properties/ZIP5_CODE/type has already been defined in schema (id=) using a different data type. Types: string, integer\"}",
+                "enabled:true"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1662372107514"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "630cb9d9978ab31c09e5551d",
+        "version": "1.0.10",
+        "created": 1661778393972,
+        "updated": 1662372113161,
+        "createdClient": "exc_app",
+        "createdUser": "BE1009C062DD5B7B0A495E9D@c01c0af162dd3819495c7b.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "630cb9da978ab31c09e5551e",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=630cb9d9978ab31c09e5551d",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/492dfa3ba512bece7678753be8add4f304db0e7d4f2675e7",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62ac5db5b0f1ff1c07f9e987": {
+        "name": "BFS Channel",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "bfs_channel"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1655810355539"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1655817040596"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-17 10:57:26"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1655817040676"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62ac5db5b0f1ff1c07f9e987",
+        "version": "1.0.10",
+        "created": 1655463349182,
+        "updated": 1655817040673,
+        "createdClient": "exc_app",
+        "createdUser": "29BA78BC61EFCD4F0A495C91@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62ac5db5b0f1ff1c07f9e988",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62ac5db5b0f1ff1c07f9e987",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/1a679f402949b843c5551d84685ee958ac9dc6b4d5444bfe",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62ac54f1101c451c069579f5": {
+        "name": "BFS Profile",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "bfs_profile"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1655792239512"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1655792071534"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-17 10:19:54"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1655792071607"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62ac54f1101c451c069579f5",
+        "version": "1.0.9",
+        "created": 1655461105593,
+        "updated": 1655792241025,
+        "createdClient": "exc_app",
+        "createdUser": "29BA78BC61EFCD4F0A495C91@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62ac54f1101c451c069579f6",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62ac54f1101c451c069579f5",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/59f4c27fd874ea1f0733ac7ea54e25b2a4d58dedfb012dd7",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6204afe30cdf65194aa8dc34": {
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "name": "BiodataSite_dev midValues",
+        "description": "Analytics Data Connector for report suite BiodataSite_dev",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "biodatasite_dev_midvalues"
+            ],
+            "adobe/analytics/experience-event-variation": [
+                "m"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1670496623115"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1648570960105"
+            ],
+            "acp_validationContext": [
+                "disabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "errors:UPDAEM-089013-500: Class Schema cannot be retrieved.,Internal error occurred. uri:PlatformUrl/data/foundation/schemaregistry/tenant/schemas/https%3A%2F%2Fns.adobe.com%2Fdeloitte_digitalengage%2Fschemas%2Fe97da5dded4f6c6a19180b8277797062ec6a0166d73ccbf9 -> Status Code - 429 : message\n{\"error_code\":\"429050\",\"message\":\"Too many requests\"}\n",
+                "enabled:true"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1648570960224"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "dataSourceId": 1175861,
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "id": "6204afe30cdf65194aa8dc34",
+        "serviceOwner": "adc_flow_provider",
+        "version": "1.0.30",
+        "created": 1644474339476,
+        "updated": 1670496624931,
+        "createdClient": "adc_flow_provider",
+        "createdUser": "19666D61615D3C420A495EEF@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6204afe30cdf65194aa8dc35",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6204afe30cdf65194aa8dc34",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/e97da5dded4f6c6a19180b8277797062ec6a0166d73ccbf9",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "626395265f94ad19485609b6": {
+        "name": "bobtest1 dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "bobtest1_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1651634142400"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1651634317761"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-04-23 06:22:22"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1651634317846"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "626395265f94ad19485609b6",
+        "version": "1.0.15",
+        "created": 1650693414518,
+        "updated": 1651634317907,
+        "createdClient": "exc_app",
+        "createdUser": "072E392E616EF8ED0A495E2A@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "626395265f94ad19485609b7",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=626395265f94ad19485609b6",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/eaa081ce1e2abf74e320554f6088c185061528325333abd1",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6263953fc4e0091947e7c652": {
+        "name": "bobtest2 dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "bobtest2_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1651634072807"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1650744343489"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-04-23 19:03:08"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1650744343583"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6263953fc4e0091947e7c652",
+        "version": "1.0.10",
+        "created": 1650693439102,
+        "updated": 1651634075755,
+        "createdClient": "exc_app",
+        "createdUser": "072E392E616EF8ED0A495E2A@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6263953fc4e0091947e7c653",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6263953fc4e0091947e7c652",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/a3a1656b310bbc20a9cd1d0837ea7becd48055235ec64d2e",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "619d898a0dce8919480dc73c": {
+        "name": "BR_Namespace_Destination",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "br_namespace_destination"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1677542998662"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1677460571094"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1677460571171"
+            ]
+        },
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.669",
+        "created": 1637714314133,
+        "updated": 1677543001296,
+        "createdClient": "aep_reporting_destinations",
+        "createdUser": "aep_reporting_destinations@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "619d898a0dce8919480dc73d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=619d898a0dce8919480dc73c",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/xdm/context/destination-namespace",
+            "contentType": "application/vnd.adobe.xed+json; version=1.27.1"
+        }
+    },
+    "619d890b149fce194aaa8e7f": {
+        "name": "BR_Segment_Destination",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "adobe/siphon/meta": [
+                "acpBufferedFlag::true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "br_segment_destination"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1677542977791"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1677460556742"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1677460556828"
+            ]
+        },
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.670",
+        "created": 1637714187417,
+        "updated": 1677542980767,
+        "createdClient": "aep_reporting_destinations",
+        "createdUser": "aep_reporting_destinations@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "619d890b149fce194aaa8e80",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=619d890b149fce194aaa8e7f",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/xdm/context/destination-segment",
+            "contentType": "application/vnd.adobe.xed+json; version=1.27.1"
+        }
+    },
+    "62ac5ff0d834d41c07503249": {
+        "name": "BFS Transaction",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "bs_account"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1655810853045"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1655816923853"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-17 13:21:24"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1655816923952"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62ac5ff0d834d41c07503249",
+        "version": "1.0.12",
+        "created": 1655463920190,
+        "updated": 1655816924000,
+        "createdClient": "exc_app",
+        "createdUser": "29BA78BC61EFCD4F0A495C91@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62ac5ff0d834d41c0750324a",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62ac5ff0d834d41c07503249",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/5c28ad4abbeeb018967a3c6137e98adc4c88e03d8f5ce45",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128ac737c31be1949403b90": {
+        "name": "customer",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/pqs/table": [
+                "c"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128ac737c31be1949403b90",
+        "version": "1.0.1",
+        "created": 1630055539242,
+        "updated": 1646832397508,
+        "createdClient": "exc_app",
+        "createdUser": "612A2FB161285DD50A495EBC@AdobeID",
+        "updatedUser": "612A2FB161285DD50A495EBC@AdobeID",
+        "viewId": "6128ac737c31be1949403b91",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128ac737c31be1949403b90",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/10e6c0a763607abae0591fecdf3f64dcb1766fb0682b2b89",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "612b04f97aed981949eb2cf4": {
+        "name": "Cart_dataset_Aditya",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cart_dataset_aitya"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630209444564"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "612b04f97aed981949eb2cf4",
+        "version": "1.0.6",
+        "created": 1630209273986,
+        "updated": 1646832397512,
+        "createdClient": "exc_app",
+        "createdUser": "5D8055F561284E220A495FA3@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "612b04fa7aed981949eb2cf5",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=612b04f97aed981949eb2cf4",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/9a3c7c7481e82ef36e9af62f432208aad76fac07e4594154",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "621810c2038551194a1d4685": {
+        "name": "Cart Dataset | HTTP Streaming Test",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cart_dataset_http_streaming_test"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1646315665981"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1646154611254"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-01 13:18:07"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1646154611373"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "621810c2038551194a1d4685",
+        "version": "1.0.15",
+        "created": 1645744322170,
+        "updated": 1646832397753,
+        "createdClient": "exc_app",
+        "createdUser": "2AAA3E12602B36B80A495C51@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "621810c2038551194a1d4686",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=621810c2038551194a1d4685",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/77da9ec02ec01e23c75d49ad27019044486ebc4684992771",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128a8a94587d21948c8e253": {
+        "name": "Cart Details",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cart_details"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.2",
+        "created": 1630054569623,
+        "updated": 1646832397671,
+        "createdClient": "exc_app",
+        "createdUser": "62C6317F61285EC90A495C2F@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128a8a94587d21948c8e254",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128a8a94587d21948c8e253",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/98c375b0cb59591058e69335557319f3caa822683348e90e",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128ad9ea998f41949f3df7a": {
+        "name": "Cart Details AJ",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cart_details_aj"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630059669110"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1630055838625,
+        "updated": 1646832397680,
+        "createdClient": "exc_app",
+        "createdUser": "62C6317F61285EC90A495C2F@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128ad9ea998f41949f3df7b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128ad9ea998f41949f3df7a",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/98c375b0cb59591058e69335557319f3caa822683348e90e",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "620f58d8ab1369194855ed8d": {
+        "name": "Cart Details AJ1",
+        "createdUser": "1F7834ED61C447140A495FB9@techacct.adobe.com",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "d3172e5f34064f92805a504f3b4eb54b",
+        "updatedUser": "1F7834ED61C447140A495FB9@techacct.adobe.com",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "cart_details_aj1"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1645172952323,
+        "updated": 1646832397746,
+        "state": "DRAFT",
+        "viewId": "620f58d8ab1369194855ed8e",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=620f58d8ab1369194855ed8d",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/98c375b0cb59591058e69335557319f3caa822683348e90e",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6272a412c61f1f194ba8c69a": {
+        "name": "Case Person POC",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "case_person_poc"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.2",
+        "created": 1651680274243,
+        "updated": 1651688953600,
+        "createdClient": "exc_app",
+        "createdUser": "2AAA3E12602B36B80A495C51@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6272a412c61f1f194ba8c69b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6272a412c61f1f194ba8c69a",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/f388aed2fe7f163d2f1474f9f9040b375ebf9ba1d454a892",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "624ee6c5c0cb051949fd1e1b": {
+        "name": "case poc",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "case_poc"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1649338476888"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1649413144778"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-04-07 13:31:23"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1649413144852"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "624ee6c5c0cb051949fd1e1b",
+        "version": "1.0.8",
+        "created": 1649338053605,
+        "updated": 1649413144920,
+        "createdClient": "exc_app",
+        "createdUser": "2AAA3E12602B36B80A495C51@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "624ee6c5c0cb051949fd1e1c",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=624ee6c5c0cb051949fd1e1b",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/62db537c82cc2ac1c8b81f2aec016be9036d36ce9567f6a1",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "61f791a0ab51521948a3a72a": {
+        "name": "Cbk_Training_Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cbk_training_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1661161119679"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1661162097723"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1661162097801"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.40",
+        "created": 1643614624793,
+        "updated": 1661162097878,
+        "createdClient": "exc_app",
+        "createdUser": "234B68C6615D3C460A495E0C@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "61f791a0ab51521948a3a72b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=61f791a0ab51521948a3a72a",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/62f52dc3676a6f0820c43ca25bcd7887106cc23e2a27af9a",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "632c56a12c45eb1c0785637a": {
+        "name": "Chandra Mobile sdk Dataset",
+        "enableErrorDiagnostics": false,
+        "createdUser": "C72848CD62DD5B7A0A495C36@c01c0af162dd3819495c7b.e",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "C72848CD62DD5B7A0A495C36@c01c0af162dd3819495c7b.e",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "chandra_mobile_sdk_dataset"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1663850145706,
+        "updated": 1663850146052,
+        "state": "DRAFT",
+        "viewId": "632c56a12c45eb1c0785637b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=632c56a12c45eb1c0785637a",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/6e329a7e8ede0a6439f487795ea636a8e8166b5325669920",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6304a1e0c264631c06728a16": {
+        "name": "chandra_test_dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "chandra_test_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1666005028663"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1665582920325"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1665582920409"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.30",
+        "created": 1661247969110,
+        "updated": 1666005031814,
+        "createdClient": "exc_app",
+        "createdUser": "C72848CD62DD5B7A0A495C36@c01c0af162dd3819495c7b.e",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6304a1e1c264631c06728a17",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6304a1e0c264631c06728a16",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/7a8a3ed6fda4788fd049f87a280ec9d807b910188f422d1f",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6206266d2e4ebb194930ce09": {
+        "name": "CIBC_ECICM_N",
+        "description": "Enabled with profile",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cibc_ecicm_new"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1644571063661"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-02-11 09:04:27"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6206266d2e4ebb194930ce09",
+        "version": "1.0.8",
+        "created": 1644570221819,
+        "updated": 1646832397739,
+        "createdClient": "exc_app",
+        "createdUser": "EC561D7961952D8E0A495FC5@AdobeID",
+        "updatedUser": "19666D61615D3C420A495EEF@AdobeID",
+        "viewId": "6206266d2e4ebb194930ce0a",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6206266d2e4ebb194930ce09",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/19018ee1760f735a6c5aa74f1b43ac26b3dea8deddb94869",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "620a59f75b67911948cfd86a": {
+        "name": "CIBC_ECICM_New",
+        "tags": {
+            "adobe-ui-file-adhoc-draft": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cibc_ecicm_new_20220214_133239_909"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "createdUser": "1DEF6986615D3C450A495FEB@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "1DEF6986615D3C450A495FEB@AdobeID",
+        "version": "1.0.0",
+        "created": 1644845559912,
+        "updated": 1646832397743,
+        "state": "DRAFT",
+        "viewId": "620a59f85b67911948cfd86b",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=620a59f75b67911948cfd86a"
+    },
+    "62d2b4373f85281c07743ab7": {
+        "name": "CJA_CRM_Dataset",
+        "description": "CJA_CRM_Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cja_crm_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1657976298814"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1657976844681"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-07-16 13:05:44"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1657976844769"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62d2b4373f85281c07743ab7",
+        "version": "1.0.8",
+        "created": 1657975863865,
+        "updated": 1657976844823,
+        "createdClient": "exc_app",
+        "createdUser": "1D5D28175B8E9A830A495E23@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62d2b4373f85281c07743ab8",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62d2b4373f85281c07743ab7",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/a1e6af6231f5caab8ea510b583c9fda278e24399293a08a5",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62d303435b3b831c072e5c4f": {
+        "name": "CJA_Order_Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cja_order_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1657996296805"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1657999069969"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-07-16 18:48:52"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1657999070057"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62d303435b3b831c072e5c4f",
+        "version": "1.0.8",
+        "created": 1657996099597,
+        "updated": 1657999070133,
+        "createdClient": "exc_app",
+        "createdUser": "1D5D28175B8E9A830A495E23@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62d303435b3b831c072e5c50",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62d303435b3b831c072e5c4f",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/fa48877c3eacb1f278df8ec001c7f29231c817d1fd2bc607",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62d7c66c84cac21c07526fc6": {
+        "name": "CJA_Propensity_Dataset",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cja_propensity_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1658308280989"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "id": "62d7c66c84cac21c07526fc6",
+        "version": "1.0.6",
+        "created": 1658308204794,
+        "updated": 1658308284417,
+        "createdClient": "exc_app",
+        "createdUser": "1D5D28175B8E9A830A495E23@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62d7c66c84cac21c07526fc7",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=62d7c66c84cac21c07526fc6",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/b41250a5466c5061e8dc8efbc7f2a83a21c99d97f7614442",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62d7cafdf7b75e1c0821a722": {
+        "name": "CJA_Propensity_Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cja_propensity_dataset_20220720_092933_896"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1658309484773"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1658309373901,
+        "updated": 1658309487916,
+        "createdClient": "exc_app",
+        "createdUser": "1D5D28175B8E9A830A495E23@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62d7cafdf7b75e1c0821a723",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62d7cafdf7b75e1c0821a722",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/e867a37f9cfb650d5f010bb6d0b8d13b7f4e8f4f89c8b149",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "623b60eb9a67cf1949552207": {
+        "name": "AJO Consent Service Dataset",
+        "description": "Dataset for AJO Consent service UPS Ingest (Provisioned) ID Level.",
+        "tags": {
+            "cjm_service_dataset": [
+                "consent_service_ingest_id_level"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "cjm_consent_service_dataset"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-23 18:03:25"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "consentService"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.3",
+        "created": 1648058603371,
+        "updated": 1656103647805,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "cjm_provisioning_services@AdobeID",
+        "viewId": "623b60eb9a67cf1949552208",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=623b60eb9a67cf1949552207",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/9dcaa93fc452e03c69e8561e7a87355a5f4cccfb45d1825d",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "623b60dee0de3019483f8827": {
+        "name": "AJO Email Tracking Experience Event Dataset",
+        "description": "Dataset for ingesting email tracking experience events from AJO. Created through SDK.",
+        "tags": {
+            "eventType": [
+                "cjm.email.tracking"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cjm_email_tracking_experience_event_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1677568449526"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "emailTrackingEvent"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1677150774706"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-23 18:03:13"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1677150774791"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.63",
+        "created": 1648058590699,
+        "updated": 1677568451889,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "623b60dee0de3019483f8828",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=623b60dee0de3019483f8827",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/93f56e226870a705e2a122c27b316360c76f791f1509666a",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "623b60db96443519497506ef": {
+        "name": "AJO Message Feedback Event Dataset",
+        "description": "Dataset for ingesting email and push application feedback events from AJO. Created through SDK.",
+        "tags": {
+            "eventType": [
+                "cjm.email.feedback",
+                "cjm.push.feedback"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cjm_message_feedback_event_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1677567572619"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "messageFeedbackEvent"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1670510036079"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-23 18:03:09"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1670510036158"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.73",
+        "created": 1648058587334,
+        "updated": 1677567575100,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "623b60db96443519497506f0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=623b60db96443519497506ef",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/d96823ef1df34dc3ba3193f2f5205753f24225ec41a779e0",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "623b60ee60a3ab19486c6d65": {
+        "name": "AJO Profile Counters Extension",
+        "description": "Holds a map of objects containing counter_value and expiryDate, keyed by counter_id",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "cjm_profile_counters_extension"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-23 18:03:28"
+            ],
+            "eventType": [
+                "cjm.profile.counters"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "distCounterService"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.3",
+        "created": 1648058606585,
+        "updated": 1656103648077,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "cjm_provisioning_services@AdobeID",
+        "viewId": "623b60ee60a3ab19486c6d66",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=623b60ee60a3ab19486c6d65",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/f5582d1e3409ff92e94b784415836295afeb7a744830a9c8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "623b60e707c197194b890c08": {
+        "name": "AJO Push Profile Dataset",
+        "description": "Dataset for ingesting push profiles from AJO. Created through SDK.",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "cjm_push_profile_dataset"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-23 18:03:22"
+            ],
+            "eventType": [
+                "cjm.push.profile"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "pushProfile"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.3",
+        "created": 1648058599961,
+        "updated": 1656103647522,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "cjm_provisioning_services@AdobeID",
+        "viewId": "623b60e707c197194b890c09",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=623b60e707c197194b890c08",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/9541d5b19586a523b96aa5588578154cddaab5e21749ee9d",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "623b60e4a9db3e194a3b4011": {
+        "name": "AJO Push Tracking Experience Event Dataset",
+        "description": "Dataset for ingesting push tracking experience events from AJO. Created through SDK.",
+        "tags": {
+            "eventType": [
+                "cjm.push.tracking"
+            ],
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "cjm_push_tracking_experience_event_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1658865962160"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "pushTrackingEvent"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-03-23 18:03:18"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.12",
+        "created": 1648058596470,
+        "updated": 1658865963675,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "623b60e4a9db3e194a3b4012",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=623b60e4a9db3e194a3b4011",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/73bce8a06a539813e22a563dac045e84a920c0175f2b3d81",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "629ab4e1b9ecfc1b9b38b0de": {
+        "name": "AJO Web Activity Event Dataset",
+        "description": "Dataset for AJO web channel delivery & interaction events.",
+        "tags": {
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "cjm_web_activity_event_dataset"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-04 01:28:27"
+            ],
+            "eventType": [
+                "decisioning.propositionDeliver",
+                "decisioning.propositionDisplay",
+                "decisioning.propositionInteract"
+            ],
+            "adobe_dx_ajo_provisioning": [
+                "webActivityEvent"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "enableErrorDiagnostics": true,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "state": "DRAFT",
+        "version": "1.0.3",
+        "created": 1654306017175,
+        "updated": 1656103648847,
+        "createdClient": "cjm_provisioning_services",
+        "createdUser": "cjm_provisioning_services@AdobeID",
+        "updatedUser": "cjm_provisioning_services@AdobeID",
+        "viewId": "629ab4e1b9ecfc1b9b38b0df",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=629ab4e1b9ecfc1b9b38b0de",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/9721a4eb13c384c1af65f07fba8b820ac3c722db378f0dc9",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "61dd6136390b1619486fdceb": {
+        "name": "clickstreamDatasetDemo",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "day(timestamp, _ACP_DATE)",
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_DATE",
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/siphon/buffered-promotion-recency": [
+                "live"
+            ],
+            "adobe/siphon/use-buffered-promotion": [
+                "true"
+            ],
+            "adobe/pqs/table": [
+                "clickstreamdatasetdemo"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1641900010109"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-01-11 10:51:44"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "61dd6136390b1619486fdceb",
+        "version": "1.0.7",
+        "created": 1641898294777,
+        "updated": 1646832397728,
+        "createdClient": "exc_app",
+        "createdUser": "77A46BAE60195E780A495EDB@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "61dd6136390b1619486fdcec",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=61dd6136390b1619486fdceb",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/ba8d8983206ff44bc4fba44a048865b1ceb4331f88eeaab5",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62b9f5a1a262671c07df6671": {
+        "name": "Consent_Upsert_1",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-27 18:38:28",
+                "isUpsert:true"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1656354282515"
+            ],
+            "adobe/pqs/table": [
+                "consent_upsert_1"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62b9f5a1a262671c07df6671",
+        "version": "1.0.10",
+        "created": 1656354210039,
+        "updated": 1656355108332,
+        "createdClient": "exc_app",
+        "createdUser": "40AC4FD36127BB480A495FA2@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "62b9f5a2a262671c07df6672",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62b9f5a1a262671c07df6671",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/4fb9207d278c3faffc97a4b82cfb05a2926406823d89f7e",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62b9f60607f79d1c07c09ed9": {
+        "name": "Consent_Upsert_2",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "consent_upsert_2"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1656355199461"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-27 18:26:05"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62b9f60607f79d1c07c09ed9",
+        "version": "1.0.7",
+        "created": 1656354310395,
+        "updated": 1656355201921,
+        "createdClient": "exc_app",
+        "createdUser": "40AC4FD36127BB480A495FA2@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62b9f60607f79d1c07c09eda",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62b9f60607f79d1c07c09ed9",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/4fb9207d278c3faffc97a4b82cfb05a2926406823d89f7e",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "63888bdb773de51c07e5db88": {
+        "name": "contact_test_1",
+        "enableErrorDiagnostics": false,
+        "createdUser": "AB5836AF62FB3CE40A495E5D@c01c0af162dd3819495c7b.e",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "AB5836AF62FB3CE40A495E5D@c01c0af162dd3819495c7b.e",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "contact_test_1"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1669893083213,
+        "updated": 1669893083470,
+        "state": "DRAFT",
+        "viewId": "63888bdb773de51c07e5db89",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=63888bdb773de51c07e5db88",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/e09be25cdc9d3b9c51e49425cb9383b8fce32693ef70b133",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "624c83224161d3194a794c91": {
+        "name": "Cricket_M",
+        "enableErrorDiagnostics": false,
+        "createdUser": "072E392E616EF8ED0A495E2A@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "072E392E616EF8ED0A495E2A@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "cricket_m"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1649181474914,
+        "updated": 1649181475150,
+        "state": "DRAFT",
+        "viewId": "624c83234161d3194a794c92",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=624c83224161d3194a794c91",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/893785f3901232c58822fc51757db6763721087ee9a10c14",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "623e942b360e5d194a7c7d2e": {
+        "name": "Cricket_T",
+        "enableErrorDiagnostics": false,
+        "createdUser": "072E392E616EF8ED0A495E2A@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "072E392E616EF8ED0A495E2A@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "cricket_t"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1648268331953,
+        "updated": 1648268332626,
+        "state": "DRAFT",
+        "viewId": "623e942c360e5d194a7c7d2f",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=623e942b360e5d194a7c7d2e",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/8f8325c7cfa16974845d0f6699481c89d5065aa5489414fb",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62472b4cd9676419492f9049": {
+        "name": "cricketContacts_SD",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cricketcontacts_sd"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1648831526654"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-04-01 16:42:42"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62472b4cd9676419492f9049",
+        "version": "1.0.7",
+        "created": 1648831308899,
+        "updated": 1648831529308,
+        "createdClient": "exc_app",
+        "createdUser": "17EB7803606E9A310A495C82@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62472b4dd9676419492f904a",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62472b4cd9676419492f9049",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/d99b07b9368b80446e3d2185f41e4bd91c3ba43a56a15972",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "624bf7ac5176e7194a539272": {
+        "name": "CsvSchema",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "csvschema"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.2",
+        "created": 1649145772216,
+        "updated": 1649145814824,
+        "createdClient": "exc_app",
+        "createdUser": "1A137486615D3C440A495FDC@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "624bf7ac5176e7194a539273",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=624bf7ac5176e7194a539272",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/f4bdaca6d50a924be121b0d227bdaecab5e6d4a34def9661",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "612c6197bae4bd1948d2a351": {
+        "name": "Cust_VA",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "cust_va"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.2",
+        "created": 1630298520037,
+        "updated": 1646832397705,
+        "createdClient": "exc_app",
+        "createdUser": "63002C2761285DD70A495CF2@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "612c6198bae4bd1948d2a352",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=612c6197bae4bd1948d2a351",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/be8cdbbb97cf30b4602aca833f462543f7eb4a1e776becaf",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "62a862d281bb3f1c077e01c7": {
+        "name": "custom_usecase_dataset_sahana",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "custom_usecase_dataset_sahana"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1655202779952"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1655203431114"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-06-14 10:39:52"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1655203431193"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "62a862d281bb3f1c077e01c7",
+        "version": "1.0.9",
+        "created": 1655202514815,
+        "updated": 1655203431219,
+        "createdClient": "exc_app",
+        "createdUser": "644B5B00629F1CFD0A495C76@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "62a862d281bb3f1c077e01c8",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=62a862d281bb3f1c077e01c7",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/a14c38adf604275f9ba024a7ac8e778571d7565f015a40ce",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128d7f0a5f45f194a4fb5ef": {
+        "name": "Customer_Cart_AN",
+        "description": "Customer_Cart_AN",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_cart_an"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2021-08-27 12:18:15"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128d7f0a5f45f194a4fb5ef",
+        "version": "1.0.4",
+        "created": 1630066672620,
+        "updated": 1646832397692,
+        "createdClient": "exc_app",
+        "createdUser": "61B44D0961285DD70A495FBC@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128d7f0a5f45f194a4fb5f0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128d7f0a5f45f194a4fb5ef",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/90b97635bb2a04aa300fb6bb9839e897bf03347186c15c00",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128cb7347635519489cb9d1": {
+        "name": "Customer_Cart_DS_AN",
+        "description": "Customer_Cart_DS_AN",
+        "state": "ACTIVE",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_cart_ds_an"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630063624740"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "id": "6128cb7347635519489cb9d1",
+        "version": "1.0.6",
+        "created": 1630063475739,
+        "updated": 1646832397690,
+        "createdClient": "exc_app",
+        "createdUser": "61B44D0961285DD70A495FBC@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128cb7447635519489cb9d3",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128cb7347635519489cb9d1",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/31ef356e172d211e4509dc52e99b350b1d285fa6c815e834",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "61db11faf937b71948e29cdb": {
+        "name": "Customer_CDP_dataset",
+        "description": "Customer_CDP_dataset",
+        "state": "DEPRECATED",
+        "createdUser": "67864FD361285DD30A495FA2@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "67864FD361285DD30A495FA2@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "customer_cdp_dataset"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1641746938553,
+        "updated": 1646832397716,
+        "viewId": "61db11faf937b71948e29cdc",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=61db11faf937b71948e29cdb"
+    },
+    "61dc04e74d8b0d194b51d63e": {
+        "name": "Customer_CDP_dataset",
+        "description": "Customer_CDP_dataset",
+        "state": "DEPRECATED",
+        "createdUser": "67864FD361285DD30A495FA2@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "67864FD361285DD30A495FA2@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "customer_cdp_dataset_20220110_100527_284"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1641809127288,
+        "updated": 1646832397721,
+        "viewId": "61dc04e74d8b0d194b51d63f",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=61dc04e74d8b0d194b51d63e"
+    },
+    "619e7d2710d6821948938659": {
+        "name": "CUSTOMER_DATA",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2021-11-24 17:58:13"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ],
+            "adobe/pqs/table": [
+                "customer_data"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "619e7d2710d6821948938659",
+        "version": "1.0.2",
+        "created": 1637776679996,
+        "updated": 1646832397708,
+        "createdClient": "exc_app",
+        "createdUser": "3B2745BA615FC5800A495E27@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "619e7d2810d682194893865a",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=619e7d2710d6821948938659",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/e9c5fb7b9a4bd4c85e07dc4b5cf4aab9e8e0ee0be3491bf8",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128e07677e1ca1948fc377c": {
+        "name": "Customer_data_Aditya",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2021-08-29 05:08:52"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630069500531"
+            ],
+            "adobe/pqs/table": [
+                "customer_data_aditya"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128e07677e1ca1948fc377c",
+        "version": "1.0.7",
+        "created": 1630068854592,
+        "updated": 1646832397701,
+        "createdClient": "exc_app",
+        "createdUser": "5D8055F561284E220A495FA3@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "6128e07677e1ca1948fc377d",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128e07677e1ca1948fc377c",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/df2561b6e37832a4a40a29c3810beed60ae1369353d807ac",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128b238076d5f1948c96ed5": {
+        "name": "Customer_data_PV",
+        "state": "DEPRECATED",
+        "createdUser": "44503F976127D90B0A495FE3@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "44503F976127D90B0A495FE3@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "customer_data_pv"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1630057016353,
+        "updated": 1646832397684,
+        "viewId": "6128b238076d5f1948c96ed6",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128b238076d5f1948c96ed5"
+    },
+    "6128c14eb285321949b62dc7": {
+        "name": "Customer_data_pv",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2021-08-27 11:18:51"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630061010643"
+            ],
+            "adobe/pqs/table": [
+                "customer_data_pv_20210827_104118_326"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128c14eb285321949b62dc7",
+        "version": "1.0.7",
+        "created": 1630060878331,
+        "updated": 1646832397687,
+        "createdClient": "exc_app",
+        "createdUser": "44503F976127D90B0A495FE3@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "6128c14eb285321949b62dc8",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128c14eb285321949b62dc7",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/3371b5a05b10c9b33dc9db8a02645578d20f473033a783c4",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "61dc422da5ea8019489c23de": {
+        "name": "Customer_Dataset",
+        "description": "Customer_Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1643223134718"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2022-01-10 14:27:30"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "61dc422da5ea8019489c23de",
+        "version": "1.0.7",
+        "created": 1641824813524,
+        "updated": 1646832397725,
+        "createdClient": "exc_app",
+        "createdUser": "67864FD361285DD30A495FA2@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "61dc422da5ea8019489c23df",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=61dc422da5ea8019489c23de",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/f3ed1bef26f3d2e4abd638fe033b059c675103b865641b38",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128a363fca641194783115a": {
+        "name": "Customer_Dataset_KB",
+        "description": "Customer Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_dataset_kb"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630057725462"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1630053220012,
+        "updated": 1646832397636,
+        "createdClient": "exc_app",
+        "createdUser": "6294498A61285DD60A495C65@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128a364fca641194783115b",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128a363fca641194783115a",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/33d5d5c3ded214991d5c142699aff0f45dd5e51925b2d11f",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128baafb2b01f194880d6dc": {
+        "name": "Customer_dataset_zk",
+        "description": "Customer dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_dataset_zk"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630061845044"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.5",
+        "created": 1630059183126,
+        "updated": 1646832397658,
+        "createdClient": "exc_app",
+        "createdUser": "60852BCD61285DD50A495CAB@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128baafb2b01f194880d6dd",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128baafb2b01f194880d6dc",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/6c4df13bbcb7f4b01736d5f06da04ea7b3a965665a11e462",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128db2dbba054194a79689c": {
+        "name": "Customer_Detail_AN",
+        "description": "Customer_Detail_AN",
+        "createdUser": "61B44D0961285DD70A495FBC@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "61B44D0961285DD70A495FBC@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "customer_detail_an"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1630067501541,
+        "updated": 1646832397685,
+        "state": "DRAFT",
+        "viewId": "6128db2dbba054194a79689e",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128db2dbba054194a79689c",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/2738cb896f54be52b453a0c18607cdc8969fc7a53c114d4",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128db466f9c0c19489e0d65": {
+        "name": "customer_details_KK",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_detail_kk"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630072010438"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128db466f9c0c19489e0d65",
+        "description": "customer_details_KK",
+        "version": "1.0.9",
+        "created": 1630067526092,
+        "updated": 1646832397689,
+        "createdClient": "exc_app",
+        "createdUser": "612A2FB161285DD50A495EBC@AdobeID",
+        "updatedUser": "612A2FB161285DD50A495EBC@AdobeID",
+        "viewId": "6128db466f9c0c19489e0d67",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128db466f9c0c19489e0d65",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/10e6c0a763607abae0591fecdf3f64dcb1766fb0682b2b89",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128b2e3e8f47c1948f421c2": {
+        "name": "Customer Details",
+        "description": "Customer Personal Details",
+        "enableErrorDiagnostics": false,
+        "createdUser": "65C6531361285DD90A495E18@AdobeID",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "createdClient": "exc_app",
+        "updatedUser": "65C6531361285DD90A495E18@AdobeID",
+        "version": "1.0.0",
+        "tags": {
+            "adobe/pqs/table": [
+                "customer_details_20210827_093948_031"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "created": 1630057188034,
+        "updated": 1646832397652,
+        "state": "DRAFT",
+        "viewId": "6128b2e4e8f47c1948f421c3",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128b2e3e8f47c1948f421c2",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/99510ebd24556fa6b0a9aa3f75dede6b9550a7ba47d6e663",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128a1b9a646561948fc8438": {
+        "name": "Customer Details DM",
+        "description": "Customer Personal Details",
+        "state": "ACTIVE",
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_details_dm"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630052831736"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ]
+        },
+        "id": "6128a1b9a646561948fc8438",
+        "version": "1.0.6",
+        "created": 1630052793890,
+        "updated": 1646832397628,
+        "createdClient": "exc_app",
+        "createdUser": "65C6531361285DD90A495E18@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128a1baa646561948fc843d",
+        "fileDescription": {
+            "quotes": [
+                "\""
+            ],
+            "escapes": [
+                "\\"
+            ],
+            "header": true,
+            "format": "parquet",
+            "delimiters": [
+                ","
+            ],
+            "charset": "UTF-8"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128a1b9a646561948fc8438",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/f88b733a3c3cd4ad15155b50291b3b52a542a4602c0227b7",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128a6615c42a6194847774f": {
+        "name": "Customer Details DM",
+        "description": "Customer Personal Details",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_details_dm_20210827_084625_946"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630061354618"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1630083100201"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1630083100286"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128a6615c42a6194847774f",
+        "version": "1.0.10",
+        "created": 1630053985959,
+        "updated": 1646832397640,
+        "createdClient": "exc_app",
+        "createdUser": "65C6531361285DD90A495E18@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128a6625c42a61948477750",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128a6615c42a6194847774f",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/99510ebd24556fa6b0a9aa3f75dede6b9550a7ba47d6e663",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128c10a37ff47194870bacf": {
+        "name": "Customer Details DM",
+        "description": "Customer Personal Details",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2021-08-29 12:06:08"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "adobe/pqs/table": [
+                "customer_details_dm_20210827_104010_261"
+            ],
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128c10a37ff47194870bacf",
+        "version": "1.0.4",
+        "created": 1630060810265,
+        "updated": 1646832397661,
+        "createdClient": "exc_app",
+        "createdUser": "65C6531361285DD90A495E18@AdobeID",
+        "updatedUser": "acp_core_unifiedProfile_feeds@AdobeID",
+        "viewId": "6128c10a37ff47194870bad0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128c10a37ff47194870bacf",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/99510ebd24556fa6b0a9aa3f75dede6b9550a7ba47d6e663",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128b3adfca64119478317ae": {
+        "name": "Customer_Details_Vaibhav",
+        "description": "Details",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_details_vaibhav"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1630063318624"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "aep/siphon/cleanup/trash/timestamp": [
+                "1630063784909"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "aep/siphon/cleanup/meta/timestamp": [
+                "1630063785118"
+            ]
+        },
+        "state": "DRAFT",
+        "version": "1.0.7",
+        "created": 1630057389978,
+        "updated": 1646832397656,
+        "createdClient": "exc_app",
+        "createdUser": "6551497A61285ECF0A495E22@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6128b3aefca64119478317b0",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128b3adfca64119478317ae",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/5203fb5dfcf0458757f44c83aa789b081a833f42d3264218",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6141ebda72badc19491ca90f": {
+        "name": "Customer_Info_Dataset",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/siphon/partition/definition": [
+                "identity(_ACP_BATCHID)"
+            ],
+            "aep/siphon/partitions": [
+                "_ACP_BATCHID"
+            ],
+            "acp_granular_plugin_validation_flags": [
+                "identity:enabled",
+                "profile:disabled"
+            ],
+            "adobe/pqs/table": [
+                "customer_info_dataset"
+            ],
+            "aep/siphon/expire-snapshot-timestamp": [
+                "1632490324608"
+            ],
+            "acp_granular_validation_flags": [
+                "requiredFieldCheck:enabled"
+            ],
+            "acp_validationContext": [
+                "enabled"
+            ],
+            "adobe/siphon/table/format": [
+                "iceberg"
+            ],
+            "unifiedProfile": [
+                "enabled:true",
+                "enabledAt:2021-09-20 08:21:27"
+            ],
+            "unifiedIdentity": [
+                "enabled:true"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6141ebda72badc19491ca90f",
+        "version": "1.0.9",
+        "created": 1631710171038,
+        "updated": 1646832397696,
+        "createdClient": "exc_app",
+        "createdUser": "2AAA3E12602B36B80A495C51@AdobeID",
+        "updatedUser": "acp_foundation_dataTracker@AdobeID",
+        "viewId": "6141ebdb72badc19491ca910",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6141ebda72badc19491ca90f",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/621d4f784ee20dd2b93772beaf352a47a5337131db87709d",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    },
+    "6128c902ff45f4194897a8b7": {
+        "name": "Customer_Data_AM",
+        "description": "Customer_Information",
+        "enableErrorDiagnostics": false,
+        "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "tags": {
+            "adobe/pqs/table": [
+                "customer_information_am"
+            ],
+            "adobe/siphon/table/format": [
+                "parquet"
+            ]
+        },
+        "state": "DRAFT",
+        "id": "6128c902ff45f4194897a8b7",
+        "version": "1.0.1",
+        "created": 1630062850152,
+        "updated": 1646832397669,
+        "createdClient": "exc_app",
+        "createdUser": "2DFB2C276127892D0A495CF2@AdobeID",
+        "updatedUser": "2DFB2C276127892D0A495CF2@AdobeID",
+        "viewId": "6128c902ff45f4194897a8b8",
+        "fileDescription": {
+            "format": "parquet"
+        },
+        "files": "@/dataSetFiles?dataSetId=6128c902ff45f4194897a8b7",
+        "schemaRef": {
+            "id": "https://ns.adobe.com/deloitte_digitalengage/schemas/2e16570afb292f342b3374e202e7d6c81ae311a057041f70",
+            "contentType": "application/vnd.adobe.xed-full+json;version=1"
+        }
+    }
+}

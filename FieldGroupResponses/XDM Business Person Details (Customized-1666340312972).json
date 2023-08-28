@@ -1,0 +1,128 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/8e79a823937d05a29424502a820ab5842797e9296d860fcf",
+    "meta:altId": "_prudential.mixins.8e79a823937d05a29424502a820ab5842797e9296d860fcf",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "XDM Business Person Details (Customized-1666340312972)",
+    "type": "object",
+    "description": "Captures B2B Person specific attributes. A B2B Person could be a contact/lead etc.",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "workPhone": {
+                    "properties": {
+                        "_prudential": {
+                            "type": "object",
+                            "properties": {
+                                "phoneTypeCode": {
+                                    "meta:enum": {},
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone Type Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "dialNumber": {
+                                    "meta:enum": {},
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Dial Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "areaCode": {
+                                    "meta:enum": {},
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Area Code",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                },
+                "otherPhone": {
+                    "properties": {
+                        "_prudential": {
+                            "type": "object",
+                            "properties": {
+                                "phoneTypeCode": {
+                                    "meta:enum": {},
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone Type Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "dialNumber": {
+                                    "meta:enum": {},
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Dial Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "areaCode": {
+                                    "meta:enum": {},
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Area Code",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/b2b-person-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/mixins/record-status",
+        "https://ns.adobe.com/xdm/context/profile-person-details",
+        "https://ns.adobe.com/xdm/context/profile-personal-details",
+        "https://ns.adobe.com/xdm/context/profile-other-work-details",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/xdm/mixins/b2b-person-details",
+        "https://ns.adobe.com/xdm/context/profile-work-details",
+        "https://ns.adobe.com/xdm/common/external-source-system-audit-details"
+    ],
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1668498583106,
+        "repo:lastModifiedDate": 1668498583106,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "64149c8d963a22834ab88908878729d78b36cfd4e1a8f93ae048f086779ece9c",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:immutableTags": [
+        "extendedFieldGroup"
+    ],
+    "meta:allFieldAccess": true
+}

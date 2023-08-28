@@ -1,0 +1,101 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ae16fa131727101b5690682eebe258c5ea58be09c8639812",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.schemas.ae16fa131727101b5690682eebe258c5ea58be09c8639812",
+        "meta:resourceType": "schemas",
+        "version": "1.6",
+        "title": "2022 L2L Web Data",
+        "type": "object",
+        "description": "",
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "https://ns.adobe.com/experience/analytics/experienceevent-all",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "https://ns.adobe.com/experience/analytics-experienceevent",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "required": [
+            "@id",
+            "xdm:timestamp"
+        ],
+        "meta:extensible": false,
+        "meta:abstract": false,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/data/time-series",
+            "https://ns.adobe.com/experience/profile/experienceevent-shared",
+            "https://ns.adobe.com/experience/analytics/experienceevent-all",
+            "https://ns.adobe.com/xdm/context/experienceevent-directmarketing",
+            "https://ns.adobe.com/xdm/context/experienceevent-segmentmembership",
+            "https://ns.adobe.com/experience/experienceevent-edgeregion",
+            "https://ns.adobe.com/experience/analytics-experienceevent",
+            "https://ns.adobe.com/xdm/context/experienceevent-application",
+            "https://ns.adobe.com/xdm/context/experienceevent-marketing",
+            "https://ns.adobe.com/xdm/context/experienceevent-web",
+            "https://ns.adobe.com/xdm/context/experienceevent-media",
+            "https://ns.adobe.com/experience/decisioning/proposition-interaction",
+            "https://ns.adobe.com/xdm/context/experienceevent-channel",
+            "https://ns.adobe.com/xdm/context/experienceevent-environment-details",
+            "https://ns.adobe.com/experience/implementations-ext",
+            "https://ns.adobe.com/xdm/context/experienceevent",
+            "https://ns.adobe.com/xdm/context/experienceevent-enduserids",
+            "https://ns.adobe.com/experience/analytics/commerce",
+            "https://ns.adobe.com/xdm/context/experienceevent-technical-details",
+            "https://ns.adobe.com/experience/target/experienceevent-shared",
+            "https://ns.adobe.com/xdm/context/experienceevent-advertising",
+            "https://ns.adobe.com/xdm/context/experienceevent-search",
+            "https://ns.adobe.com/xdm/context/identitymap",
+            "https://ns.adobe.com/xdm/context/experienceevent-profile-stitch"
+        ],
+        "meta:xdmType": "object",
+        "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+        "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "meta:sandboxType": "production",
+        "meta:immutableTags": []
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ae16fa131727101b5690682eebe258c5ea58be09c8639812",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/productListItems[*]/SKU",
+        "xdm:namespace": "L2LPRODUCT",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ae16fa131727101b5690682eebe258c5ea58be09c8639812",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/endUserIDs/_experience/emailid/id",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ae16fa131727101b5690682eebe258c5ea58be09c8639812",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/endUserIDs/_experience/mcid/id",
+        "xdm:namespace": "ECID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    }
+]

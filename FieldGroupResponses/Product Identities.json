@@ -1,0 +1,58 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/97883c5699c824d91f6987f8fa23ebf756b22c21d35bf403",
+    "meta:altId": "_deloitte_digitalengage.mixins.97883c5699c824d91f6987f8fa23ebf756b22c21d35bf403",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Product Identities",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "productID": {
+                            "title": "Product ID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1644491132812,
+        "repo:lastModifiedDate": 1644494307442,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "xdm:lastModifiedUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "eTag": "8bb65456e9c9fbae9bbc644fb34cb99f1a2c26262273b77f89b30897639e94a1",
+        "meta:globalLibVersion": "1.32.3"
+    },
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage"
+}

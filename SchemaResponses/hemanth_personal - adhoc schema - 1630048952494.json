@@ -1,0 +1,40 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/4e64ac6d337b36fe828ef9ca7906b750d4ce7ebc9d3e8ed0",
+    "meta:altId": "_deloitte_digitalengage.schemas.4e64ac6d337b36fe828ef9ca7906b750d4ce7ebc9d3e8ed0",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "hemanth_personal - adhoc schema - 1630048952494",
+    "type": "object",
+    "description": "Adhoc schema for dataset 612892a3c15e4819484ea98b",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/classes/3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68",
+        "https://ns.adobe.com/xdm/data/adhoc"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1630048953581,
+        "repo:lastModifiedDate": 1630048953581,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "acp_xql_gateway@AdobeID",
+        "xdm:lastModifiedUserId": "acp_xql_gateway@AdobeID",
+        "eTag": "f44bfb37364b25e62f29a398bae19e77c419a0c19edb691ad9e53b8d65bc2f1c",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:class": "https://ns.adobe.com/deloitte_digitalengage/classes/3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68",
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:datasetNamespace": "_3f3612db29c5713c90e8e796396317d9449c1f0a1af0ed68",
+    "meta:allFieldAccess": true
+}

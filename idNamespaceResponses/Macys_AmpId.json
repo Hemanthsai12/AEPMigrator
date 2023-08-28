@@ -1,0 +1,12 @@
+{
+    "updateTime": 1652683849789,
+    "code": "AmperityID",
+    "status": "ACTIVE",
+    "description": "Amperity Identity",
+    "id": 11769976,
+    "createTime": 1652683849789,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Macys_AmpId",
+    "custom": true
+}

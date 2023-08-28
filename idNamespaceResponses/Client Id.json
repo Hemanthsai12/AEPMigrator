@@ -1,0 +1,11 @@
+{
+    "updateTime": 1668499008997,
+    "code": "ClientId",
+    "status": "ACTIVE",
+    "id": 13008656,
+    "createTime": 1668499008997,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Client Id",
+    "custom": true
+}

@@ -1,0 +1,51 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/220ba76b47ba711576f662b3a8d394b03685747267ae4a9c",
+    "meta:altId": "_prudential.schemas.220ba76b47ba711576f662b3a8d394b03685747267ae4a9c",
+    "meta:resourceType": "schemas",
+    "version": "1.5",
+    "title": "Pru Party Account",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/61a0bca50a4733e5a279a95af8975a2986808a919db7d29e",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "required": [
+        "_id",
+        "timestamp"
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/time-series",
+        "https://ns.adobe.com/prudential/mixins/61a0bca50a4733e5a279a95af8975a2986808a919db7d29e",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1670494179791,
+        "repo:lastModifiedDate": 1670495846284,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "C7CC583662DD5B6E0A495E97@c01c0af162dd3819495c7b.e",
+        "xdm:lastModifiedUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "eTag": "9e9e5792909abb242e755acfb9599d734a4bddc95b83774df8572c74f64ac708",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+    "meta:containerId": "ef19d81d-7d73-4f28-99d8-1d7d733f282f",
+    "meta:sandboxId": "ef19d81d-7d73-4f28-99d8-1d7d733f282f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

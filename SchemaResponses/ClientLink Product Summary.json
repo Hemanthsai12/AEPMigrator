@@ -1,0 +1,61 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/ace55a00cf9360cebe4418b45ec3f1f18ae134e921a8ab03",
+    "meta:altId": "_prudential.schemas.ace55a00cf9360cebe4418b45ec3f1f18ae134e921a8ab03",
+    "meta:resourceType": "schemas",
+    "version": "1.1",
+    "title": "ClientLink Product Summary",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/7b8079a306a1611fbf2af43a005cd059ccaac4cb891396f1",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/userAccount/_prudential/activeIndicator",
+                "/userAccount/_prudential/taxStatus",
+                "/userAccount/_prudential/terminationDate",
+                "/userAccount/accountType",
+                "/userAccount/startDate"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/11adfe9def46da7a093b6bda580e6dbedbc9ab130ab31793",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/xdm/mixins/profile/profile-user-account-details",
+        "https://ns.adobe.com/prudential/mixins/11adfe9def46da7a093b6bda580e6dbedbc9ab130ab31793",
+        "https://ns.adobe.com/prudential/mixins/7b8079a306a1611fbf2af43a005cd059ccaac4cb891396f1"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1668512701512,
+        "repo:lastModifiedDate": 1668525077610,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "09A5150062ED69D10A495F8C@58f520ae5b81c35b0a495d34",
+        "eTag": "146a7c2863d08a969d968d4e773bd6a702690f9b8b2e3480a34fd0a8c00e2a28",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

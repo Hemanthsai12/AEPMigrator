@@ -1,0 +1,116 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/88ed427191c9d09c5a390b2e522ba01991bfc58fb31e03e6",
+    "meta:altId": "_prudential.mixins.88ed427191c9d09c5a390b2e522ba01991bfc58fb31e03e6",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Marketo Custom Fields",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "ecid": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Field to bring in Adobe Visitor Id (Custom Field created in Marketo)",
+                            "title": "ECID",
+                            "meta:xdmType": "string"
+                        },
+                        "elm": {
+                            "properties": {
+                                "engagedUser": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Marketo Custom Fields for Harvest",
+                                    "title": "Engaged User",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "onboardingComplete": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Marketo Custom Fields for Harvest",
+                                    "title": "Onboarding Complete",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "registration": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Marketo Custom Fields for Harvest",
+                                    "title": "Registration",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "engagementType": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "Marketo Custom Fields for Harvest",
+                                    "title": "Engagement Type",
+                                    "meta:xdmType": "string"
+                                },
+                                "lifeStage": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "Marketo Custom Fields for Harvest",
+                                    "title": "Life Stage",
+                                    "meta:xdmType": "string"
+                                },
+                                "tCPAConsentIndicator": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Marketo Custom Fields for Harvest",
+                                    "title": "TCPA Consent Indicator",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "meetingScheduled": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Marketo Custom Fields for Harvest",
+                                    "title": "Meeting Scheduled",
+                                    "meta:xdmType": "boolean"
+                                }
+                            },
+                            "required": [],
+                            "note": "",
+                            "type": "object",
+                            "description": "",
+                            "title": "ELM",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1667907174064,
+        "repo:lastModifiedDate": 1667907174064,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "cd0c56f8ab62e984fb80e5c7fe267a6c59a953ad970658a79b7c83f576cccef7",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+    "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

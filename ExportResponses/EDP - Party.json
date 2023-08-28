@@ -1,0 +1,57 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/44485d157204ec56f175bda49a6966147e0bddb8a1143464",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/cisClientId",
+        "xdm:namespace": "ClientId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/44485d157204ec56f175bda49a6966147e0bddb8a1143464",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Party Identifier"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/44485d157204ec56f175bda49a6966147e0bddb8a1143464",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:namespace": "EDPPartyId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/44485d157204ec56f175bda49a6966147e0bddb8a1143464",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/ssoId",
+        "xdm:namespace": "SSOId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

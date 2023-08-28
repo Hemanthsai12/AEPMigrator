@@ -1,0 +1,92 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+    "meta:altId": "_prudential.mixins.29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+    "meta:resourceType": "mixins",
+    "version": "1.8",
+    "title": "EDP Identities",
+    "type": "object",
+    "description": "Defines identity field to uniquely identify the datasets of EDP",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "partyId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Id column to uniquely identify the party",
+                            "title": "Party Id",
+                            "meta:xdmType": "string"
+                        },
+                        "customerId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Customer Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "partyEmailAddressId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Party Email Address Id",
+                            "meta:xdmType": "string"
+                        },
+                        "partyPhoneId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Party Phone Id",
+                            "meta:xdmType": "string"
+                        },
+                        "partyAddressId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Party Address Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "partyAccountKey": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Field to uniquely identify EDP Party Account. Composite key of Account Id, Party Id and Party Relationship Code.",
+                            "title": "Party Account Key",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703522342,
+        "repo:lastModifiedDate": 1672839332622,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "a13d59c20cd211c27495e3860b76ae449a14c49ed1570efba5058e2385bc6aba",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

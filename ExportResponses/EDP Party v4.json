@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/d1fc37f4de5cf685d260386cc5a0f9e477615d812cae90e1",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:namespace": "PartyId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

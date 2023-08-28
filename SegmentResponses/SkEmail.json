@@ -1,0 +1,244 @@
+{
+    "id": "dd6a98ad-4396-4cf0-b1c4-2ae1f508930f",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "sandboxName": "training",
+        "type": "development",
+        "default": false
+    },
+    "name": "SkEmail",
+    "description": "",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"chain\",\"array\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"xEvent\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}},\"timestampField\":{\"nodeType\":\"lambda\",\"varNames\":[\"v0\"],\"body\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"timestamp\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"v0\"}}},\"elements\":[{\"nodeType\":\"element\",\"name\":\"C0\",\"negated\":false,\"what\":{\"nodeType\":\"lambda\",\"varNames\":[],\"body\":{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":true}},\"where\":{\"nodeType\":\"fnApply\",\"fnName\":\"exists\",\"params\":[{\"nodeType\":\"varRef\",\"varName\":\"C0\"},{\"nodeType\":\"lambda\",\"varNames\":[\"_Any1\"],\"body\":{\"nodeType\":\"fnApply\",\"fnName\":\"exists\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"get\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"identityMap\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"_Any1\"}},{\"nodeType\":\"literal\",\"literalType\":\"String\",\"value\":\"SKEmail\"}]},{\"nodeType\":\"lambda\",\"varNames\":[\"_Any1__Identity_Map1\"],\"body\":{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"id\",\"object\":{\"nodeType\":\"varRef\",\"varName\":\"_Any1__Identity_Map1\"}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"adobekddemo11@outlook.com\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}}]}}]}}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": false
+        },
+        "continuous": {
+            "enabled": true
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1665821566000,
+    "updateEpoch": 1667245873,
+    "updateTime": 1667245873000,
+    "createEpoch": 1665821566,
+    "_etag": "\"500ddcd6-0000-0200-0000-636027310000\"",
+    "dependents": [
+        "1734a44d-a091-45a5-8b47-2caf9e95b220"
+    ],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "ansibleDataModel": {
+        "dataModel": {
+            "expression": {
+                "isValid": true,
+                "logicalOperator": "and",
+                "profileAttributesContainer": {
+                    "exclude": false,
+                    "items": [],
+                    "logicalOperator": "and",
+                    "itemType": "segmentContainer"
+                },
+                "xEventAttributesContainer": {
+                    "exclude": false,
+                    "items": [
+                        {
+                            "exclude": false,
+                            "items": [
+                                {
+                                    "container": {
+                                        "exclude": false,
+                                        "isPlaceholder": false,
+                                        "items": [
+                                            {
+                                                "exclude": false,
+                                                "isPlaceholder": false,
+                                                "items": [
+                                                    {
+                                                        "exclude": false,
+                                                        "isPlaceholder": false,
+                                                        "items": [
+                                                            {
+                                                                "comparisonType": "equals",
+                                                                "component": {
+                                                                    "id": "xEvent.identityMap.id",
+                                                                    "__entity__": true,
+                                                                    "type": "n"
+                                                                },
+                                                                "isPlaceholder": false,
+                                                                "originalLocation": [],
+                                                                "value": [
+                                                                    "adobekddemo11@outlook.com"
+                                                                ],
+                                                                "itemType": "segmentRule"
+                                                            }
+                                                        ],
+                                                        "logicalOperator": "and",
+                                                        "mapKey": "",
+                                                        "multiValuedParentFriendlyName": "Identity Map",
+                                                        "multiValuedParentsAllData": [
+                                                            {
+                                                                "id": "xEvent",
+                                                                "xdmPathIds": [
+                                                                    "xEvent"
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id": "identityMap",
+                                                                "name": "Key (Identity Map)",
+                                                                "isMap": true,
+                                                                "xdmPathIds": [
+                                                                    "xEvent",
+                                                                    "identityMap"
+                                                                ]
+                                                            },
+                                                            {
+                                                                "id": "identityMap",
+                                                                "name": "Identity Map",
+                                                                "xdmPathIds": [
+                                                                    "xEvent",
+                                                                    "identityMap"
+                                                                ]
+                                                            }
+                                                        ],
+                                                        "occurrenceCount": 1,
+                                                        "occurrenceCountUpper": 2,
+                                                        "occurrenceOperator": "atLeast",
+                                                        "originalLocation": [],
+                                                        "subType": "array",
+                                                        "useAnyMapKey": false,
+                                                        "variableRef": {
+                                                            "friendlyName": "Identity Map1",
+                                                            "id": "187E9A6F-0556-4FFC-F7A3-948E535E31B7",
+                                                            "isMapVariable": false,
+                                                            "name": "_Any1__Identity_Map1",
+                                                            "payloadExports": [],
+                                                            "type": "v",
+                                                            "itemType": "variable"
+                                                        },
+                                                        "xdmPathIds": [
+                                                            "xEvent",
+                                                            "identityMap"
+                                                        ],
+                                                        "itemType": "multiValueParentContainer"
+                                                    }
+                                                ],
+                                                "logicalOperator": "and",
+                                                "mapKey": "SKEmail",
+                                                "multiValuedParentsAllData": [
+                                                    {
+                                                        "id": "xEvent",
+                                                        "xdmPathIds": [
+                                                            "xEvent"
+                                                        ]
+                                                    },
+                                                    {
+                                                        "id": "identityMap",
+                                                        "name": "Key (Identity Map)",
+                                                        "isMap": true,
+                                                        "xdmPathIds": [
+                                                            "xEvent",
+                                                            "identityMap"
+                                                        ]
+                                                    }
+                                                ],
+                                                "occurrenceCount": 1,
+                                                "occurrenceCountUpper": 2,
+                                                "occurrenceOperator": "atLeast",
+                                                "originalLocation": [],
+                                                "subType": "map",
+                                                "useAnyMapKey": false,
+                                                "xdmPathIds": [
+                                                    "xEvent",
+                                                    "identityMap",
+                                                    "id"
+                                                ],
+                                                "itemType": "multiValueParentContainer"
+                                            }
+                                        ],
+                                        "logicalOperator": "and",
+                                        "mapKey": "",
+                                        "multiValuedParentFriendlyName": "XDM ExperienceEvent",
+                                        "multiValuedParentsAllData": [
+                                            {
+                                                "id": "xEvent",
+                                                "xdmPathIds": [
+                                                    "xEvent"
+                                                ]
+                                            }
+                                        ],
+                                        "occurrenceCount": 1,
+                                        "occurrenceCountUpper": 2,
+                                        "occurrenceOperator": "atLeast",
+                                        "originalLocation": [],
+                                        "subType": "array",
+                                        "useAnyMapKey": false,
+                                        "variableRef": {
+                                            "friendlyName": "Any1",
+                                            "id": "B928DB6F-7AAC-8C8E-8C6B-571876DDBBC6",
+                                            "isMapVariable": false,
+                                            "name": "_Any1",
+                                            "payloadExports": [],
+                                            "type": "event",
+                                            "itemType": "variable"
+                                        },
+                                        "xdmPathIds": [
+                                            "xEvent"
+                                        ],
+                                        "itemType": "multiValueParentContainer"
+                                    },
+                                    "eventType": {
+                                        "id": "__ansibleAnyEventType",
+                                        "__entity__": true,
+                                        "type": "n"
+                                    },
+                                    "id": "6215CB5E-B014-38C2-4E7C-5BC232083C7F",
+                                    "itemType": "eventTypeCard"
+                                }
+                            ],
+                            "logicalOperator": "and",
+                            "itemType": "eventTypeCardContainer"
+                        }
+                    ],
+                    "logicalOperator": "then",
+                    "itemType": "eventTypeCardContainer"
+                },
+                "itemType": "segmentDefinition"
+            }
+        },
+        "hash": "-1648551182",
+        "version": "1.0.0"
+    },
+    "overridePerformanceWarnings": false,
+    "createdBy": "BD467B8562DD5B710A495E9E@c01c0af162dd3819495c7b.e",
+    "lifecycle": "active",
+    "namespace": "AEPSegments",
+    "audienceId": "dd6a98ad-4396-4cf0-b1c4-2ae1f508930f",
+    "isSystem": false,
+    "saveSegmentMembership": true,
+    "origin": "REAL_TIME_CUSTOMER_PROFILE",
+    "tags": [],
+    "lifecycleState": "published",
+    "originName": "REAL_TIME_CUSTOMER_PROFILE"
+}

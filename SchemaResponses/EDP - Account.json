@@ -1,0 +1,51 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/8504f25bcac869dc28b7cc24c7281942749f697da165f8db",
+    "meta:altId": "_prudential.schemas.8504f25bcac869dc28b7cc24c7281942749f697da165f8db",
+    "meta:resourceType": "schemas",
+    "version": "1.2",
+    "title": "EDP - Account",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/74dae5b805a25549aa92ffa373b4b10d85a7c7cdad3b6aba",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "required": [
+        "_id",
+        "timestamp"
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/time-series",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/prudential/mixins/74dae5b805a25549aa92ffa373b4b10d85a7c7cdad3b6aba",
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1666352427383,
+        "repo:lastModifiedDate": 1666355297952,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "D26E01C4630F91B30A495C6F@58f520ae5b81c35b0a495d34",
+        "eTag": "9d8e41a5fb9b8f7e0aac60220cf7c0f9bd9e73f613688189b626fb59c1342a4b",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "2cfff83c-2095-44cb-bff8-3c209514cb04",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

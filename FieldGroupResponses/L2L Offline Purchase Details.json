@@ -1,0 +1,134 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/1e53e946da8e5e2e553f6a8847017eb738baa2735deed3d9",
+    "meta:altId": "_deloitte_digitalengage.mixins.1e53e946da8e5e2e553f6a8847017eb738baa2735deed3d9",
+    "meta:resourceType": "mixins",
+    "version": "1.11",
+    "title": "L2L Offline Purchase Details",
+    "type": "object",
+    "description": "L2L Offline Purchase",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "OrderId": {
+                            "title": "OrderId",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "meta:xdmType": "string"
+                        },
+                        "ProductCategory": {
+                            "title": "ProductCategory",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "meta:xdmType": "string"
+                        },
+                        "ProductId": {
+                            "title": "ProductId",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "meta:xdmType": "string"
+                        },
+                        "ProductName": {
+                            "title": "ProductName",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "meta:xdmType": "string"
+                        },
+                        "ProductPrice": {
+                            "title": "ProductPrice",
+                            "description": "",
+                            "type": "number",
+                            "isRequired": false,
+                            "meta:xdmType": "number"
+                        },
+                        "ProductQuantity": {
+                            "title": "ProductQuantity",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "meta:xdmType": "string"
+                        },
+                        "ProductSku": {
+                            "title": "ProductSku",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "meta:xdmType": "string"
+                        },
+                        "STORENO": {
+                            "title": "STORENO",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "meta:xdmType": "string"
+                        },
+                        "OrderDate": {
+                            "title": "OrderDate",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": false,
+                            "format": "date-time",
+                            "meta:xdmType": "date-time"
+                        },
+                        "Purchases": {
+                            "title": "Purchases",
+                            "description": "",
+                            "isRequired": false,
+                            "$ref": "https://ns.adobe.com/xdm/data/measure",
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        },
+                        "CRMID": {
+                            "title": "CRMID",
+                            "description": "",
+                            "type": "string",
+                            "isRequired": true,
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object",
+                    "required": [
+                        "CRMID"
+                    ]
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/796cb618d15f29e1948d799896118a957ffeb839591b19b8"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1587824101706,
+        "repo:lastModifiedDate": 1588862032487,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "7C146DB94D3A08D00A746C2C@AdobeID",
+        "xdm:lastModifiedUserId": "7C146DB94D3A08D00A746C2C@AdobeID",
+        "eTag": "725c082d4c2c81e9a70d82b27a2c2efff817eee80928f1aac4bffa60e8c9ad91",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

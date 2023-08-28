@@ -1,0 +1,74 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/ecid",
+        "xdm:namespace": "ECID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/b2b/personKey/sourceKey",
+        "xdm:namespace": "KDR",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workPhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mobilePhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/3b55df4f465703f2bcb3aee68c0947ec9bed669d45a9d607",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personID",
+        "xdm:namespace": "KDR",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

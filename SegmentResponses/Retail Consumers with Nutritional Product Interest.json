@@ -1,0 +1,131 @@
+{
+    "id": "09ca2bda-723c-4b4a-a5c8-6edb6c40ccbc",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+        "sandboxName": "aep-deloitte-aoe-poc",
+        "type": "development",
+        "default": false
+    },
+    "name": "Retail Consumers with Nutritional Product Interest",
+    "description": "Send newsletters to consumers with interests in nutritional products as per the Country guidelines",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"fnApply\",\"fnName\":\"and\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"isNotNull\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"address\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"personalEmail\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}]},{\"nodeType\":\"fnApply\",\"fnName\":\"or\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"contains\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"productInterest\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"interests\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Cereals\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"contains\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"productInterest\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"interests\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Fruits\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"contains\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"productInterest\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"interests\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"Vegetables\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"preferredLanguage\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"email\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"English\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"country\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"homeAddress\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"United States\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": false
+        },
+        "continuous": {
+            "enabled": true
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1644843631000,
+    "updateEpoch": 1648200526,
+    "updateTime": 1648200526000,
+    "createEpoch": 1644843631,
+    "_etag": "\"4300b284-0000-0200-0000-623d8b4e0000\"",
+    "dependents": [],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "ansibleDataModel": {
+        "dataModel": {
+            "expression": {
+                "isValid": true,
+                "logicalOperator": "and",
+                "profileAttributesContainer": {
+                    "exclude": false,
+                    "items": [
+                        {
+                            "comparisonType": "isNotNull",
+                            "component": {
+                                "id": "profile.personalEmail.address",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [],
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "comparisonType": "contains",
+                            "component": {
+                                "id": "profile._deloitte_digitalengage.interests.productInterest",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [
+                                "Cereals",
+                                "Fruits",
+                                "Vegetables"
+                            ],
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "comparisonType": "equals",
+                            "component": {
+                                "id": "profile._deloitte_digitalengage.email.preferredLanguage",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [
+                                "English"
+                            ],
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "comparisonType": "equals",
+                            "component": {
+                                "id": "profile.homeAddress.country",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [
+                                "United States"
+                            ],
+                            "itemType": "segmentRule"
+                        }
+                    ],
+                    "logicalOperator": "and",
+                    "itemType": "segmentContainer"
+                },
+                "xEventAttributesContainer": {
+                    "exclude": false,
+                    "items": [],
+                    "logicalOperator": "then",
+                    "itemType": "eventTypeCardContainer"
+                },
+                "itemType": "segmentDefinition"
+            }
+        },
+        "hash": "579225240",
+        "version": "1.0.0"
+    },
+    "overridePerformanceWarnings": false
+}

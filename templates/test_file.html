@@ -1,0 +1,43 @@
+{% extends 'base.html' %}
+{% block title %} Sandboxes {% endblock title %}
+{% block body %}
+    <div class="container my-5" >
+        <div class="row">
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="static\mixin1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Field Groups</h5>
+                      <p class="card-text">Field groups are reusable components that define one or more fields that implement certain functions such as personal details, hotel preferences, or address. Field groups are intended to be included as part of a schema that implements a compatible class.</p>
+                      <a href="/fieldgroup" class="btn btn-primary">Field Group</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="static\schema.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Schema</h5>
+                      <p class="card-text">A schema is a set of rules that represent and validate the structure and format of data. At a high level, schemas provide an abstract definition of a real-world object and outline what data should be included in each instance of that object.</p>
+                      <a href="/schema" class="btn btn-primary">Schema</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="static\dataset.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">Dataset</h5>
+                      <p class="card-text">A dataset is a storage and management construct for a collection of data, typically a table, that contains a schema (columns) and fields (rows). Datasets also contain metadata that describes various aspects of the data they store.</p>
+                      <a href="/dataset" class="btn btn-primary">Dataset</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+    
+   
+{% endblock body %}

@@ -1,0 +1,162 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/387f5bec01bad441af80dced4a72e79d443aad30e2762ce3",
+    "meta:altId": "_prudential.mixins.387f5bec01bad441af80dced4a72e79d443aad30e2762ce3",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Indicators",
+    "type": "object",
+    "description": "Defines indicators to identify the various preferences of customer and account like marketing permission indicator, email consent indicator, call consent indicator,  preferred email indicator, preferred phone indicator and more",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "deletedInd": {
+                            "required": [],
+                            "type": "boolean",
+                            "description": "",
+                            "title": "Deleted Indicator",
+                            "meta:xdmType": "boolean"
+                        },
+                        "address": {
+                            "properties": {
+                                "mailConsentInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Based on One Trust preference model",
+                                    "title": "Mail Consent Indicator",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "preferredAddressInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Y/N indicator to identify the preferred address of the customer",
+                                    "title": "Preferred Address Indicator",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "undeliverableAddressInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Y/N indicator to identify if the address has been identified undeliverable",
+                                    "title": "Undeliverable Address Indicator",
+                                    "meta:xdmType": "boolean"
+                                }
+                            },
+                            "required": [],
+                            "note": "",
+                            "type": "object",
+                            "description": "",
+                            "title": "Address",
+                            "meta:xdmType": "object"
+                        },
+                        "customerMarketingPermissionInd": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Customer Marketing Permission Indicator",
+                            "meta:xdmType": "boolean",
+                            "description": "Based on One Trust preference model"
+                        },
+                        "phone": {
+                            "properties": {
+                                "preferredPhoneInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Y/N indicator to identify the preferred phone contact of the customer",
+                                    "title": "Preferred Phone Indicator",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "unreachablePhoneInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Y/N indicator to identify the phone contact has been unreachable",
+                                    "title": "Unreachable Phone Indicator",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "callConsentInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Based on One Trust preference model",
+                                    "title": "Call Consent Indicator",
+                                    "meta:xdmType": "boolean"
+                                }
+                            },
+                            "required": [],
+                            "note": "",
+                            "type": "object",
+                            "description": "",
+                            "title": "Phone",
+                            "meta:xdmType": "object"
+                        },
+                        "email": {
+                            "properties": {
+                                "preferredEmailInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Y/N indicator to identify the preferred email address of a party",
+                                    "title": "Preferred Email Indicator",
+                                    "meta:xdmType": "boolean"
+                                },
+                                "emailConsentInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "title": "Email Consent Indicator",
+                                    "meta:xdmType": "boolean",
+                                    "description": "Based on One Trust preference model"
+                                },
+                                "undeliverableEmailInd": {
+                                    "required": [],
+                                    "type": "boolean",
+                                    "description": "Y/N indicator to identify the email address is invalid or undeliverable",
+                                    "title": "Undeliverable Email Indicator",
+                                    "meta:xdmType": "boolean"
+                                }
+                            },
+                            "required": [],
+                            "type": "object",
+                            "title": "Email",
+                            "meta:xdmType": "object"
+                        },
+                        "accountMarketingPermissionInd": {
+                            "required": [],
+                            "type": "boolean",
+                            "description": "Based on One Trust preference model",
+                            "title": "Account Marketing Permission Indicator",
+                            "meta:xdmType": "boolean"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703511204,
+        "repo:lastModifiedDate": 1669703511204,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "ae7f3e3bc296c63f0c79377ec2229b3f7a7762d8b24932f1192a495f245dcb1d",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

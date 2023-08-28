@@ -1,0 +1,83 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/3474daea18a0c51c6198209603304baff518751166ad697",
+    "meta:altId": "_deloitte_digitalengage.mixins.3474daea18a0c51c6198209603304baff518751166ad697",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "LTV_RECORDS",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "LTV_RECORDS": {
+                            "title": "LTV_RECORDS",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "L2L_CRM_ID": {
+                                    "title": "L2L_CRM_ID",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "LTV_Score": {
+                                    "title": "LTV_Score",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "LTV": {
+                                    "title": "LTV",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1646216110758,
+        "repo:lastModifiedDate": 1646216110758,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "xdm:lastModifiedUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "eTag": "4834256643c1d475c8b2e45ad6599ba94d1de6dc2699f9d23be6f0792a305843",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

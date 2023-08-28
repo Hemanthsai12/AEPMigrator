@@ -1,0 +1,11 @@
+{
+    "updateTime": 1667892863794,
+    "code": "AccountName",
+    "status": "ACTIVE",
+    "id": 12974756,
+    "createTime": 1667892863794,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Account Name",
+    "custom": true
+}

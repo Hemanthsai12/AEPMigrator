@@ -1,0 +1,11 @@
+{
+    "updateTime": 1668512590646,
+    "code": "ProductSummaryId",
+    "status": "ACTIVE",
+    "id": 13010036,
+    "createTime": 1668512590646,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Product Summary Id",
+    "custom": true
+}

@@ -1,0 +1,12 @@
+{
+    "updateTime": 1668496396635,
+    "code": "EDPAccountId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the account",
+    "id": 13008356,
+    "createTime": 1668496396635,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "EDP Account Id",
+    "custom": true
+}

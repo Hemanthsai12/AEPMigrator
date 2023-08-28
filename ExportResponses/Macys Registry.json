@@ -1,0 +1,49 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.classes.dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+        "meta:resourceType": "classes",
+        "version": "1.0",
+        "title": "Registry",
+        "type": "object",
+        "description": "",
+        "definitions": {
+            "customFields": {
+                "properties": {}
+            }
+        },
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/data/record",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "#/definitions/customFields",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "meta:extensible": true,
+        "meta:abstract": true,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/data/record"
+        ],
+        "meta:xdmType": "object",
+        "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+        "meta:sandboxType": "production",
+        "meta:allFieldAccess": true
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/7495017fbcc54e0abce008c332890485e6cd38df71e3b697",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/registryDiv",
+        "xdm:namespace": "registryIdDivid",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    }
+]

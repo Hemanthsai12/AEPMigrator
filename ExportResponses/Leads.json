@@ -1,0 +1,38 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/96abecad671a84dc9e31b3d559e4176338d83396343c0c0c",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/leadIdentities/leadId",
+        "xdm:namespace": "LeadID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/96abecad671a84dc9e31b3d559e4176338d83396343c0c0c",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personalEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/96abecad671a84dc9e31b3d559e4176338d83396343c0c0c",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mobilePhone/number",
+        "xdm:namespace": "Phone",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

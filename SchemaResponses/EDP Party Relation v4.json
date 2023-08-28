@@ -1,0 +1,47 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/c36eca62a42d49cf01d289599659f9c6af8c05eab9864ea4",
+    "meta:altId": "_deloitte_digitalengage.schemas.c36eca62a42d49cf01d289599659f9c6af8c05eab9864ea4",
+    "meta:resourceType": "schemas",
+    "version": "1.1",
+    "title": "EDP Party Relation v4",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/9be4b5c99391175cfa17934022f47c1da583d21a8fba02eb",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/9be4b5c99391175cfa17934022f47c1da583d21a8fba02eb",
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1663918966181,
+        "repo:lastModifiedDate": 1663920938642,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "xdm:lastModifiedUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "eTag": "a86a3dd3a94b7c6df8bdfa34fb93ebd1b00fe700079330a9383cc2da4c50812a",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169391642,
+    "code": "VWF",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_static_list_member_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506716,
+    "createTime": 1677169391642,
+    "idType": "B2B_MARKETING_LIST_MEMBER",
+    "namespaceType": "Custom",
+    "name": "marketo_static_list_member_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "static list member",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

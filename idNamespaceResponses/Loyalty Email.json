@@ -1,0 +1,11 @@
+{
+    "updateTime": 1646837396361,
+    "code": "loyaltyIDEmail",
+    "status": "ACTIVE",
+    "id": 11570116,
+    "createTime": 1646837396361,
+    "idType": "EMAIL",
+    "namespaceType": "Custom",
+    "name": "Loyalty Email",
+    "custom": true
+}

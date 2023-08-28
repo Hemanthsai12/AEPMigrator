@@ -1,0 +1,11 @@
+{
+    "updateTime": 1667892865732,
+    "code": "AddContactInfoId",
+    "status": "ACTIVE",
+    "id": 12974776,
+    "createTime": 1667892865732,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Additional Contact Information Id",
+    "custom": true
+}

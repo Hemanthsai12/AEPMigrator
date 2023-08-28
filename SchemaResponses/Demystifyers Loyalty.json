@@ -1,0 +1,46 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/6274d7c099aa60870e4d0dd917c4e5b81318abc102a46eaf",
+    "meta:altId": "_deloitte_digitalengage.schemas.6274d7c099aa60870e4d0dd917c4e5b81318abc102a46eaf",
+    "meta:resourceType": "schemas",
+    "version": "1.5",
+    "title": "Demystifyers Loyalty",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/classes/e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/a4261b1932232164839cc8608bf9f8b21a7fd1d43fd8dd12",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/a4261b1932232164839cc8608bf9f8b21a7fd1d43fd8dd12",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/deloitte_digitalengage/classes/e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658047258296,
+        "repo:lastModifiedDate": 1658371112978,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "xdm:lastModifiedUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "eTag": "3bcd8a7ef8d76d5e3109260efea91eab5fc3cb4f54ec5141038a6dd03f8751bc",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:class": "https://ns.adobe.com/deloitte_digitalengage/classes/e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138",
+    "meta:containerId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+    "meta:sandboxId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

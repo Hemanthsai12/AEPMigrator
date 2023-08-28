@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/3cf0cd12284f4d511b2d4e0f25b8b20df090acb894d0bfc7",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/emai_consent",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

@@ -1,0 +1,48 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/classes/eb2521321efbaaf04091263fe51c34857d55af5588e4092",
+    "meta:altId": "_deloitte_digitalengage.classes.eb2521321efbaaf04091263fe51c34857d55af5588e4092",
+    "meta:resourceType": "classes",
+    "version": "1.0",
+    "title": "SF_JobID_Sample_Data",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {}
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/data/time-series",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/time-series"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1666780539745,
+        "repo:lastModifiedDate": 1666780539745,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "C5F06E0462DD5B680A495CF7@c01c0af162dd3819495c7b.e",
+        "xdm:lastModifiedUserId": "C5F06E0462DD5B680A495CF7@c01c0af162dd3819495c7b.e",
+        "eTag": "29a82e09fcff5403b19b8df5abdb3f35cca37c62ff26d28fa615722d49181610",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "798b8024-4b71-4993-8b80-244b71b993e8",
+    "meta:sandboxId": "798b8024-4b71-4993-8b80-244b71b993e8",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

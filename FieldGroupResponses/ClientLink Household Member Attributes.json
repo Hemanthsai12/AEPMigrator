@@ -1,0 +1,109 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/4522e226c2824c82a3242c465b02845fca1e7b674ba292f9",
+    "meta:altId": "_prudential.mixins.4522e226c2824c82a3242c465b02845fca1e7b674ba292f9",
+    "meta:resourceType": "mixins",
+    "version": "1.2",
+    "title": "ClientLink Household Member Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "household": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Household",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "affluenceTier": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Affluence Tier",
+                            "meta:xdmType": "string"
+                        },
+                        "age": {
+                            "required": [],
+                            "type": "integer",
+                            "description": "",
+                            "title": "Age",
+                            "meta:xdmType": "int"
+                        },
+                        "assetLevel": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Asset Level ",
+                            "meta:xdmType": "string"
+                        },
+                        "cohortDescription": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Cohort Description",
+                            "meta:xdmType": "string"
+                        },
+                        "cohortGroup": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Cohort Group",
+                            "meta:xdmType": "string"
+                        },
+                        "householdMember": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Household Member",
+                            "meta:xdmType": "string"
+                        },
+                        "investmentRisk": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Investment Risk",
+                            "meta:xdmType": "string"
+                        },
+                        "name": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Label=Household Member Name",
+                            "title": "Name",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1668501541131,
+        "repo:lastModifiedDate": 1668524267894,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "09A5150062ED69D10A495F8C@58f520ae5b81c35b0a495d34",
+        "eTag": "f6068685f37db2d35fd3dc6d6b841f5185f395f0cfea163db869592e79e3fc30",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

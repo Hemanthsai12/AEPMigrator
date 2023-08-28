@@ -1,0 +1,67 @@
+{% extends 'base.html' %}
+{% block title %} Classes {% endblock title %}
+{% block body %}
+
+<div class="container">
+  {% for message in get_flashed_messages() %}
+    <div class="alert alert-primary">
+        <!--button type="button" class="close" data-dismiss="alert">&times;</button>-->
+        <button type="button" class="btn-close" aria-label="Close"></button>
+        {{ message }}
+    </div>
+  {% endfor %}
+</div>
+
+<div class="container my-5">
+  <form id="classForm" action="/class" method="POST">
+    <div class="container my-3" method="GET" action="/class"></div>
+      <h3>Select Classes </h3>
+      <div class="form-check">
+          <input class="form-check-input" name="selectAllCheckbox" type="checkbox" id="selectAllCheckbox">
+          <label class="form-check-label" for="selectAllCheckbox">
+              Select All
+          </label>
+      </div>
+      {% for classtitle in classesList[0:] %}
+        <div class="form-check">
+            <input class="form-check-input" name="sourceClassesCheckBox" type="checkbox" value="{{ classtitle }}" id="flexCheckDefault">
+            <label class="form-check-label" for="flexCheckDefault">
+                {{ classtitle }}
+            </label>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="container my-3">
+      <button id="submitButton" type="submit" class="btn btn-dark">Submit</button>
+    </div>
+  </form>
+</div>
+
+<script>
+  // Add event listener to "Select All" checkbox
+  const selectAllCheckbox = document.getElementById('selectAllCheckbox');
+  selectAllCheckbox.addEventListener('change', function() {
+      const checkboxes = document.querySelectorAll('input[name="sourceClassesCheckBox"]');
+      for (let i = 0; i < checkboxes.length; i++) {
+          checkboxes[i].checked = this.checked;
+      }
+  });
+  
+  // Add event listener to form submit button
+  const submitButton = document.getElementById('submitButton');
+  submitButton.addEventListener('click', function(event) {
+      // Prevent form from submitting immediately
+      event.preventDefault();
+      
+      // Show confirmation dialog box
+      if (confirm("Once Classes are created, they cannot be deleted. Are you sure you want to move them?")) {
+          // If user clicks "Yes", submit the form
+          document.getElementById('classForm').submit();
+      } else {
+          // If user clicks "No", do nothing
+          return false;
+      }
+  });
+</script>
+
+{% endblock body %}

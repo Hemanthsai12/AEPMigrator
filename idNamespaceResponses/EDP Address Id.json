@@ -1,0 +1,12 @@
+{
+    "updateTime": 1668500539587,
+    "code": "EDPAddressId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the address",
+    "id": 13008896,
+    "createTime": 1668500539587,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "EDP Address Id",
+    "custom": true
+}

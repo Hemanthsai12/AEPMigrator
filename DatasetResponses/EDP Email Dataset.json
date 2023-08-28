@@ -1,0 +1,1 @@
+{"name": "EDP Email Dataset", "schemaRef": {"id": "https://ns.adobe.com/prudential/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8", "contentType": "application/vnd.adobe.xed-full+json;version=1"}, "fileDescription": {"format": "parquet"}}

@@ -1,0 +1,108 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/15f26e0b4b7dc61da64023f8d3daf368ffb84bbd916b8b38",
+    "meta:altId": "_prudential.mixins.15f26e0b4b7dc61da64023f8d3daf368ffb84bbd916b8b38",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "EDP Customer Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "personaCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Persona Code",
+                            "meta:xdmType": "string"
+                        },
+                        "cohortCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Cohort Code",
+                            "meta:xdmType": "string"
+                        },
+                        "cohortDescription": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Cohort Description",
+                            "meta:xdmType": "string"
+                        },
+                        "personaDescription": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Persona Description",
+                            "meta:xdmType": "string"
+                        },
+                        "c1Persona": {
+                            "required": [],
+                            "type": "string",
+                            "title": "C1 Persona",
+                            "meta:xdmType": "string"
+                        },
+                        "financialRisk": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Financial Risk",
+                            "meta:xdmType": "string"
+                        },
+                        "c1QuadrantILI": {
+                            "required": [],
+                            "type": "string",
+                            "title": "C1 Quadrant ILI",
+                            "meta:xdmType": "string"
+                        },
+                        "c1QuadrantAnn": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "C1 Quadrant Ann",
+                            "meta:xdmType": "string"
+                        },
+                        "c1QuadrantRAS": {
+                            "required": [],
+                            "type": "string",
+                            "title": "C1 Quadrant RAS",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703601012,
+        "repo:lastModifiedDate": 1670838568863,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "09A5150062ED69D10A495F8C@58f520ae5b81c35b0a495d34",
+        "eTag": "945dc5636bdd5b9b1baaa38f6f232da70c2e4c2f068c87ea1e47eb5fa7f7a736",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

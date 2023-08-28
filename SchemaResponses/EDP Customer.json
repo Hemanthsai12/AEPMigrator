@@ -1,0 +1,91 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+    "meta:altId": "_prudential.schemas.4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+    "meta:resourceType": "schemas",
+    "version": "1.1",
+    "title": "EDP Customer",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/person/_prudential",
+                "/person/birthDate",
+                "/person/birthDayAndMonth",
+                "/person/birthYear",
+                "/person/taxId",
+                "/person/name/_prudential",
+                "/person/name/courtesyTitle",
+                "/person/name/firstName",
+                "/person/name/fullName",
+                "/person/name/lastName",
+                "/person/name/middleName",
+                "/person/name/suffix",
+                "/person/name/_prudential/preferredName",
+                "/person/_prudential/martialStatusCode",
+                "/person/_prudential/genderCode"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/19655bc8d81606a6c4c969f15c61c70794a15d670095c82b",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/partyId",
+                "/_prudential/customerId"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/customerMarketingPermissionInd",
+                "/_prudential/deletedInd"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/387f5bec01bad441af80dced4a72e79d443aad30e2762ce3",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/15f26e0b4b7dc61da64023f8d3daf368ffb84bbd916b8b38",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+        "https://ns.adobe.com/xdm/context/profile-person-details",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/prudential/mixins/387f5bec01bad441af80dced4a72e79d443aad30e2762ce3",
+        "https://ns.adobe.com/prudential/mixins/19655bc8d81606a6c4c969f15c61c70794a15d670095c82b",
+        "https://ns.adobe.com/prudential/mixins/15f26e0b4b7dc61da64023f8d3daf368ffb84bbd916b8b38"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703602071,
+        "repo:lastModifiedDate": 1671533933518,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "5a1f0346a921730ba24ed2522c1ee680c7f7152ce392f0dc05991a708a9efcf8",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

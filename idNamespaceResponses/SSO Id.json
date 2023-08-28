@@ -1,0 +1,11 @@
+{
+    "updateTime": 1666952257008,
+    "code": "SSOId",
+    "status": "ACTIVE",
+    "id": 12913536,
+    "createTime": 1666952257008,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "SSO Id",
+    "custom": true
+}

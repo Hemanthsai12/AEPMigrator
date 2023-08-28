@@ -1,0 +1,102 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/9bdb596c751bd71ef4f0f14a0da93d04d0d1142144e348af",
+    "meta:altId": "_deloitte_digitalengage.mixins.9bdb596c751bd71ef4f0f14a0da93d04d0d1142144e348af",
+    "meta:resourceType": "mixins",
+    "version": "1.2",
+    "title": "Lead Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "isConverted": {
+                            "title": "Is Converted",
+                            "description": "",
+                            "type": "boolean",
+                            "required": [],
+                            "meta:xdmType": "boolean"
+                        },
+                        "leadRating": {
+                            "title": "Lead Rating",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "leadStatus": {
+                            "title": "Lead Status",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "leadIdentities": {
+                            "title": "Lead Identities",
+                            "description": "Identities related to Leads",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "convertedAccountId": {
+                                    "title": "Converted Account Id",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "convertedContactId": {
+                                    "title": "Converted Contact Id",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "leadId": {
+                                    "title": "Lead Id",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1650973160265,
+        "repo:lastModifiedDate": 1664194671503,
+        "xdm:createdClientId": "f715073fcb1343b68777e4d9bf294964",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "FE1E34E8621E09CE0A495FC6@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "eTag": "2222f9bea10d99cd1bbacae1ad2e315e5c14db3d0eb0be9f4c787237311d85b2",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

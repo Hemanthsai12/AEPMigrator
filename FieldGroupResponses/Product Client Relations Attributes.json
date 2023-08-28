@@ -1,0 +1,105 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/cb29104b9881014b187b6d156133f81a0d23a72e9a9637d4",
+    "meta:altId": "_prudential.mixins.cb29104b9881014b187b6d156133f81a0d23a72e9a9637d4",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Product Client Relations Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "interestedPartyId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Interested Party ID",
+                            "meta:xdmType": "string"
+                        },
+                        "faceAmount": {
+                            "required": [],
+                            "type": "integer",
+                            "description": "",
+                            "title": "Face Amount",
+                            "meta:xdmType": "int"
+                        },
+                        "accountLifeBenefitAmount": {
+                            "required": [],
+                            "type": "integer",
+                            "description": "",
+                            "title": "Account Life Benefit Amount",
+                            "meta:xdmType": "int"
+                        },
+                        "accountDisabilityMonthlyBen": {
+                            "required": [],
+                            "type": "integer",
+                            "description": "",
+                            "title": "Account Disability Monthly Ben",
+                            "meta:xdmType": "int"
+                        },
+                        "role": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Role",
+                            "meta:xdmType": "string"
+                        },
+                        "relationshipStatus": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Relationship Status",
+                            "meta:xdmType": "string"
+                        },
+                        "productIdProductClientRelations": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Product ID Product Client Relations",
+                            "meta:xdmType": "string",
+                            "description": "Label=Pol/Acct #"
+                        },
+                        "productClientID": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Label=Account Name",
+                            "title": "Product Client ID",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1668512693370,
+        "repo:lastModifiedDate": 1668514398625,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "ea259afc3a1c01d999c2c6c6b6573257004e170f25e09f1cf4a9fa8259902c39",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

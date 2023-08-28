@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/f6a5555cd66d17eb375e635839ff47aa93ad97314f03d554",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personKey/sourceKey",
+        "xdm:namespace": "KDR",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

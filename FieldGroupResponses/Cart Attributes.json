@@ -1,0 +1,199 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/254c5ac4fe9186f784c1da8ecfc6e83a23a319d116858831",
+    "meta:altId": "_deloitteemeanorthpartnersand.mixins.254c5ac4fe9186f784c1da8ecfc6e83a23a319d116858831",
+    "meta:resourceType": "mixins",
+    "version": "1.6",
+    "title": "Cart Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitteemeanorthpartnersand": {
+                    "type": "object",
+                    "properties": {
+                        "cart": {
+                            "title": "Cart",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "cartValue": {
+                                    "title": "Cart Value",
+                                    "description": "",
+                                    "type": "number",
+                                    "required": [],
+                                    "meta:xdmType": "number"
+                                },
+                                "createdDate": {
+                                    "title": "Created Date",
+                                    "description": "",
+                                    "type": "object",
+                                    "isRequired": false,
+                                    "required": [],
+                                    "properties": {
+                                        "createdYear": {
+                                            "title": "Created Year",
+                                            "description": "",
+                                            "type": "integer",
+                                            "required": [],
+                                            "meta:xdmType": "int"
+                                        },
+                                        "createdMonth": {
+                                            "title": "Created Month",
+                                            "description": "",
+                                            "type": "integer",
+                                            "required": [],
+                                            "meta:xdmType": "int"
+                                        },
+                                        "createdDate": {
+                                            "title": "Created Date",
+                                            "description": "",
+                                            "type": "string",
+                                            "format": "date-time",
+                                            "required": [],
+                                            "meta:xdmType": "date-time"
+                                        }
+                                    },
+                                    "meta:xdmType": "object"
+                                },
+                                "lastModifiedDate": {
+                                    "title": "Last Modified Date",
+                                    "description": "",
+                                    "type": "object",
+                                    "isRequired": false,
+                                    "required": [],
+                                    "properties": {
+                                        "lastModifiedMonth": {
+                                            "title": "Last Modified Month",
+                                            "description": "",
+                                            "type": "integer",
+                                            "required": [],
+                                            "meta:xdmType": "int"
+                                        },
+                                        "lastModifiedYear": {
+                                            "title": "Last Modified Year",
+                                            "description": "",
+                                            "type": "integer",
+                                            "required": [],
+                                            "meta:xdmType": "int"
+                                        },
+                                        "lastModifiedDate": {
+                                            "title": "Last Modified Date",
+                                            "description": "",
+                                            "type": "string",
+                                            "format": "date-time",
+                                            "required": [],
+                                            "meta:xdmType": "date-time"
+                                        }
+                                    },
+                                    "meta:xdmType": "object"
+                                },
+                                "cartQuantity": {
+                                    "title": "Cart Quantity",
+                                    "description": "",
+                                    "type": "integer",
+                                    "required": [],
+                                    "meta:xdmType": "int"
+                                },
+                                "status": {
+                                    "title": "Status",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "productID": {
+                                    "title": "Product ID",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "cartID": {
+                                    "title": "Cart ID",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        },
+                        "purchaseID": {
+                            "title": "Purchase ID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "sessionPlatform": {
+                            "title": "Session Platform",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "customer": {
+                            "title": "Customer",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "email": {
+                                    "title": "Email",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "customerUniqueID": {
+                                    "title": "Customer Unique ID",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1644492769116,
+        "repo:lastModifiedDate": 1645022005904,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "2aee17755f82a15e824b7e52a3693724b3dd418913b3892cb7a169033c161023",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:allFieldAccess": true
+}

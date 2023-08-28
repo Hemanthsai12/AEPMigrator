@@ -1,0 +1,11 @@
+{
+    "updateTime": 1668512581632,
+    "code": "CRMAccountId",
+    "status": "ACTIVE",
+    "id": 13009936,
+    "createTime": 1668512581632,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "CRM Account Id",
+    "custom": true
+}

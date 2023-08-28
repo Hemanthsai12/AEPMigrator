@@ -1,0 +1,233 @@
+{
+    "id": "583e2933-f957-471f-8374-6158fd48b5e0",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "sandboxName": "training",
+        "type": "development",
+        "default": false
+    },
+    "name": "ImportList-email1",
+    "description": "",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"fnApply\",\"fnName\":\"and\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"in\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"status\",\"object\":{\"nodeType\":\"fnApply\",\"fnName\":\"get\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"get\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"segmentMembership\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}},{\"nodeType\":\"literal\",\"literalType\":\"String\",\"value\":\"externalSegmentID\"}]},{\"nodeType\":\"literal\",\"literalType\":\"String\",\"value\":\"cohortlty1-B\"}]}},{\"nodeType\":\"literal\",\"literalType\":\"List\",\"value\":[\"realized\",\"existing\"]}]},{\"nodeType\":\"fnApply\",\"fnName\":\"equals\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"xid\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"profileStitchID\",\"object\":{\"nodeType\":\"fnApply\",\"fnName\":\"get\",\"params\":[{\"nodeType\":\"fnApply\",\"fnName\":\"get\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"segmentMembership\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}},{\"nodeType\":\"literal\",\"literalType\":\"String\",\"value\":\"externalSegmentID\"}]},{\"nodeType\":\"literal\",\"literalType\":\"String\",\"value\":\"Email\"}]}}},{\"literalType\":\"String\",\"nodeType\":\"literal\",\"value\":\"a@gmail.com\"},{\"nodeType\":\"literal\",\"literalType\":\"Boolean\",\"value\":false}]}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": true
+        },
+        "continuous": {
+            "enabled": false
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1672999685000,
+    "updateEpoch": 1672999687,
+    "updateTime": 1672999687000,
+    "createEpoch": 1672999685,
+    "_etag": "\"d10186f6-0000-0200-0000-63b7f3070000\"",
+    "dependents": [],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "ansibleDataModel": {
+        "dataModel": {
+            "expression": {
+                "isValid": true,
+                "logicalOperator": "and",
+                "profileAttributesContainer": {
+                    "exclude": false,
+                    "items": [
+                        {
+                            "comparisonType": "in",
+                            "component": {
+                                "id": "profile.segmentMembership.segmentID._id",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": {
+                                "canHaveFolder": true,
+                                "deprecated": {
+                                    "status": false,
+                                    "reason": ""
+                                },
+                                "description": "cohortlty1-B audience with medium propensity",
+                                "evaluationInfo": {
+                                    "batch": {
+                                        "enabled": true
+                                    },
+                                    "continuous": {
+                                        "enabled": false
+                                    },
+                                    "synchronous": {
+                                        "enabled": false
+                                    }
+                                },
+                                "expression": {
+                                    "isValid": false,
+                                    "logicalOperator": "and",
+                                    "profileAttributesContainer": {
+                                        "exclude": false,
+                                        "items": [],
+                                        "logicalOperator": "and",
+                                        "itemType": "segmentContainer"
+                                    },
+                                    "xEventAttributesContainer": {
+                                        "exclude": false,
+                                        "items": [],
+                                        "logicalOperator": "then",
+                                        "itemType": "eventTypeCardContainer"
+                                    },
+                                    "itemType": "segmentDefinition"
+                                },
+                                "id": "cohortlty1-B",
+                                "isMissingAnsibleModel": false,
+                                "labels": [],
+                                "mergePolicyId": "",
+                                "name": "cohortlty1-B",
+                                "namespace": "externalSegmentID",
+                                "parentFolderId": "root",
+                                "schema": {
+                                    "id": "some id",
+                                    "name": "_xdm.context.profile"
+                                },
+                                "schemaName": "",
+                                "status": "ACTIVE",
+                                "tags": []
+                            },
+                            "itemType": "segmentRule"
+                        },
+                        {
+                            "exclude": false,
+                            "isPlaceholder": false,
+                            "items": [
+                                {
+                                    "exclude": false,
+                                    "isPlaceholder": false,
+                                    "items": [
+                                        {
+                                            "comparisonType": "equals",
+                                            "component": {
+                                                "id": "profile.segmentMembership.profileStitchID.xid",
+                                                "__entity__": true,
+                                                "type": "n"
+                                            },
+                                            "isPlaceholder": false,
+                                            "originalLocation": [],
+                                            "value": [
+                                                "a@gmail.com"
+                                            ],
+                                            "itemType": "segmentRule"
+                                        }
+                                    ],
+                                    "logicalOperator": "and",
+                                    "mapKey": "Email",
+                                    "multiValuedParentsAllData": [
+                                        {
+                                            "id": "segmentMembership",
+                                            "name": "Segment membership map",
+                                            "isMap": true,
+                                            "xdmPathIds": [
+                                                "profile",
+                                                "segmentMembership"
+                                            ]
+                                        },
+                                        {
+                                            "id": "segmentMembership",
+                                            "name": "Segment membership per namespace",
+                                            "isMap": true,
+                                            "xdmPathIds": [
+                                                "profile",
+                                                "segmentMembership"
+                                            ]
+                                        }
+                                    ],
+                                    "occurrenceCount": 1,
+                                    "occurrenceCountUpper": 2,
+                                    "occurrenceOperator": "atLeast",
+                                    "originalLocation": [],
+                                    "subType": "map",
+                                    "useAnyMapKey": false,
+                                    "xdmPathIds": [
+                                        "profile",
+                                        "segmentMembership",
+                                        "profileStitchID",
+                                        "xid"
+                                    ],
+                                    "itemType": "multiValueParentContainer"
+                                }
+                            ],
+                            "logicalOperator": "and",
+                            "mapKey": "externalSegmentID",
+                            "multiValuedParentsAllData": [
+                                {
+                                    "id": "segmentMembership",
+                                    "name": "Segment membership map",
+                                    "isMap": true,
+                                    "xdmPathIds": [
+                                        "profile",
+                                        "segmentMembership"
+                                    ]
+                                }
+                            ],
+                            "occurrenceCount": 1,
+                            "occurrenceCountUpper": 2,
+                            "occurrenceOperator": "atLeast",
+                            "originalLocation": [],
+                            "subType": "map",
+                            "useAnyMapKey": false,
+                            "xdmPathIds": [
+                                "profile",
+                                "segmentMembership",
+                                "profileStitchID",
+                                "xid"
+                            ],
+                            "itemType": "multiValueParentContainer"
+                        }
+                    ],
+                    "logicalOperator": "and",
+                    "itemType": "segmentContainer"
+                },
+                "xEventAttributesContainer": {
+                    "exclude": false,
+                    "items": [],
+                    "logicalOperator": "then",
+                    "itemType": "eventTypeCardContainer"
+                },
+                "itemType": "segmentDefinition"
+            }
+        },
+        "hash": "204514862",
+        "version": "1.0.0"
+    },
+    "overridePerformanceWarnings": false,
+    "createdBy": "C78D4E7B62DD5B620A495EA3@c01c0af162dd3819495c7b.e",
+    "lifecycle": "active",
+    "namespace": "AEPSegments",
+    "audienceId": "583e2933-f957-471f-8374-6158fd48b5e0",
+    "isSystem": false,
+    "saveSegmentMembership": true,
+    "origin": "REAL_TIME_CUSTOMER_PROFILE",
+    "tags": [],
+    "lifecycleState": "published",
+    "originName": "REAL_TIME_CUSTOMER_PROFILE"
+}

@@ -1,0 +1,281 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/8f63b93a62bdb4961440a7edbc93567bff3ed38d4199ee6b",
+    "meta:altId": "_deloitte_digitalengage.mixins.8f63b93a62bdb4961440a7edbc93567bff3ed38d4199ee6b",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Marketing Response Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "property": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "responseDataCardIDExt": {
+                            "title": "Response DataCard External Id",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "responseDataCArdCreatedAt": {
+                            "title": "Response DataCard Created At",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "meta:xdmType": "date-time"
+                        },
+                        "responseDateCreated": {
+                            "title": "Response Date Created",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "meta:xdmType": "date-time"
+                        },
+                        "dateLastNormalized": {
+                            "title": "Response Date Last Normalized",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "meta:xdmType": "date-time"
+                        },
+                        "action": {
+                            "title": "Response Action",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "campaignEmailNumber": {
+                            "title": "Response Campaign Email Number",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "object": {
+                            "title": "Response Objet",
+                            "description": "Used to join response data to Eloqua contact",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "specificInterest": {
+                            "title": "Response Specific Interest",
+                            "description": "yyyy-mm-dd hh:mm:ss.s",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "specificInterestDescription": {
+                            "title": "Response Specific Interest Description",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "orderStatus": {
+                            "title": "Response Order Status",
+                            "description": "yyyy-mm-dd hh:mm:ss.s",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "levelOfAuthentication": {
+                            "title": "Response Level of Authentication",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "eventDate": {
+                            "title": "Response Event Date",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "meta:xdmType": "date-time"
+                        },
+                        "generalNotes": {
+                            "title": "Response General Notes",
+                            "description": "Get full list of possible values\neg.\nWEB-20190408074057268.7, ECOM-637823-1, FLX-2019-04-0506:38:20.529.20, L3353-teren.abear@sce.com\n\nNOTE: This could be used as key to update existing status, depending on source. Example, same Response Unique ID updates from \"Registered\" to \"Attended\"\n\nOr, same response updated ecommerce from PENDING to COMPLETE",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "projectTimeline": {
+                            "title": "Response Project Timeline",
+                            "description": "Downloaded, Ordered, Attended, No Show, Registered, Cancelled, Contacted",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "firstLeadActivityCreated": {
+                            "title": "Response First Lead Activity Created?",
+                            "description": "",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "responseSource": {
+                            "title": "Response Source",
+                            "description": "Flexera, Registered Download-Registration With Click-Thru Software Licensing Agreement, Registered Download-Registration without Disclaimer, Registered Download-Moderated Software Licensing For Download Without FAE, Registered Download-None, DevTech Development Suites-Registration With Click-Thru Software Licensing Agreement , Moderated Download-Moderated Software Licensing For Download, Marketing Leverage Download-None, Registered Download-Click-Thru Software Licensing Agreement-No Registration, Registered Download-Moderated Software Licensing For Download, Registered Download-",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "leadResponse": {
+                            "title": "Lead Response?",
+                            "description": "yyyy-mm-dd hh:mm:ss.s",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "preferredDisty": {
+                            "title": "Response Preferred Disty",
+                            "description": "Impacted by source; setup regex rules ahead of time to parse traits\n\nE.g. QTY:15,\nURL:http://www.nxp.com/webapp/Download?colCode=S32K142_EVB_JumpStart_Firmware&amp;location=null\n",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "projectDescription": {
+                            "title": "Response Project Description",
+                            "description": "Unknown,Less Than 6 Months, Up to 1 year, Up to 2 years, Up to 3 years,Up to 4 years,Up to 5 years, 5 years and beyond",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "dateLeadResponseSent": {
+                            "title": "Response Date Lead Response Sent",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "meta:xdmType": "date-time"
+                        },
+                        "sfdcActivityID": {
+                            "title": "SFDC Activity ID",
+                            "description": "double colon delimited (::)\n\nPower &amp; Energy\nIndustrial\nInfotainment\nNetworking\nSecure Transactions\nDrones &amp; Robots\nAutomotive\nPowertrain &amp; Vehicle Dynamics\nMotor Control\nMedical Electronics\nEnergy Generation and Transformation\nPower Management and Metering\nHome and Building Control\nConsumer Electronics\nSecure Transaction and Retail Payments\nOther Consumer Electronics\nFactory Automation\nBody &amp; Comfort\nDriver Replacement/ADAS\n",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "magCode": {
+                            "title": "Repsonse MAG Code",
+                            "description": "double colon delimited (::)\n\ne.g.:\n::166454674156050592::273903973695139956::472344574746184652::",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "leadCategory": {
+                            "title": "Response Lead Category",
+                            "description": "double colon delimited (::)\n\ne.g.\n::S32 Automotive Processors and Microcontrollers::Arm Processors::Processors and Microcontrollers::.",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "registrationMatchDetected": {
+                            "title": "Response Registration Match Detected?",
+                            "description": "Web,Flexera, Siebel, Ecommerce, Manual List, SFDC Case, SFDC Chat",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "registrationMatchDistributor": {
+                            "title": "Response Registration Match Distributor",
+                            "description": "1,0",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "relatedRegistrationDetected": {
+                            "title": "Response Related Registration Detected?",
+                            "description": "226 different values so far. \n\nExamples:\nNO PREFERENCE, ARROW ELECTRONICS, AVNET",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "relatedRegistrationDistributor": {
+                            "title": "Response Related Registration Distributor",
+                            "description": "Impacted by source; setup regex rules ahead of time to parse traits\n\ne.g.Design Stage: Evaluation Application Category: Automotive Prod Target Date: 2020-09-18 Annual Prod Volume: 1000-4999 Project: Customer will use can bus for Auto application",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "sfdcContextualActivityID": {
+                            "title": "SFDC Contextual Activity ID",
+                            "description": "yyyy-mm-dd hh:mm:ss.s",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "dateContextualResponseSent": {
+                            "title": "Response Date Contextual Response Sent",
+                            "description": "ID for linking to SFDC data?",
+                            "type": "string",
+                            "meta:xdmType": "string"
+                        },
+                        "emailAddressSD1": {
+                            "title": "Email Address",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "sfdcLeadID": {
+                            "title": "SFDC Lead ID",
+                            "description": "double colon delimited (::)\n\ne.g. ::465717342986925337::504252672859265859::989906768564138766::",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "responseDataCardUpdatedAt": {
+                            "title": "Response DataCard Updated At",
+                            "description": "",
+                            "type": "string",
+                            "format": "date-time",
+                            "required": [],
+                            "meta:xdmType": "date-time"
+                        },
+                        "contactIdExt": {
+                            "title": "Eloqua Contact ID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "sourceUniqueID": {
+                            "title": "Response Unique ID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/property",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1648016644827,
+        "repo:lastModifiedDate": 1648016644827,
+        "xdm:createdClientId": "9840e916304b43ef983641f264e3be3f",
+        "xdm:lastModifiedClientId": "9840e916304b43ef983641f264e3be3f",
+        "xdm:createdUserId": "03892394620BB47F0A495C74@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "03892394620BB47F0A495C74@techacct.adobe.com",
+        "eTag": "5537f9c331d2b4689e7f123f6ff145fc20808b526d408f37f05f2ebe3bf9214f",
+        "meta:globalLibVersion": "1.32.3"
+    },
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage"
+}

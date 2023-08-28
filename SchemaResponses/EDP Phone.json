@@ -1,0 +1,70 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+    "meta:altId": "_prudential.schemas.1fa343d6fe8dee306e908594a2dc7ef466e3bcadc78b44db",
+    "meta:resourceType": "schemas",
+    "version": "1.5",
+    "title": "EDP Phone",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/partyId",
+                "/_prudential/partyPhoneId"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/phoneAttributes[*]/phoneNumber/countryCode",
+                "/_prudential/phoneAttributes[*]/phoneNumber/extension",
+                "/_prudential/phoneAttributes[*]/phoneNumber/number",
+                "/_prudential/phoneAttributes[*]/phoneTypeCode",
+                "/_prudential/phoneAttributes[*]/phoneType",
+                "/_prudential/phoneAttributes[*]/preferredPhoneInd",
+                "/_prudential/phoneAttributes[*]/unreachablePhoneInd",
+                "/_prudential/phoneAttributes[*]/callConsentInd",
+                "/_prudential/phoneAttributes[*]/deletedInd",
+                "/_prudential/phoneAttributes[*]/phoneDeletedInd",
+                "/_prudential/phoneValue"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/cf30a1ffc98ada5375d93a0340db6607ff1877ad9458ee3b",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/prudential/mixins/cf30a1ffc98ada5375d93a0340db6607ff1877ad9458ee3b"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703634355,
+        "repo:lastModifiedDate": 1672828954266,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "dce74311c7a02a70eb7b5537995ee6fba33730b04a3023be318708e955be537e",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

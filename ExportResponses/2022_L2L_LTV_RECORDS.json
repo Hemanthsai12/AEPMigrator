@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/842543d69a7878298b010f920022d25fab8e5bbbe45b5dbb",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/LTV_RECORDS/L2L_CRM_ID",
+        "xdm:namespace": "CRMIdentity",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

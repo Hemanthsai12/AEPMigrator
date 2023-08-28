@@ -1,0 +1,58 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/c5657dd6676a4c4419cc90f6db125d505f1962ac27b0c263",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/compositePartyAccountid",
+        "xdm:namespace": "EDPPartyAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/c5657dd6676a4c4419cc90f6db125d505f1962ac27b0c263",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/accountId",
+        "xdm:namespace": "EDPAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/c5657dd6676a4c4419cc90f6db125d505f1962ac27b0c263",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyId",
+        "xdm:namespace": "EDPPartyId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/c5657dd6676a4c4419cc90f6db125d505f1962ac27b0c263",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Identifier"
+        },
+        "xdm:description": {
+            "en_us": "A unique identifier for the record."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

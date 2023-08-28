@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169384834,
+    "code": "XRK",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_opportunity_contact_role_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506636,
+    "createTime": 1677169384834,
+    "idType": "B2B_OPPORTUNITY_PERSON",
+    "namespaceType": "Custom",
+    "name": "marketo_opportunity_contact_role_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "opportunity contact role",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

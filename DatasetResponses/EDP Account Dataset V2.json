@@ -1,0 +1,1 @@
+{"name": "EDP Account Dataset V2", "schemaRef": {"id": "https://ns.adobe.com/prudential/schemas/cd0c775a675ca81225a61bf21ca1cdb6beeeee2193dbdb58", "contentType": "application/vnd.adobe.xed-full+json;version=1"}, "fileDescription": {"format": "parquet"}}

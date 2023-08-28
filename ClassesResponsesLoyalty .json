@@ -1,0 +1,48 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/classes/e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138",
+    "meta:altId": "_deloitte_digitalengage.classes.e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138",
+    "meta:resourceType": "classes",
+    "version": "1.0",
+    "title": "Loyalty ",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {}
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/data/record",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/record"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658046520857,
+        "repo:lastModifiedDate": 1658046520857,
+        "xdm:createdClientId": "bc7b275d6d064ae7b17d28cf82058d00",
+        "xdm:lastModifiedClientId": "bc7b275d6d064ae7b17d28cf82058d00",
+        "xdm:createdUserId": "431E037A62D1AE690A495E59@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "431E037A62D1AE690A495E59@techacct.adobe.com",
+        "eTag": "d479ece8d90b733413fb7bccbca7f34defd14a448c9ebc3cc41c2af1462682bc",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+    "meta:sandboxId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

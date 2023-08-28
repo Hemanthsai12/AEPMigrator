@@ -1,0 +1,49 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/classes/e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.classes.e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138",
+        "meta:resourceType": "classes",
+        "version": "1.0",
+        "title": "Loyalty ",
+        "type": "object",
+        "description": "",
+        "definitions": {
+            "customFields": {
+                "properties": {}
+            }
+        },
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/data/record",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "#/definitions/customFields",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "meta:extensible": true,
+        "meta:abstract": true,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/data/record"
+        ],
+        "meta:xdmType": "object",
+        "meta:sandboxId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+        "meta:sandboxType": "development",
+        "meta:allFieldAccess": true
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6274d7c099aa60870e4d0dd917c4e5b81318abc102a46eaf",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/loyaltyAccountId",
+        "xdm:namespace": "LoyaltyIDS",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

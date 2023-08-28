@@ -1,0 +1,11 @@
+{
+    "updateTime": 1652683847137,
+    "code": "Registry",
+    "status": "ACTIVE",
+    "id": 11769956,
+    "createTime": 1652683847137,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Macys Registry Id",
+    "custom": true
+}

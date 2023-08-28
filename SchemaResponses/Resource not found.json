@@ -1,0 +1,11 @@
+{
+    "type": "http://ns.adobe.com/aep/errors/XDM-1010-404",
+    "title": "Resource not found",
+    "status": 404,
+    "report": {
+        "registryRequestId": "bc93fedd-7be7-4639-8b96-3d9b0c2291fd",
+        "timestamp": "05-18-2022 02:38:20",
+        "detailed-message": "The requested schemas resource https://ns.adobe.com/deloitte_digitalengage/schemas/fe9e39fadf9b746805bb3cf52e4249a4aa0b825e6e343b69 with version 1 is not found."
+    },
+    "detail": "The requested schemas resource https://ns.adobe.com/deloitte_digitalengage/schemas/fe9e39fadf9b746805bb3cf52e4249a4aa0b825e6e343b69 with version 1 is not found."
+}

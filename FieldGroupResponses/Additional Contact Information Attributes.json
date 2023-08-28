@@ -1,0 +1,96 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/e4d19e98c63cc7fbe1bf7112f2e1584b5ed45d4fd5333b06",
+    "meta:altId": "_prudential.mixins.e4d19e98c63cc7fbe1bf7112f2e1584b5ed45d4fd5333b06",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Additional Contact Information Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "history": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "History",
+                            "meta:xdmType": "string"
+                        },
+                        "gdprAddress": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "GDPR Address",
+                            "meta:xdmType": "boolean"
+                        },
+                        "preferredAddressFormula": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Preferred Address Formula",
+                            "description": "",
+                            "meta:xdmType": "string"
+                        },
+                        "stateOtherThanUSA": {
+                            "required": [],
+                            "type": "string",
+                            "title": "State Other Than USA",
+                            "meta:xdmType": "string"
+                        },
+                        "bestTimetoCall": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Best Time to Call",
+                            "meta:xdmType": "string"
+                        },
+                        "contactName": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Label=Account Name",
+                            "title": "Contact Name",
+                            "meta:xdmType": "string"
+                        },
+                        "websiteAddressAdd": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Website Address Add",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1668501543085,
+        "repo:lastModifiedDate": 1668514350145,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "f2fb7c04c529acf227a11594ed7fc063d212fb218378904e960df016122aa8ff",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

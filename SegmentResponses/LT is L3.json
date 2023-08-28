@@ -1,0 +1,14 @@
+{
+    "requestId": "EEsohG6NxKVvOffgkPsmCE3iTuRPCgV6",
+    "errors": {
+        "404": [
+            {
+                "code": "UPAPI-113430-404",
+                "message": "The function entity e7462c3b-2dc3-43a0-8e2c-e8c4b2fa961d is not found. Use a valid entity and try again."
+            }
+        ]
+    },
+    "type": "https://ns.adobe.com/aep/errors/UPAPI-113430-404",
+    "title": "The function entity e7462c3b-2dc3-43a0-8e2c-e8c4b2fa961d is not found. Use a valid entity and try again.",
+    "status": 404
+}

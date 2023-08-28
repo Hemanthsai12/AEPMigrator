@@ -1,0 +1,74 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/classes/f52ecdee6fdcee4d4b71e256187b4610a492fe0084e73735",
+    "meta:altId": "_deloitteemeanorthpartnersand.classes.f52ecdee6fdcee4d4b71e256187b4610a492fe0084e73735",
+    "meta:resourceType": "classes",
+    "version": "1.0",
+    "title": "personal_information - Adhoc class - 1630048695200",
+    "type": "object",
+    "description": "Adhoc class for dataset 612891720298411949032a4a",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/data/adhoc",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "properties": {
+        "_f52ecdee6fdcee4d4b71e256187b4610a492fe0084e73735": {
+            "type": "object",
+            "properties": {
+                "id": {
+                    "type": "string",
+                    "meta:xdmType": "string"
+                },
+                "first_name": {
+                    "type": "string",
+                    "meta:xdmType": "string"
+                },
+                "last_name": {
+                    "type": "string",
+                    "meta:xdmType": "string"
+                },
+                "date_of_birth": {
+                    "type": "string",
+                    "meta:xdmType": "string"
+                },
+                "gender": {
+                    "type": "string",
+                    "meta:xdmType": "string"
+                },
+                "email_id": {
+                    "type": "string",
+                    "meta:xdmType": "string"
+                },
+                "phone_number": {
+                    "type": "string",
+                    "meta:xdmType": "string"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/adhoc"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1630048695799,
+        "repo:lastModifiedDate": 1630048695799,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "acp_xql_gateway@AdobeID",
+        "xdm:lastModifiedUserId": "acp_xql_gateway@AdobeID",
+        "eTag": "29910ed9d152186c7bdf6594f141ff7f052561397590ef4f3a33809c4f74c865",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:datasetNamespace": "_f52ecdee6fdcee4d4b71e256187b4610a492fe0084e73735",
+    "meta:allFieldAccess": true
+}

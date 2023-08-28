@@ -1,0 +1,160 @@
+[
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/person/name/lastName",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": ""
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Last name of the customer\n\nDefault: The last segment of the name in the writing order most commonly accepted in the language of the name. In many cultures this is the inherited family name, surname, patronymic, or matronymic name. The `firstName` and `lastName` properties have been introduced to maintain compatibility with existing systems that model names in a simplified, non-semantic, and non-internationalizable way. Using `xdm:fullName` is always preferable."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/person/birthDate",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": ""
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Date of Birth CCYY-MM-DD\n\nDefault: The full date a person was born."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/person/name/middleName",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": ""
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Middle name of the customer\n\nDefault: Middle, alternative, or additional names supplied between the first name and last name."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/person/name/suffix",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Suffix Name"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Indicates a person generation or appropriate suffix (E.g Jr. or II)\n\nDefault: A group of letters provided after a person's name to provide additional information. The `suffix` is used at the end of someones name. For example Jr., Sr., M.D., PhD, I, II, III, etc."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Customer Identifier"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Id column to uniquely identify the customer\n\nDefault: A unique identifier for the record."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:namespace": "EDPCustomerId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/person/name/courtesyTitle",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Prefix Name"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Name Prefix or title (E.g Mr, Ms)\n\nDefault: Normally an abbreviation of a persons title, honorific, or salutation. The `courtesyTitle` is used in front of full or last name in opening texts. For example, Mr. Miss. or Dr."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyId",
+        "xdm:namespace": "EDPPartyId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/4814a2abaf902489eb673b347fcbc32d911cf36b21da644d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/person/name/firstName",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": ""
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: First name of the customer\n\nDefault: The first segment of the name in the writing order most commonly accepted in the language of the name. In many cultures this is the preferred personal or given name. The `firstName` and `lastName` properties have been introduced to maintain compatibility with existing systems that model names in a simplified, non-semantic, and non-internationalizable way. Using `xdm:fullName` is always preferable."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

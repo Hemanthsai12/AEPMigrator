@@ -1,0 +1,48 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/classes/169a56f8e860cf8d238f2d24dbb1bbb3ad59a7eb7173204c",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.classes.169a56f8e860cf8d238f2d24dbb1bbb3ad59a7eb7173204c",
+        "meta:resourceType": "classes",
+        "version": "1.0",
+        "title": "Opportunity Contact",
+        "type": "object",
+        "description": "",
+        "definitions": {
+            "customFields": {
+                "properties": {}
+            }
+        },
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/data/record",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "#/definitions/customFields",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "meta:extensible": true,
+        "meta:abstract": true,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/data/record"
+        ],
+        "meta:xdmType": "object",
+        "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+        "meta:sandboxType": "development"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/bb1dcb8bf5698dcfa17b878fb75c7bb23dd15f05eb0c6dc4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/OpptContactId",
+        "xdm:namespace": "OpptTrial",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

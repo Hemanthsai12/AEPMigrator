@@ -1,0 +1,230 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/18cabaefec465e90c28daef7a039f01d6d90281bb38ecc34",
+    "meta:altId": "_deloitte_digitalengage.mixins.18cabaefec465e90c28daef7a039f01d6d90281bb38ecc34",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Gift Registry Details",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "Gift_registry_details": {
+                            "properties": {
+                                "ampId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Amperity ID",
+                                    "meta:xdmType": "string"
+                                },
+                                "srcRgstryId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "source registry identifier",
+                                    "meta:xdmType": "string"
+                                },
+                                "financialDivNum": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "financial divison number",
+                                    "meta:xdmType": "string"
+                                },
+                                "rgstryCrtDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "registry created date",
+                                    "meta:xdmType": "date"
+                                },
+                                "srcUpdDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "source system updated date",
+                                    "meta:xdmType": "date"
+                                },
+                                "appId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "source application identifier",
+                                    "meta:xdmType": "string"
+                                },
+                                "ocsnType": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "occasion type",
+                                    "meta:xdmType": "string"
+                                },
+                                "ocsnDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "occasion date",
+                                    "meta:xdmType": "date"
+                                },
+                                "bcdeNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "barcode number",
+                                    "meta:xdmType": "string"
+                                },
+                                "cmpltBcdeNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "complete barcode number",
+                                    "meta:xdmType": "string"
+                                },
+                                "statCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "status code",
+                                    "meta:xdmType": "string"
+                                },
+                                "statChngDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "status change date",
+                                    "meta:xdmType": "date"
+                                },
+                                "rgstryRefrlId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "registry referral identifier",
+                                    "meta:xdmType": "string"
+                                },
+                                "guestQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "description": "",
+                                    "title": "guest quantity",
+                                    "meta:xdmType": "int"
+                                },
+                                "potAmt": {
+                                    "required": [],
+                                    "type": "number",
+                                    "description": "",
+                                    "title": "potential sales amount",
+                                    "meta:xdmType": "number"
+                                },
+                                "actlAmt": {
+                                    "required": [],
+                                    "type": "number",
+                                    "description": "",
+                                    "title": "actual sales amount",
+                                    "meta:xdmType": "number"
+                                },
+                                "rgstryRwdStatCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "registry reward status code",
+                                    "meta:xdmType": "string"
+                                },
+                                "locNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "location  number",
+                                    "meta:xdmType": "string"
+                                },
+                                "intrntInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "internet indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "cnsltFrstNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "consultant first name",
+                                    "meta:xdmType": "string"
+                                },
+                                "cnsltLstNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "consultant last time",
+                                    "meta:xdmType": "string"
+                                },
+                                "goGreenPrefInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "go green preeference indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "registryIdDiv": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "RegistryID-DivID",
+                                    "meta:xdmType": "string",
+                                    "description": ""
+                                },
+                                "daasPartCrtDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "DaaS partition record create date",
+                                    "meta:xdmType": "date"
+                                }
+                            },
+                            "required": [],
+                            "type": "object",
+                            "title": "Gift Registry Details",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659509311919,
+        "repo:lastModifiedDate": 1659511801540,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "72373419625013850A495C7F@c4e836675ab18e940a495cad",
+        "eTag": "92ded30cb74f2083f9e83cd09b5605a0801ca1e110c9326826a0c8610cb98516",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

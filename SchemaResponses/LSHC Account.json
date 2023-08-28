@@ -1,0 +1,56 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/schemas/63b6abb79c26da29dd2d84fb5e3554ef6bd44b05c58bd5",
+    "meta:altId": "_deloitteemeanorthpartnersand.schemas.63b6abb79c26da29dd2d84fb5e3554ef6bd44b05c58bd5",
+    "meta:resourceType": "schemas",
+    "version": "1.7",
+    "title": "LSHC Account",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/profile/profile-user-account-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/ef289bd8c67d85fbafa58c1ff27ff6608b6dba4b91f740d6",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/ef289bd8c67d85fbafa58c1ff27ff6608b6dba4b91f740d6",
+        "https://ns.adobe.com/xdm/mixins/profile/profile-user-account-details"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1645019425414,
+        "repo:lastModifiedDate": 1648202865192,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "a6eaa29dbc0df958b9d72bff58eddc9847c3e955d46d0c04d5c99f11f0a1bbc9",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,50 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/86613f3a3a42b678c60fa16ed529d79bf9d5beda208decee",
+    "meta:altId": "_deloitte_digitalengage.schemas.86613f3a3a42b678c60fa16ed529d79bf9d5beda208decee",
+    "meta:resourceType": "schemas",
+    "version": "1.2",
+    "title": "EDP Party V5",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/6c35fe1e37e36f4db0e9599c9f7a945fc544507d53387ebb",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/6c35fe1e37e36f4db0e9599c9f7a945fc544507d53387ebb"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1666107227417,
+        "repo:lastModifiedDate": 1666107862543,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "xdm:lastModifiedUserId": "C5E94A3E62DD5B690A495C1E@c01c0af162dd3819495c7b.e",
+        "eTag": "8ec42f272335e589ac31e07df139832d0e3e490a20347f211fc630dfce80f6a7",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:allFieldAccess": true
+}

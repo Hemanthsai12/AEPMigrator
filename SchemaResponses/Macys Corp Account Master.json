@@ -1,0 +1,46 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/47b9b06a498da906308734f2ebbab7766297e8924ce47ac3",
+    "meta:altId": "_deloitte_digitalengage.schemas.47b9b06a498da906308734f2ebbab7766297e8924ce47ac3",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "Macys Corp Account Master",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/classes/a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/f1ddb63be126cfee36751a4cdb2162cfcf6d4117e61f83da",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/f1ddb63be126cfee36751a4cdb2162cfcf6d4117e61f83da"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659511419684,
+        "repo:lastModifiedDate": 1659511419684,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "eTag": "13e78841556b30a9ce76e4e23111cdb6d39c7761bc9be8f0706bbf115a43df77",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:class": "https://ns.adobe.com/deloitte_digitalengage/classes/a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a",
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

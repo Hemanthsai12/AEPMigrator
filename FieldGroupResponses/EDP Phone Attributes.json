@@ -1,0 +1,109 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/cf30a1ffc98ada5375d93a0340db6607ff1877ad9458ee3b",
+    "meta:altId": "_prudential.mixins.cf30a1ffc98ada5375d93a0340db6607ff1877ad9458ee3b",
+    "meta:resourceType": "mixins",
+    "version": "1.4",
+    "title": "EDP Phone Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "phoneAttributes": {
+                            "items": {
+                                "properties": {
+                                    "phoneNumber": {
+                                        "$ref": "https://ns.adobe.com/xdm/context/phonenumber",
+                                        "required": [],
+                                        "type": "object",
+                                        "title": "Phone Number",
+                                        "meta:xdmType": "object"
+                                    },
+                                    "phoneType": {
+                                        "required": [],
+                                        "type": "string",
+                                        "description": "",
+                                        "title": "Phone Type",
+                                        "meta:xdmType": "string"
+                                    },
+                                    "preferredPhoneInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Preferred Phone Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "unreachablePhoneInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Unreachable Phone Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "callConsentInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Call Consent Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "phoneDeletedInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "description": "",
+                                        "title": "Phone Deleted Ind",
+                                        "meta:xdmType": "boolean"
+                                    }
+                                },
+                                "required": [],
+                                "type": "object",
+                                "meta:xdmType": "object"
+                            },
+                            "required": [],
+                            "type": "array",
+                            "title": "Phone Attributes",
+                            "meta:xdmType": "array"
+                        },
+                        "phoneValue": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Phone Value",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1671524653481,
+        "repo:lastModifiedDate": 1672828954193,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "38e440b8258622a062a5452a585b37fb344a0353385b4a0127bebfb234f48698",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

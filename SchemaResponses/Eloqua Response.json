@@ -1,0 +1,56 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/79fbdb12917a087b2063326c6689131d4fa1f0a5df0f07a2",
+    "meta:altId": "_deloitte_digitalengage.schemas.79fbdb12917a087b2063326c6689131d4fa1f0a5df0f07a2",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "Eloqua Response",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/8f63b93a62bdb4961440a7edbc93567bff3ed38d4199ee6b",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/20c993e869b6480c1f470e6c441a1e1ebfe734a97d115463",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "required": [
+        "_id",
+        "timestamp"
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/time-series",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/20c993e869b6480c1f470e6c441a1e1ebfe734a97d115463",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/8f63b93a62bdb4961440a7edbc93567bff3ed38d4199ee6b",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1648016645258,
+        "repo:lastModifiedDate": 1648016645258,
+        "xdm:createdClientId": "9840e916304b43ef983641f264e3be3f",
+        "xdm:lastModifiedClientId": "9840e916304b43ef983641f264e3be3f",
+        "xdm:createdUserId": "03892394620BB47F0A495C74@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "03892394620BB47F0A495C74@techacct.adobe.com",
+        "eTag": "197213d103931b20dd7df9419c18e66c74ace124461b79730aa2c8bf3e6599ff",
+        "meta:globalLibVersion": "1.32.3"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage"
+}

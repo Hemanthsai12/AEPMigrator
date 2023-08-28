@@ -1,0 +1,26 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/79fbdb12917a087b2063326c6689131d4fa1f0a5df0f07a2",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/emailAddressSD1",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/79fbdb12917a087b2063326c6689131d4fa1f0a5df0f07a2",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/contactIdExt",
+        "xdm:namespace": "EloquaContactID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

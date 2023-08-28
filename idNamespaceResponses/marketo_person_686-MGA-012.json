@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169381260,
+    "code": "SKR",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_person_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506596,
+    "createTime": 1677169381260,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "marketo_person_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "person",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

@@ -1,0 +1,350 @@
+[
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workEmail/address",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Business Email Address"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Composite Party Email Address Identifier"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Field to  uniquely identify the party email. Composite Key of Party Email Address Id and Party Id\n\nDefault: A unique identifier for the record."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/primaryEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyId",
+        "xdm:namespace": "EDPPartyId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/unknownEmail/address",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Unknown Email Address"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/alternateEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/alternateEmail/type",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Alternate Email Type"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/unknownEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/alternateEmail/address",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Alternate Email Address"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personalEmail/type",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Personal Email Type"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Type of email address of the party\n\nDefault: The way the account relates to the person for example 'work' or 'personal'."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/unknownEmail/type",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Unknown Email Type"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/otherEmail/address",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Other Email Address"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/otherEmail/type",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Other Email Type"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personalEmail/address",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Personal Email Address"
+        },
+        "xdm:description": {
+            "en_us": "Prudential Definition: Email address of the party\n\nDefault: The technical address, for example, 'name@domain.com' as commonly defined in RFC2822 and subsequent standards."
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workEmail/type",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Business Email Type"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/primaryEmail/type",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Email Type"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personalEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:namespace": "EDPEmailId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/primaryEmail/address",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Email Address"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25228af850fb87a542d578b182e74a5fcc59fc3cf46a74d8",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/otherEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

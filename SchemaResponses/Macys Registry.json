@@ -1,0 +1,58 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/7495017fbcc54e0abce008c332890485e6cd38df71e3b697",
+    "meta:altId": "_deloitte_digitalengage.schemas.7495017fbcc54e0abce008c332890485e6cd38df71e3b697",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "Macys Registry",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/38aade7038f7efd2928fec6e2cbc5e3729085af2f5df454e",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/5f4b91a83d59f6e55db1f715835bad90465cbe306a4ba5c2",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/2ed0a9c0a43ce3b8d704c1d458d21d653d937b5784934cc4",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/5f4b91a83d59f6e55db1f715835bad90465cbe306a4ba5c2",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/38aade7038f7efd2928fec6e2cbc5e3729085af2f5df454e",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/2ed0a9c0a43ce3b8d704c1d458d21d653d937b5784934cc4"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659511392794,
+        "repo:lastModifiedDate": 1659511392794,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "eTag": "de538cdc2b68ed703d5bfe1d07cb74ca2d9b5e869d73bd0b155b30825316153d",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:class": "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

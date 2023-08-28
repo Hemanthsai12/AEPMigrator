@@ -1,0 +1,185 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+    "meta:altId": "_prudential.schemas.aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "Clientlink Marketo Custom Schema",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/workPhone/number",
+                "/workEmail/address",
+                "/workAddress/_id",
+                "/workAddress/city",
+                "/workAddress/label",
+                "/workAddress/postalCode",
+                "/workAddress/state",
+                "/workAddress/street1",
+                "/personalEmail/address",
+                "/personalEmail/primary",
+                "/person/birthDate",
+                "/person/birthDayAndMonth",
+                "/person/gender",
+                "/person/maritalStatus",
+                "/person/taxId",
+                "/otherPhone/number",
+                "/mobilePhone/number",
+                "/mailingAddress/city",
+                "/mailingAddress/country",
+                "/mailingAddress/label",
+                "/mailingAddress/postalCode",
+                "/mailingAddress/primary",
+                "/mailingAddress/state",
+                "/mailingAddress/street1",
+                "/mailingAddress/street2",
+                "/mailingAddress/street3",
+                "/homePhone/number",
+                "/homePhone/primary",
+                "/homeAddress/city",
+                "/homeAddress/postalCode",
+                "/homeAddress/state",
+                "/homeAddress/street1",
+                "/extSourceSystemAudit/createdDate",
+                "/extSourceSystemAudit/lastActivityDate",
+                "/billingAddress/country",
+                "/b2b/personScore",
+                "/b2b/personSource",
+                "/isDeleted",
+                "/organizations[*]"
+            ],
+            "$ref": "https://ns.adobe.com/xdm/mixins/b2b-person-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/investmentRisk",
+                "/_prudential/cohortGroup",
+                "/_prudential/household",
+                "/_prudential/cohortDescription",
+                "/_prudential/age",
+                "/_prudential/assetLevel",
+                "/_prudential/affluenceTier"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/4522e226c2824c82a3242c465b02845fca1e7b674ba292f9",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/bestTimetoCall",
+                "/_prudential/gdprAddress"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/e4d19e98c63cc7fbe1bf7112f2e1584b5ed45d4fd5333b06",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/userAccount/ID",
+                "/userAccount/contactDetails/personalEmail/address",
+                "/userAccount/contactDetails/homePhone/number",
+                "/userAccount/_prudential/terminationDate",
+                "/userAccount/_prudential/accountNumber",
+                "/userAccount/_prudential/accountOwnerName",
+                "/userAccount/_prudential/accountSystemID",
+                "/userAccount/_prudential/EUAccount",
+                "/userAccount/_prudential/doNotEmailAccount",
+                "/userAccount/_prudential/parentAccount",
+                "/userAccount/startDate"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/11adfe9def46da7a093b6bda580e6dbedbc9ab130ab31793",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/alternateEmail/address",
+                "/_prudential/otherEmail/address",
+                "/personalEmail/address",
+                "/homePhone/number",
+                "/_prudential/homeEmail/address",
+                "/_prudential/callerPreferredEmailRSP/address",
+                "/_prudential/entityEmail/address"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/912c892b437c3c074ca9bf692eb12e86cdaff5e59ce273af",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/email/preferredEmailInd"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/387f5bec01bad441af80dced4a72e79d443aad30e2762ce3",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/totalPremium"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/7b8079a306a1611fbf2af43a005cd059ccaac4cb891396f1",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/e4b057af29ec7778d672c42b7de4a890ca52463d413e4ssp",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/19655bc8d81606a6c4c969f15c61c70794a15d670095c82b",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/prudential/mixins/e4d19e98c63cc7fbe1bf7112f2e1584b5ed45d4fd5333b06",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/prudential/mixins/e4b057af29ec7778d672c42b7de4a890ca52463d413e4ssp",
+        "https://ns.adobe.com/prudential/mixins/912c892b437c3c074ca9bf692eb12e86cdaff5e59ce273af",
+        "https://ns.adobe.com/xdm/mixins/profile/profile-user-account-details",
+        "https://ns.adobe.com/prudential/mixins/11adfe9def46da7a093b6bda580e6dbedbc9ab130ab31793",
+        "https://ns.adobe.com/prudential/mixins/7b8079a306a1611fbf2af43a005cd059ccaac4cb891396f1",
+        "https://ns.adobe.com/xdm/common/external-source-system-audit-details",
+        "https://ns.adobe.com/xdm/mixins/record-status",
+        "https://ns.adobe.com/xdm/context/profile-person-details",
+        "https://ns.adobe.com/xdm/context/profile-personal-details",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/prudential/mixins/4522e226c2824c82a3242c465b02845fca1e7b674ba292f9",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/xdm/context/profile-other-work-details",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/prudential/mixins/387f5bec01bad441af80dced4a72e79d443aad30e2762ce3",
+        "https://ns.adobe.com/xdm/mixins/b2b-person-details",
+        "https://ns.adobe.com/prudential/mixins/19655bc8d81606a6c4c969f15c61c70794a15d670095c82b",
+        "https://ns.adobe.com/xdm/context/profile-work-details"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1667907204699,
+        "repo:lastModifiedDate": 1667907204699,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "f18fdbdc8f1e26a3d6e82ecb0354ef94378c95c596dfec740486387beeef9ad8",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+    "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

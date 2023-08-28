@@ -1,0 +1,55 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/9631ce6d954e03835ac3a2005681c95827f080e09b5413fe",
+    "meta:altId": "_deloitte_digitalengage.schemas.9631ce6d954e03835ac3a2005681c95827f080e09b5413fe",
+    "meta:resourceType": "schemas",
+    "version": "1.6",
+    "title": "Retail_Product Details",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/97883c5699c824d91f6987f8fa23ebf756b22c21d35bf403",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/933925d1cc0b1638dd997f038421824c7a218aa91cb94798",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/97883c5699c824d91f6987f8fa23ebf756b22c21d35bf403",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/933925d1cc0b1638dd997f038421824c7a218aa91cb94798"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1644491133863,
+        "repo:lastModifiedDate": 1648191332665,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "981e98a541ef6b79264dc2dddf06687d0c64dd6d5368b8b0416938ed27e11462",
+        "meta:globalLibVersion": "1.32.3"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:immutableTags": [
+        "union"
+    ]
+}

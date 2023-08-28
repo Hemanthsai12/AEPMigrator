@@ -1,0 +1,11 @@
+{
+    "updateTime": 1669027706545,
+    "code": "CRMWhoId",
+    "status": "ACTIVE",
+    "id": 13050776,
+    "createTime": 1669027706545,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "CRM Who Id",
+    "custom": true
+}

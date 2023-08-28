@@ -1,0 +1,1524 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/e4b057af29ec7778d672c42b7de4a890ca52463d413e4ssp",
+    "meta:altId": "_prudential.mixins.e4b057af29ec7778d672c42b7de4a890ca52463d413e4ssp",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Marketo Salesforce Sync Custom Fields",
+    "type": "object",
+    "description": "Fields created in Marketo by CRM Salesforce Sync",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "flexGuardConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Flex Guard Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "activity": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Activity",
+                            "meta:xdmType": "string"
+                        },
+                        "adviceOrientation": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Advice Orientation",
+                            "meta:xdmType": "string"
+                        },
+                        "affluenceindicator": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Affluenceindicator",
+                            "meta:xdmType": "string"
+                        },
+                        "leadAge": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Age",
+                            "meta:xdmType": "string"
+                        },
+                        "agencyCode": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Agency Code",
+                            "meta:xdmType": "string"
+                        },
+                        "agencyOfficeCode": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Agency Office Code",
+                            "meta:xdmType": "string"
+                        },
+                        "agentOfRecord": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Agent of Record",
+                            "meta:xdmType": "string"
+                        },
+                        "altMailAddress": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Alt Mail Address",
+                            "meta:xdmType": "string"
+                        },
+                        "appointmentTime": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Appointment Time",
+                            "meta:xdmType": "string"
+                        },
+                        "areasOfInterest": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Areas Of Interest",
+                            "meta:xdmType": "string"
+                        },
+                        "hhBankingComplexity": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Banking Complexity",
+                            "meta:xdmType": "string"
+                        },
+                        "birthMonth": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Birth Month",
+                            "meta:xdmType": "string"
+                        },
+                        "callerAddressRsp": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Caller Address Rsp",
+                            "meta:xdmType": "string"
+                        },
+                        "callerNameRsp": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Caller Name Rsp",
+                            "meta:xdmType": "string"
+                        },
+                        "callerRelationshipRsp": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Caller Relationship Rsp",
+                            "meta:xdmType": "string"
+                        },
+                        "campaignId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Campaign Id",
+                            "meta:xdmType": "string"
+                        },
+                        "relatedCampaign": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Related Campaign",
+                            "meta:xdmType": "string"
+                        },
+                        "campaignNames": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Campaign Names",
+                            "meta:xdmType": "string"
+                        },
+                        "campaignName": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Campaign Name",
+                            "meta:xdmType": "string"
+                        },
+                        "campaignSpecInfo": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Campaign Spec Info",
+                            "meta:xdmType": "string"
+                        },
+                        "ondemandCampaignSpecificInfo": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Ondemand Campaign Specific Info",
+                            "meta:xdmType": "string"
+                        },
+                        "relatedCampaignType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Related Campaign Type",
+                            "meta:xdmType": "string"
+                        },
+                        "classificationType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Classification Type",
+                            "meta:xdmType": "string"
+                        },
+                        "clientCisId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Client Cis Id",
+                            "meta:xdmType": "string"
+                        },
+                        "cisClientId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Cis Client Id",
+                            "meta:xdmType": "string"
+                        },
+                        "clientId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Client Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "clientProspect": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Client Prospect",
+                            "meta:xdmType": "string"
+                        },
+                        "clientType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Client Type",
+                            "meta:xdmType": "string"
+                        },
+                        "recordId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Record Id",
+                            "meta:xdmType": "string"
+                        },
+                        "coUserId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Co User Id",
+                            "meta:xdmType": "string"
+                        },
+                        "coUserIdAccount": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Co User Id Account",
+                            "meta:xdmType": "string"
+                        },
+                        "cohortDescriptionAccount": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Cohort Description Account",
+                            "meta:xdmType": "string"
+                        },
+                        "contactType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Contact Type",
+                            "meta:xdmType": "string"
+                        },
+                        "contractId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Contract Id",
+                            "meta:xdmType": "string"
+                        },
+                        "conversionApplicationUrl": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Conversion Application Url",
+                            "meta:xdmType": "string"
+                        },
+                        "conversionPremiumQuote": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Conversion Premium Quote",
+                            "meta:xdmType": "string"
+                        },
+                        "convertLeadRecordId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Convert Lead Record Id",
+                            "meta:xdmType": "string"
+                        },
+                        "convertedLeadUrl": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Converted Lead Url",
+                            "meta:xdmType": "string"
+                        },
+                        "convertedLeadUrlAccount": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Converted Lead Url Account",
+                            "meta:xdmType": "string"
+                        },
+                        "coverageTermination": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Coverage Termination",
+                            "meta:xdmType": "string"
+                        },
+                        "creditBalanceIncome": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Credit Balance Income",
+                            "meta:xdmType": "string"
+                        },
+                        "customerType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Customer Type",
+                            "meta:xdmType": "string"
+                        },
+                        "dataQualityDescription": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Data Quality Description",
+                            "meta:xdmType": "string"
+                        },
+                        "deceasedDayMonth": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Deceased Day Month",
+                            "meta:xdmType": "string"
+                        },
+                        "existingCoverage": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Existing Coverage",
+                            "meta:xdmType": "string"
+                        },
+                        "eConsentReceived": {
+                            "required": [],
+                            "type": "string",
+                            "title": "eConsent Received",
+                            "meta:xdmType": "string"
+                        },
+                        "employerName": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Employer Name",
+                            "meta:xdmType": "string"
+                        },
+                        "employmentStatus": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Employment Status",
+                            "meta:xdmType": "string"
+                        },
+                        "pwEventCode": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pw Event Code",
+                            "meta:xdmType": "string"
+                        },
+                        "pwEventId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pw Event Id",
+                            "meta:xdmType": "string"
+                        },
+                        "eventType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Event Type",
+                            "meta:xdmType": "string"
+                        },
+                        "financialCohort": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Financial Cohort",
+                            "meta:xdmType": "string"
+                        },
+                        "greeting": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Greeting",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolHlthStrConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Hlth Str Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhIncomeRange": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Income Range",
+                            "meta:xdmType": "string"
+                        },
+                        "hhInsuredAge": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Insured Age",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolAtsConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Ats Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolBeneRevConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Bene Rev Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolIswoConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Iswo Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolIncSoon": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Inc Soon",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolLegacyProtConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Legacy Prot Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolRmDispConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Rm Disp Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolRothStratConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Roth Strat Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolSpousalConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Spousal Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhPolTaxDefStratConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Pol Tax Def Strat Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "hhSecuritiesComplexity": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Securities Complexity",
+                            "meta:xdmType": "string"
+                        },
+                        "hhTpPolRvwConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hh Tp Pol Rvw Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "householdIndicator": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Household Indicator",
+                            "meta:xdmType": "string"
+                        },
+                        "householdType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Household Type",
+                            "meta:xdmType": "string"
+                        },
+                        "fixedAnnuityConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Fixed Annuity Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "incomeSource": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Income Source",
+                            "meta:xdmType": "string"
+                        },
+                        "buoyancy": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Buoyancy",
+                            "meta:xdmType": "string"
+                        },
+                        "industry": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Industry",
+                            "meta:xdmType": "string"
+                        },
+                        "investmentTimeHorizon": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Investment Time Horizon",
+                            "meta:xdmType": "string"
+                        },
+                        "investorClassification": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Investor Classification",
+                            "meta:xdmType": "string"
+                        },
+                        "twilioSFLastMessageStatusPc": {
+                            "required": [],
+                            "type": "string",
+                            "title": "TwilioSF  Last Message Status  Pc",
+                            "meta:xdmType": "string"
+                        },
+                        "twilioSFLastMessageStatus": {
+                            "required": [],
+                            "type": "string",
+                            "title": "TwilioSF  Last Message Status",
+                            "meta:xdmType": "string"
+                        },
+                        "latestActivity": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Latest Activity",
+                            "meta:xdmType": "string"
+                        },
+                        "latestActivityOutcome": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Latest Activity Outcome",
+                            "meta:xdmType": "string"
+                        },
+                        "latestActivityType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Latest Activity Type",
+                            "meta:xdmType": "string"
+                        },
+                        "leadActionType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Action Type",
+                            "meta:xdmType": "string"
+                        },
+                        "leadId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Id",
+                            "meta:xdmType": "string"
+                        },
+                        "leadIdAccount": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Id Account",
+                            "meta:xdmType": "string"
+                        },
+                        "leadOwner": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Owner",
+                            "meta:xdmType": "string"
+                        },
+                        "leadPartyIdRsp": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Party Id RSP",
+                            "meta:xdmType": "string"
+                        },
+                        "leadPriority": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Priority",
+                            "meta:xdmType": "string"
+                        },
+                        "leadType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Type",
+                            "meta:xdmType": "string"
+                        },
+                        "leadExternalId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead External Id",
+                            "meta:xdmType": "string"
+                        },
+                        "leadidExternal": {
+                            "required": [],
+                            "type": "string",
+                            "title": "LeadID External",
+                            "meta:xdmType": "string"
+                        },
+                        "leadVirtualadvisorsId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Virtual Advisors Id",
+                            "meta:xdmType": "string"
+                        },
+                        "lifeInsuranceScore": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Life Insurance Score",
+                            "meta:xdmType": "string"
+                        },
+                        "lfToAnnMdiscr": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Lf To Ann Mdiscr",
+                            "meta:xdmType": "string"
+                        },
+                        "hhldMdlScr": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Hhld Mdl Scr",
+                            "meta:xdmType": "string"
+                        },
+                        "polLrpConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Lrp Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "note": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Note",
+                            "meta:xdmType": "string"
+                        },
+                        "occupation": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Occupation",
+                            "meta:xdmType": "string"
+                        },
+                        "polAtsConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Ats Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polBeneRevConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Bene Rev Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polHlthStrConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Hlth Str Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polIswoConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Iswo Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polIncSoonConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Inc Soon Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polLgcConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Lgc Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polLegacyProtConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Legacy Prot Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "policyName": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Policy Name",
+                            "meta:xdmType": "string"
+                        },
+                        "policynumber": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Policynumber",
+                            "meta:xdmType": "string"
+                        },
+                        "linkToLeadRelatedparty": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Link To Lead Relatedparty",
+                            "meta:xdmType": "string"
+                        },
+                        "policyNumber2": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Policy Number 2",
+                            "meta:xdmType": "string"
+                        },
+                        "polRvwConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Rvw Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polRmDispConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Rm Disp Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polRothStratConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Roth Strat Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polSpousalConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Spousal Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "polTaxDefStratConcept": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Pol Tax Def Strat Concept",
+                            "meta:xdmType": "string"
+                        },
+                        "policynumber4": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Policynumber4",
+                            "meta:xdmType": "string"
+                        },
+                        "portPlan": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Port Plan",
+                            "meta:xdmType": "string"
+                        },
+                        "portabilityPremiumQuotes": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Portability Premium Quotes",
+                            "meta:xdmType": "string"
+                        },
+                        "preferredCommunicationMethod": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Preferred Communication Method",
+                            "meta:xdmType": "string"
+                        },
+                        "preferredLanguage": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Preferred Language",
+                            "meta:xdmType": "string"
+                        },
+                        "methodOfContact": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Method Of Contact",
+                            "meta:xdmType": "string"
+                        },
+                        "primaryContact": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Primary Contact",
+                            "meta:xdmType": "string"
+                        },
+                        "borPrimaryFinancialObjective": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Bor Primary Financial Objective",
+                            "meta:xdmType": "string"
+                        },
+                        "producer": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Producer",
+                            "meta:xdmType": "string"
+                        },
+                        "propensityToPurchaseModel1": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Propensity To Purchase Model 1",
+                            "meta:xdmType": "string"
+                        },
+                        "propensityToPurchaseModel2": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Propensity To Purchase Model 2",
+                            "meta:xdmType": "string"
+                        },
+                        "propensityToPurchaseModel3": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Propensity To Purchase Model 3",
+                            "meta:xdmType": "string"
+                        },
+                        "propensityToPurchaseModel4": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Propensity To Purchase Model 4",
+                            "meta:xdmType": "string"
+                        },
+                        "propensityToPurchaseModel5": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Propensity To Purchase Model 5",
+                            "meta:xdmType": "string"
+                        },
+                        "protectionLead": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Protection Lead",
+                            "meta:xdmType": "string"
+                        },
+                        "protectionLeadScore": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Protection Lead Score",
+                            "meta:xdmType": "string"
+                        },
+                        "recordOwnerRacfId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Record Owner Racf Id",
+                            "meta:xdmType": "string"
+                        },
+                        "referralType": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Referral Type",
+                            "meta:xdmType": "string"
+                        },
+                        "relFpRacfids": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Rel Fp Racfids",
+                            "meta:xdmType": "string"
+                        },
+                        "relatedFps": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Related Fps",
+                            "meta:xdmType": "string"
+                        },
+                        "relationship": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Relationship",
+                            "meta:xdmType": "string"
+                        },
+                        "retired": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Retired",
+                            "meta:xdmType": "string"
+                        },
+                        "serviceSalesModelScore": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Service Sales Model Score",
+                            "meta:xdmType": "string"
+                        },
+                        "ssoId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Sso Id",
+                            "meta:xdmType": "string"
+                        },
+                        "utmCampaign": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Utm Campaign",
+                            "meta:xdmType": "string"
+                        },
+                        "utmContent": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Utm Content",
+                            "meta:xdmType": "string"
+                        },
+                        "utmMasterkey": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Utm Masterkey",
+                            "meta:xdmType": "string"
+                        },
+                        "utmMedium": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Utm Medium",
+                            "meta:xdmType": "string"
+                        },
+                        "utmOrg": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Utm Org",
+                            "meta:xdmType": "string"
+                        },
+                        "utmSource": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Utm Source",
+                            "meta:xdmType": "string"
+                        },
+                        "utmTerm": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Utm Term",
+                            "meta:xdmType": "string"
+                        },
+                        "productsInHousehold": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Products In Household",
+                            "meta:xdmType": "string"
+                        },
+                        "amProduct": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Am Product",
+                            "meta:xdmType": "string"
+                        },
+                        "productCode": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Product Code",
+                            "meta:xdmType": "string"
+                        },
+                        "productInterest": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Product Interest",
+                            "meta:xdmType": "string"
+                        },
+                        "appointmentDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Appointment Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "eciwAsOfDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "ECIW As Of Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "callerDateOfCall": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Caller Date Of Call",
+                            "meta:xdmType": "date-time"
+                        },
+                        "conversionExpirationDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Conversion Expiration Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "coverageEndDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Coverage End Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "productDateOfTerminationOfInsurance": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Product Date Of Termination Of Insurance",
+                            "meta:xdmType": "date-time"
+                        },
+                        "dateOfBirthAccount": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Date Of Birth Account",
+                            "meta:xdmType": "date-time"
+                        },
+                        "dateOfBirths": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Date Of Births",
+                            "meta:xdmType": "date-time"
+                        },
+                        "dateOfBirth": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Date Of Birth",
+                            "meta:xdmType": "date-time"
+                        },
+                        "dob": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Dob",
+                            "meta:xdmType": "date-time"
+                        },
+                        "durationForPrupassageLead": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Duration For Prupassage Lead",
+                            "meta:xdmType": "date-time"
+                        },
+                        "eConsentdatetime": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "eConsentdatetime",
+                            "meta:xdmType": "date-time"
+                        },
+                        "hhMostRcntLifPurDt": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Hh Most Rcnt Lif Pur Dt",
+                            "meta:xdmType": "date-time"
+                        },
+                        "hhMostRcntPurDt": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Hh Most Rcnt Pur Dt",
+                            "meta:xdmType": "date-time"
+                        },
+                        "lastPurchaseDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Last Purchase Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "twilioSFLastMessageStatusDatePc": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "TwilioSF  Last Message Status Date  Pc",
+                            "meta:xdmType": "date-time"
+                        },
+                        "twilioSFLastMessageStatusDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "TwilioSF  Last Message Status Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "leadAcceptedDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Lead Accepted Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "leadAssignedDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Lead Assigned Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "leadCreatedDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Lead Created Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "leadStatusDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Lead Status Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "maturityDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Maturity Date",
+                            "meta:xdmType": "date-time"
+                        },
+                        "premenddate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "Premenddate",
+                            "meta:xdmType": "date-time"
+                        },
+                        "convertedLead": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Converted Lead",
+                            "meta:xdmType": "boolean"
+                        },
+                        "convertedLeadAccount": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Converted Lead Account",
+                            "meta:xdmType": "boolean"
+                        },
+                        "doNotCallEntity": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Do Not Call Entity",
+                            "meta:xdmType": "boolean"
+                        },
+                        "doNotMail": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Do Not Mail",
+                            "meta:xdmType": "boolean"
+                        },
+                        "doNotMailAccount": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Do Not Mail Account",
+                            "meta:xdmType": "boolean"
+                        },
+                        "doNotShare": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Do Not Share",
+                            "meta:xdmType": "boolean"
+                        },
+                        "eConsentStateReject": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "eConsent State Reject",
+                            "meta:xdmType": "boolean"
+                        },
+                        "inboundLeads": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Inbound Leads",
+                            "meta:xdmType": "boolean"
+                        },
+                        "iscurruserrelfp": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Is Curr User Rel Fp",
+                            "meta:xdmType": "boolean"
+                        },
+                        "isclient": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Is Client",
+                            "meta:xdmType": "boolean"
+                        },
+                        "policyholder": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Policyholder",
+                            "meta:xdmType": "boolean"
+                        },
+                        "sampleClient": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Sample Client",
+                            "meta:xdmType": "boolean"
+                        },
+                        "spouseEConsentStateReject": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Spouse eConsent State Reject",
+                            "meta:xdmType": "boolean"
+                        },
+                        "useSameTaxRateForFamily": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Use Same Tax Rate For Family",
+                            "meta:xdmType": "boolean"
+                        },
+                        "ageCalculation": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Age Calculation",
+                            "meta:xdmType": "int"
+                        },
+                        "polAnnCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Ann Count",
+                            "meta:xdmType": "int"
+                        },
+                        "assetsHeldAway": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Assets Held Away",
+                            "meta:xdmType": "int"
+                        },
+                        "countOfOpportunities": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Count Of Opportunities",
+                            "meta:xdmType": "int"
+                        },
+                        "countOfUploadedDocuments": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Count Of Uploaded Documents",
+                            "meta:xdmType": "int"
+                        },
+                        "coverageAmount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Coverage Amount",
+                            "meta:xdmType": "int"
+                        },
+                        "quoteInfoCoverageAmount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Quote Info Coverage Amount",
+                            "meta:xdmType": "int"
+                        },
+                        "dataQualityScore": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Data Quality Score",
+                            "meta:xdmType": "int"
+                        },
+                        "dataQualityScoreAccount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Data Quality Score Account",
+                            "meta:xdmType": "int"
+                        },
+                        "dataQualityScorePc": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Data Quality Score Pc",
+                            "meta:xdmType": "int"
+                        },
+                        "polDisCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Dis Count",
+                            "meta:xdmType": "int"
+                        },
+                        "polPlnCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Pln Count",
+                            "meta:xdmType": "int"
+                        },
+                        "gdpr": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Gdpr",
+                            "meta:xdmType": "int"
+                        },
+                        "hhEmbedValue": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Hh Embed Value",
+                            "meta:xdmType": "int"
+                        },
+                        "totalPprodAumAmt": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Total Pprod Aum Amt",
+                            "meta:xdmType": "int"
+                        },
+                        "householdIncome": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Household Income",
+                            "meta:xdmType": "int"
+                        },
+                        "hhPolCnt": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Hh Pol Cnt",
+                            "meta:xdmType": "int"
+                        },
+                        "polInvCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Inv Count",
+                            "meta:xdmType": "int"
+                        },
+                        "leadquality": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Lead Quality",
+                            "meta:xdmType": "int"
+                        },
+                        "polLifCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Lif Count",
+                            "meta:xdmType": "int"
+                        },
+                        "loanAmount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Loan Amount",
+                            "meta:xdmType": "int"
+                        },
+                        "polLtcCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Ltc Count",
+                            "meta:xdmType": "int"
+                        },
+                        "mobilePhoneavailable": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Mobile Phone Available",
+                            "meta:xdmType": "int"
+                        },
+                        "numberOfDependents": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Number Of Dependents",
+                            "meta:xdmType": "int"
+                        },
+                        "overallScore": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Overall Score",
+                            "meta:xdmType": "int"
+                        },
+                        "polPcCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Pc Count",
+                            "meta:xdmType": "int"
+                        },
+                        "polPrmCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Prm Count",
+                            "meta:xdmType": "int"
+                        },
+                        "propensityToPurchaseAnnuity": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Propensity To Purchase Annuity",
+                            "meta:xdmType": "int"
+                        },
+                        "prospensityToPurchaseInvestment": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Prospensity To Purchase Investment",
+                            "meta:xdmType": "int"
+                        },
+                        "propensityToPurchaseLifeInsurance": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Propensity To Purchase Life Insurance",
+                            "meta:xdmType": "int"
+                        },
+                        "retirementRollupSummary": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Retirement Rollup Summary",
+                            "meta:xdmType": "int"
+                        },
+                        "sumAnnualIncome": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Sum Annual Income",
+                            "meta:xdmType": "int"
+                        },
+                        "sumEstAnnualIncome": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Sum Est Annual Income",
+                            "meta:xdmType": "int"
+                        },
+                        "sumNonPruNonqualCurrentValue": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Sum Non Pru Nonqual Current Value",
+                            "meta:xdmType": "int"
+                        },
+                        "sumNonPruNonqualMonthlySavings": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Sum Non Pru Nonqual Monthly Savings",
+                            "meta:xdmType": "int"
+                        },
+                        "sumNonPruQualCurrentValue": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Sum Non Pru Qual Current Value",
+                            "meta:xdmType": "int"
+                        },
+                        "sumNonPruQualMonthlySavings": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Sum Non Pru Qual Monthly Savings",
+                            "meta:xdmType": "int"
+                        },
+                        "sumNonPruQualMonthlySavingsEmp": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Sum Non Pru Qual Monthly Savings Emp",
+                            "meta:xdmType": "int"
+                        },
+                        "survivorIncomeRollup": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Survivor Income Rollup",
+                            "meta:xdmType": "int"
+                        },
+                        "polTrmCount": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Pol Trm Count",
+                            "meta:xdmType": "int"
+                        },
+                        "totalNetWorthEmoney": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Total Net Worth Emoney",
+                            "meta:xdmType": "int"
+                        },
+                        "totalCashValueAmt": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Total Cash Value Amt",
+                            "meta:xdmType": "int"
+                        },
+                        "totalFaceamt": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Total Faceamt",
+                            "meta:xdmType": "int"
+                        },
+                        "totalLifeCashValueAmt": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Total Life Cash Value Amt",
+                            "meta:xdmType": "int"
+                        },
+                        "totalLifeFaceamt": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Total Life Faceamt",
+                            "meta:xdmType": "int"
+                        },
+                        "totalLifePrem": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Total Life Prem",
+                            "meta:xdmType": "int"
+                        },
+                        "yearsEmployed": {
+                            "required": [],
+                            "type": "integer",
+                            "title": "Years Employed",
+                            "meta:xdmType": "int"
+                        },
+                        "federalTaxRate": {
+                            "required": [],
+                            "type": "number",
+                            "title": "Federal Tax Rate",
+                            "meta:xdmType": "number"
+                        },
+                        "married": {
+                            "required": [],
+                            "type": "number",
+                            "title": "Married",
+                            "meta:xdmType": "number"
+                        },
+                        "stateTaxRate": {
+                            "required": [],
+                            "type": "number",
+                            "title": "State Tax Rate",
+                            "meta:xdmType": "number"
+                        },
+                        "sumNonPruNonqualAssumeRor": {
+                            "required": [],
+                            "type": "number",
+                            "title": "Sum Non Pru Nonqual Assume Ror",
+                            "meta:xdmType": "number"
+                        },
+                        "productPreferences": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Product Preferences",
+                            "meta:xdmType": "string"
+                        },
+                        "householdIDLead": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Household ID Lead",
+                            "meta:xdmType": "string"
+                        },
+                        "percentHeldAway": {
+                            "required": [],
+                            "type": "number",
+                            "title": "Percent Held Away",
+                            "meta:xdmType": "number"
+                        },
+                        "leadOwnerStaffCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Lead Owner Staff Code",
+                            "meta:xdmType": "string"
+                        },
+                        "coUserID2": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "CO User ID 2",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1667907202156,
+        "repo:lastModifiedDate": 1667907202156,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "81a5e4e6fa564afb814cd823eba7b907e7a1c3cb3f71159f1fb4018320a32562",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+    "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

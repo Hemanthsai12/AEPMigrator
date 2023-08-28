@@ -1,0 +1,174 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/f6a5555cd66d17eb375e635839ff47aa93ad97314f03d554",
+    "meta:altId": "_prudential.schemas.f6a5555cd66d17eb375e635839ff47aa93ad97314f03d554",
+    "meta:resourceType": "schemas",
+    "version": "1.24",
+    "title": "Marketo Activity 376-GUV-649",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/remove-from-list",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/visit-webpage",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/person-identifier",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/b2b/marketo/marketo-web-url",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/new-lead",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/convert-lead",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/add-to-list",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/add-to-opportunity",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/remove-from-opportunity",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/interesting-moment",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/formfilledout",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/linkclicks",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/emaildelivered",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/emailbounced",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/emailunsubscribed",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/emailopened",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/emailclicked",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/emailbouncedsoft",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/scorechanged",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/opportunityupdated",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/events/statusincampaignprogressionchanged",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "required": [
+        "_id",
+        "timestamp"
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/mixins/events/emailbounced",
+        "https://ns.adobe.com/xdm/data/time-series",
+        "https://ns.adobe.com/xdm/mixins/events/visit-webpage",
+        "https://ns.adobe.com/xdm/mixins/events/emaildelivered",
+        "https://ns.adobe.com/xdm/mixins/events/emailbouncedsoft",
+        "https://ns.adobe.com/xdm/mixins/events/scorechanged",
+        "https://ns.adobe.com/xdm/mixins/events/remove-from-opportunity",
+        "https://ns.adobe.com/xdm/mixins/events/emailopened",
+        "https://ns.adobe.com/xdm/context/experienceevent",
+        "https://ns.adobe.com/xdm/mixins/events/linkclicks",
+        "https://ns.adobe.com/b2b/marketo/marketo-web-url",
+        "https://ns.adobe.com/xdm/mixins/events/convert-lead",
+        "https://ns.adobe.com/xdm/mixins/events/formfilledout",
+        "https://ns.adobe.com/xdm/mixins/events/emailclicked",
+        "https://ns.adobe.com/xdm/mixins/events/emailunsubscribed",
+        "https://ns.adobe.com/xdm/mixins/events/add-to-opportunity",
+        "https://ns.adobe.com/xdm/mixins/events/add-to-list",
+        "https://ns.adobe.com/xdm/mixins/person-identifier",
+        "https://ns.adobe.com/xdm/mixins/events/statusincampaignprogressionchanged",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/xdm/mixins/events/remove-from-list",
+        "https://ns.adobe.com/xdm/mixins/events/interesting-moment",
+        "https://ns.adobe.com/xdm/mixins/events/opportunityupdated",
+        "https://ns.adobe.com/xdm/mixins/events/new-lead"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658131311981,
+        "repo:lastModifiedDate": 1662103508720,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "a258ba46059585a40173509dec4cca81eee92e7539f738426f23b8656d60fba6",
+        "meta:globalLibVersion": "1.37.4"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+    "meta:containerId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:allFieldAccess": true
+}

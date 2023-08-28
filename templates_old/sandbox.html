@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% block title %} Sandboxes {% endblock title %}
+{% block body %}
+    <div class="container my-5" >
+      <form action="/sandbox" method="POST">
+        <div class="container my-3" ></div>
+          <h3>Select Source Sandbox </h3>
+          <select name="sourceSandbox"class="form-select" method="GET" action="/sandbox" aria-label="Default select example">
+              <option selected>Sandbox Drop Down </option>
+              {%for sandboxtitle in sandboxList[0:]%}
+                <option value="{{sandboxtitle}}">{{sandboxtitle}}</option>
+              {%endfor%}
+          </select>
+        </div>
+        <div class="container my-3" >
+          <h3>Select Destination Sandbox </h3>
+          <select name="destinationSandbox"class="form-select" method="GET" action="/sandbox" aria-label="Default select example">
+                <option selected>Sandbox Drop Down </option>
+                {%for sandboxtitle in sandboxList[0:]%}
+                  <option value="{{sandboxtitle}}">{{sandboxtitle}}</option>
+                {%endfor%}
+          </select>
+        </div>
+        <div class="container my-3" >
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </div>
+      </form>
+    </div>
+    
+   
+{% endblock body %}

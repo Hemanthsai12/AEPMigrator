@@ -1,0 +1,78 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/674a7b4278371e85c0613a17f4e0f9e2539c687cc2730474",
+    "meta:altId": "_deloitte_digitalengage.mixins.674a7b4278371e85c0613a17f4e0f9e2539c687cc2730474",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Opportunity Contact Trial",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "trial1": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Trial 1",
+                            "meta:xdmType": "string"
+                        },
+                        "trial_contactId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Trial Contact Id",
+                            "meta:xdmType": "string"
+                        },
+                        "OpptId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Oppt Id",
+                            "meta:xdmType": "string"
+                        },
+                        "OpptContactId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Oppt Contact Id",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/169a56f8e860cf8d238f2d24dbb1bbb3ad59a7eb7173204c"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1652109409073,
+        "repo:lastModifiedDate": 1652110823838,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "a05b57ad39f7e99760b0530efc9d29c1dda30a97c0a87c881a96a86d2b2e622b",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:containerId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxId": "3ee8b539-db0b-4e9d-a8b5-39db0bee9d22",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

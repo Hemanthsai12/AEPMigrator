@@ -1,0 +1,78 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/a4261b1932232164839cc8608bf9f8b21a7fd1d43fd8dd12",
+    "meta:altId": "_deloitte_digitalengage.mixins.a4261b1932232164839cc8608bf9f8b21a7fd1d43fd8dd12",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Demystifyers_Loyalty",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "EmailID": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "description": "",
+                            "title": "EmailID",
+                            "meta:xdmType": "object"
+                        },
+                        "PhoneNumber": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Phone Number",
+                            "meta:xdmType": "string"
+                        },
+                        "loyaltyAccountId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Loyalty Account Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "LoyaltyEnrollmentDate": {
+                            "required": [],
+                            "format": "date-time",
+                            "type": "string",
+                            "title": "LoyaltyEnrollmentDate",
+                            "meta:xdmType": "date-time"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/e69120cc57bd8529dd606c2c72542e52dc6b4676c69bb138"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658370780163,
+        "repo:lastModifiedDate": 1658370958648,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "xdm:lastModifiedUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "eTag": "dca1a997d170cdcb9c9316f1201c119370f5398b7146578b224202ff03fa70ec",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+    "meta:sandboxId": "1324e9f4-0b75-4c4a-a4e9-f40b75bc4a0a",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,11 @@
+{
+    "updateTime": 1668512587093,
+    "code": "ProductClientRelId",
+    "status": "ACTIVE",
+    "id": 13009996,
+    "createTime": 1668512587093,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Product Client Relations Id",
+    "custom": true
+}

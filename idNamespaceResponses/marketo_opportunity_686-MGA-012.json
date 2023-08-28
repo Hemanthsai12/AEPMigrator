@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169383059,
+    "code": "DGGP",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_opportunity_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506616,
+    "createTime": 1677169383059,
+    "idType": "B2B_OPPORTUNITY",
+    "namespaceType": "Custom",
+    "name": "marketo_opportunity_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "opportunity",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

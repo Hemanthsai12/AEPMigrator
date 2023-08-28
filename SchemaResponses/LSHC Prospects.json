@@ -1,0 +1,69 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/72b84771ff9003be78b988eee4ddd954d264dc6ea2bc247c",
+    "meta:altId": "_deloitte_digitalengage.schemas.72b84771ff9003be78b988eee4ddd954d264dc6ea2bc247c",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "LSHC Prospects",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile-person-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile-personal-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/53b4bdf129e893f78481bbd495bcd1c41a24f49d2c8a6623",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/9bdb596c751bd71ef4f0f14a0da93d04d0d1142144e348af",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "1F6324765762BE0E7F000101@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/53b4bdf129e893f78481bbd495bcd1c41a24f49d2c8a6623",
+        "https://ns.adobe.com/xdm/context/profile-person-details",
+        "https://ns.adobe.com/xdm/context/profile-personal-details",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/9bdb596c751bd71ef4f0f14a0da93d04d0d1142144e348af"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1652944281233,
+        "repo:lastModifiedDate": 1652944281233,
+        "xdm:createdClientId": "feb4ec6d2c524987930dd13bf20f2b93",
+        "xdm:lastModifiedClientId": "feb4ec6d2c524987930dd13bf20f2b93",
+        "xdm:createdUserId": "0D7234E86225AB8A0A495FC6@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "0D7234E86225AB8A0A495FC6@techacct.adobe.com",
+        "eTag": "695cdf309cfe86b4410eee4e775cd47779826ce6822105819a4707d1d058a970",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:hidden": [],
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/d6dfabc957eb2ce1fdef2eebe4a134476a33d11f127bee7d",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personID",
+        "xdm:namespace": "ECID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

@@ -1,0 +1,11 @@
+{
+    "updateTime": 1668496398466,
+    "code": "EDPProductId",
+    "status": "ACTIVE",
+    "id": 13008376,
+    "createTime": 1668496398466,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "EDP Product Id",
+    "custom": true
+}

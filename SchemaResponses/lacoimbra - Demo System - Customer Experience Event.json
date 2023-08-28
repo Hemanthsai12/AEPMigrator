@@ -1,0 +1,70 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/42b66ba94c80ae5846d3f9f6b615ff063fc2c0e53a4f575d",
+    "meta:altId": "_deloitte_digitalengage.schemas.42b66ba94c80ae5846d3f9f6b615ff063fc2c0e53a4f575d",
+    "meta:resourceType": "schemas",
+    "version": "1.1",
+    "title": "lacoimbra - Demo System - Customer Experience Event",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent-consumer",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent-enduserids",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "required": [
+        "_id",
+        "timestamp"
+    ],
+    "imsOrg": "1F6324765762BE0E7F000101@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/time-series",
+        "https://ns.adobe.com/xdm/context/experienceevent-segmentmembership",
+        "https://ns.adobe.com/xdm/context/experienceevent-commerce",
+        "https://ns.adobe.com/xdm/context/experienceevent-application",
+        "https://ns.adobe.com/xdm/context/experienceevent-marketing",
+        "https://ns.adobe.com/xdm/context/experienceevent-web",
+        "https://ns.adobe.com/xdm/context/experienceevent-media",
+        "https://ns.adobe.com/xdm/context/experienceevent-channel",
+        "https://ns.adobe.com/xdm/context/experienceevent-environment-details",
+        "https://ns.adobe.com/xdm/context/experienceevent",
+        "https://ns.adobe.com/xdm/context/experienceevent-enduserids",
+        "https://ns.adobe.com/xdm/context/experienceevent-technical-details",
+        "https://ns.adobe.com/xdm/context/experienceevent-search",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/xdm/context/experienceevent-consumer"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1640009404527,
+        "repo:lastModifiedDate": 1640009408308,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "E7E2692B61A4C0820A495F99@AdobeID",
+        "xdm:lastModifiedUserId": "E7E2692B61A4C0820A495F99@AdobeID",
+        "eTag": "92e9e27b522ab2f452c50a430fbb7ab91a8cde20ad43722604b889e47d6108c1",
+        "meta:globalLibVersion": "1.34.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+    "meta:containerId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:allFieldAccess": true
+}

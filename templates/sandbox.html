@@ -1,0 +1,33 @@
+{% extends 'base.html' %}
+{% block title %} Sandboxes {% endblock title %}
+{% block body %}
+
+<div class="container my-5" >
+  <form action="/sandbox/sandbox" method="POST">
+    <div class="container my-3" >
+      <!--h5>Selected Source Org: {{sourceOrg}}</h5-->
+      <h5 style="color:#0c182e">Source Organization: {{sourceOrg}}</h5>
+  
+      <h6>Select Source Sandbox</h6>
+      <select name="sourceSandbox" id="sandbox" class="form-select">
+        {% for x in sourceSandboxList %}
+            <option value="{{x}}">{{x}}</option>
+        {%endfor%}
+      </select>
+    </div>
+    <div class="container my-5" >
+    <!--h5>Selected Destination Org{{destinationOrg}}</h5-->
+    <h5 style="color:#0c182e">Destination Organization: {{destinationOrg}}</h5>
+    <h6>Select Destination Sandbox </h6>
+    <select name="destinationSandbox" id="sandbox" class="form-select">
+      {% for y in destinationSandboxList %}
+          <option value="{{y}}">{{y}}</option>
+      {%endfor%}    
+    </select>
+  </div>
+    <div class="container my-3" >
+      <button type="submit" class="btn btn-dark">Submit</button>
+  </div>
+  </form>
+</div>
+{% endblock body %}

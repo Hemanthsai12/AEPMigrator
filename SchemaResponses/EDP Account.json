@@ -1,0 +1,57 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/d28c677134dd49766c2128806863a260902695ba0d433456",
+    "meta:altId": "_prudential.schemas.d28c677134dd49766c2128806863a260902695ba0d433456",
+    "meta:resourceType": "schemas",
+    "version": "1.1",
+    "title": "EDP Account",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+            "meta:refProperty": [
+                "/_prudential/partyAccountKey",
+                "/_prudential/partyId"
+            ],
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/prudential/mixins/809d99b235b47438fb29e6a5504f33f8b7efcb7ef9d644f9",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/prudential/mixins/809d99b235b47438fb29e6a5504f33f8b7efcb7ef9d644f9",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1672839328870,
+        "repo:lastModifiedDate": 1672842131070,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "e8205651edfd15a52350549ab10c4a7b8a77cbbcc3b67be4799a66e384c33abc",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

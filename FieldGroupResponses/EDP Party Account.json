@@ -1,0 +1,87 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/e163d2e134e9d2d628b55108c92f9d63bb196cb34773fe7d",
+    "meta:altId": "_prudential.mixins.e163d2e134e9d2d628b55108c92f9d63bb196cb34773fe7d",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "EDP Party Account",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "isDeleted": {
+                            "required": [],
+                            "type": "boolean",
+                            "title": "Is Deleted",
+                            "meta:xdmType": "boolean"
+                        },
+                        "partyRelationshipCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Party Relationship Code",
+                            "meta:xdmType": "string"
+                        },
+                        "accountId": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Account id",
+                            "meta:xdmType": "string"
+                        },
+                        "partyId": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Party Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "compositePartyAccountId": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Composite Party Account Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1666352434431,
+        "repo:lastModifiedDate": 1666355210751,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "D26E01C4630F91B30A495C6F@58f520ae5b81c35b0a495d34",
+        "eTag": "da2767a1336225788fa9b865d4a4bba47e804648d885eb5dcfa3c1e691a7fb0b",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "2cfff83c-2095-44cb-bff8-3c209514cb04",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,97 @@
+{
+    "id": "4abb6204-0b28-4958-8342-1187c3be0b4c",
+    "schema": {
+        "name": "_xdm.context.profile"
+    },
+    "ttlInDays": 30,
+    "imsOrgId": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "sandbox": {
+        "sandboxId": "798b8024-4b71-4993-8b80-244b71b993e8",
+        "sandboxName": "macys-test",
+        "type": "development",
+        "default": false
+    },
+    "name": "Vanguard Test",
+    "description": "",
+    "expression": {
+        "type": "PQL",
+        "format": "pql/json",
+        "value": "{\"nodeType\":\"fnApply\",\"fnName\":\"isNotNull\",\"params\":[{\"nodeType\":\"fieldLookup\",\"fieldName\":\"first_name_v\",\"object\":{\"nodeType\":\"fieldLookup\",\"fieldName\":\"_deloitte_digitalengage\",\"object\":{\"nodeType\":\"parameterReference\",\"position\":1}}}]}"
+    },
+    "evaluationInfo": {
+        "batch": {
+            "enabled": true
+        },
+        "continuous": {
+            "enabled": false
+        },
+        "synchronous": {
+            "enabled": false
+        }
+    },
+    "dataGovernancePolicy": {
+        "excludeOptOut": true
+    },
+    "creationTime": 1664180258000,
+    "updateEpoch": 1675179133,
+    "updateTime": 1675179133000,
+    "createEpoch": 1664180258,
+    "_etag": "\"9906ba19-0000-0200-0000-63d9347d0000\"",
+    "dependents": [],
+    "definedOn": [
+        {
+            "meta:resourceType": "unions",
+            "meta:containerId": "798b8024-4b71-4993-8b80-244b71b993e8",
+            "$ref": "https://ns.adobe.com/xdm/context/profile__union"
+        }
+    ],
+    "dependencies": [],
+    "type": "SegmentDefinition",
+    "ansibleDataModel": {
+        "dataModel": {
+            "expression": {
+                "isValid": true,
+                "logicalOperator": "and",
+                "profileAttributesContainer": {
+                    "exclude": false,
+                    "items": [
+                        {
+                            "comparisonType": "isNotNull",
+                            "component": {
+                                "id": "profile._deloitte_digitalengage.first_name_v",
+                                "__entity__": true,
+                                "type": "n"
+                            },
+                            "isPlaceholder": false,
+                            "originalLocation": [],
+                            "value": [],
+                            "itemType": "segmentRule"
+                        }
+                    ],
+                    "logicalOperator": "and",
+                    "itemType": "segmentContainer"
+                },
+                "xEventAttributesContainer": {
+                    "exclude": false,
+                    "items": [],
+                    "logicalOperator": "then",
+                    "itemType": "eventTypeCardContainer"
+                },
+                "itemType": "segmentDefinition"
+            }
+        },
+        "hash": "26186429",
+        "version": "1.0.0"
+    },
+    "overridePerformanceWarnings": false,
+    "createdBy": "C5F06E0462DD5B680A495CF7@c01c0af162dd3819495c7b.e",
+    "lifecycle": "active",
+    "namespace": "AEPSegments",
+    "audienceId": "4abb6204-0b28-4958-8342-1187c3be0b4c",
+    "isSystem": false,
+    "saveSegmentMembership": true,
+    "origin": "REAL_TIME_CUSTOMER_PROFILE",
+    "tags": [],
+    "lifecycleState": "published",
+    "originName": "REAL_TIME_CUSTOMER_PROFILE"
+}

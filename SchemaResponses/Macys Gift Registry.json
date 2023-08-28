@@ -1,0 +1,52 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/7212902df390d0296a3ec2a5c5fe8d9e4b56bd98018dcae7",
+    "meta:altId": "_deloitte_digitalengage.schemas.7212902df390d0296a3ec2a5c5fe8d9e4b56bd98018dcae7",
+    "meta:resourceType": "schemas",
+    "version": "1.0",
+    "title": "Macys Gift Registry",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/2ed0a9c0a43ce3b8d704c1d458d21d653d937b5784934cc4",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/18cabaefec465e90c28daef7a039f01d6d90281bb38ecc34",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/18cabaefec465e90c28daef7a039f01d6d90281bb38ecc34",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/2ed0a9c0a43ce3b8d704c1d458d21d653d937b5784934cc4"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659511407665,
+        "repo:lastModifiedDate": 1659511407665,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "eTag": "726ff295168645d693badd718c747704f5ae8c979198c6b2f49af58625179557",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:class": "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9",
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

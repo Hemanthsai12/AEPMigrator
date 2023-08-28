@@ -1,0 +1,49 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/classes/a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.classes.a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a",
+        "meta:resourceType": "classes",
+        "version": "1.0",
+        "title": "Account Master",
+        "type": "object",
+        "description": "",
+        "definitions": {
+            "customFields": {
+                "properties": {}
+            }
+        },
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/data/record",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "#/definitions/customFields",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "meta:extensible": true,
+        "meta:abstract": true,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/data/record"
+        ],
+        "meta:xdmType": "object",
+        "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+        "meta:sandboxType": "production",
+        "meta:allFieldAccess": true
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/47b9b06a498da906308734f2ebbab7766297e8924ce47ac3",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/Macys_Corp_Account_Master/accountId_Div",
+        "xdm:namespace": "CorpAccntIdDiv",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    }
+]

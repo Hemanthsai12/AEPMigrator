@@ -1,0 +1,65 @@
+[
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/cd0c775a675ca81225a61bf21ca1cdb6beeeee2193dbdb58",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personID",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Account Product ID"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/cd0c775a675ca81225a61bf21ca1cdb6beeeee2193dbdb58",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:namespace": "EDPAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/cd0c775a675ca81225a61bf21ca1cdb6beeeee2193dbdb58",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Account Identifier"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/cd0c775a675ca81225a61bf21ca1cdb6beeeee2193dbdb58",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personID",
+        "xdm:namespace": "EDPAccountProductId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "df9ad142-ae4d-464c-9ad1-42ae4d264ce3",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

@@ -1,0 +1,55 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/schemas/6e91973bd4a4efc51b54676cb7d805accac3f95b50ef4c3b",
+    "meta:altId": "_deloitteemeanorthpartnersand.schemas.6e91973bd4a4efc51b54676cb7d805accac3f95b50ef4c3b",
+    "meta:resourceType": "schemas",
+    "version": "1.9",
+    "title": "Retail Cart Details",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/experienceevent",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/254c5ac4fe9186f784c1da8ecfc6e83a23a319d116858831",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "required": [
+        "_id",
+        "timestamp"
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/time-series",
+        "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/254c5ac4fe9186f784c1da8ecfc6e83a23a319d116858831",
+        "https://ns.adobe.com/xdm/context/identitymap",
+        "https://ns.adobe.com/xdm/context/experienceevent"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1644492769958,
+        "repo:lastModifiedDate": 1648197272149,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "05cb72148b7f55bbd88a16a984fbbc245c3b0a439bda1db22ce9963b86dafa8e",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/experienceevent",
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:hidden": [],
+    "meta:allFieldAccess": true
+}

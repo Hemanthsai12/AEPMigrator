@@ -1,0 +1,47 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/da4e681a1a23eaa874656f25852b8c17b9395a38bf0cb68",
+    "meta:altId": "_deloitte_digitalengage.schemas.da4e681a1a23eaa874656f25852b8c17b9395a38bf0cb68",
+    "meta:resourceType": "schemas",
+    "version": "1.3",
+    "title": "B2B Account Schema",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/ef289bd8c67d85fbafa58c1ff27ff6608b6dba4b91f740d6",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/ef289bd8c67d85fbafa58c1ff27ff6608b6dba4b91f740d6"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1648196346228,
+        "repo:lastModifiedDate": 1648198369713,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "32a704bb994236e6fa2079a3041c22d6d5bf896a819c25b59e6a592652617f83",
+        "meta:globalLibVersion": "1.32.3"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:hidden": []
+}

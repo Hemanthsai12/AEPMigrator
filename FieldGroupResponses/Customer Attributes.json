@@ -1,0 +1,170 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/ef9ebd0e199c7e9d74a7a090057f13f1493b4f751cf562c",
+    "meta:altId": "_deloitteemeanorthpartnersand.mixins.ef9ebd0e199c7e9d74a7a090057f13f1493b4f751cf562c",
+    "meta:resourceType": "mixins",
+    "version": "1.4",
+    "title": "Customer Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitteemeanorthpartnersand": {
+                    "type": "object",
+                    "properties": {
+                        "customerUniqueID": {
+                            "title": "Customer Unique ID",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "interests": {
+                            "title": "Interests",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "areaOfInterest": {
+                                    "title": "Area Of Interest",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "productInterest": {
+                                    "title": "Product Interest",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        },
+                        "email": {
+                            "title": "email",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "preferredLanguage": {
+                                    "title": "Preferred Language",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "hasOptedOutofEmail": {
+                                    "title": "Has Opted Out of Email",
+                                    "description": "",
+                                    "type": "boolean",
+                                    "required": [],
+                                    "meta:xdmType": "boolean"
+                                },
+                                "emailOptedInMethod": {
+                                    "title": "Email Opted In Method",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        },
+                        "ltvScore": {
+                            "title": "LTV Score",
+                            "description": "",
+                            "type": "integer",
+                            "required": [],
+                            "meta:xdmType": "int"
+                        },
+                        "membershipTier": {
+                            "title": "Membership Tier",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "customerCreatedDate": {
+                            "title": "Customer Created Date",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "createdDate": {
+                                    "title": "Created Date",
+                                    "description": "",
+                                    "type": "string",
+                                    "format": "date-time",
+                                    "required": [],
+                                    "meta:ui": {
+                                        "ref": [
+                                            "https://ns.adobe.com/deloitteemeanorthpartnersand/mixins/ef9ebd0e199c7e9d74a7a090057f13f1493b4f751cf562c",
+                                            "#/definitions/customFields"
+                                        ],
+                                        "path": "{}._deloitteemeanorthpartnersand{}.createdDate{}.createdDate",
+                                        "editable": true,
+                                        "generateDate": 1646997984540,
+                                        "isGlobalField": false
+                                    },
+                                    "meta:xdmType": "date-time"
+                                },
+                                "createdMonth": {
+                                    "title": "Created Month",
+                                    "description": "",
+                                    "type": "integer",
+                                    "required": [],
+                                    "meta:xdmType": "int"
+                                },
+                                "createdYear": {
+                                    "title": "Created Year",
+                                    "description": "",
+                                    "type": "integer",
+                                    "required": [],
+                                    "meta:xdmType": "int"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1644481885696,
+        "repo:lastModifiedDate": 1646998057803,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "2AAA3E12602B36B80A495C51@AdobeID",
+        "xdm:lastModifiedUserId": "77A46BAE60195E780A495EDB@AdobeID",
+        "eTag": "e88dd1aa7af7c2a1e0fb869f7c98040c7179c169e8811a0dc3d140191a56891e",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:containerId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:allFieldAccess": true
+}

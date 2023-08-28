@@ -1,0 +1,571 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/f1ddb63be126cfee36751a4cdb2162cfcf6d4117e61f83da",
+    "meta:altId": "_deloitte_digitalengage.mixins.f1ddb63be126cfee36751a4cdb2162cfcf6d4117e61f83da",
+    "meta:resourceType": "mixins",
+    "version": "1.3",
+    "title": "Macys Corp Account Master",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "Macys_Corp_Account_Master": {
+                            "properties": {
+                                "accountId_Div": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Account ID DIV",
+                                    "meta:xdmType": "string"
+                                },
+                                "srcDelInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Source Delete Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "txnLst12MnthQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Transaction Quantity for Last12 Months",
+                                    "meta:xdmType": "int"
+                                },
+                                "rtrnLst12MnthPct": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Return Percentage for Last12 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "rtrnLst12MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Return Amount for Last12 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "rtrn13To24MnthPct": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Return Percentage for 13to24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "rtrn13To24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Return Amount for 13to24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "vstLtdQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Vst Ltf Quantity",
+                                    "meta:xdmType": "int"
+                                },
+                                "netVstLst24MnthQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Net Visit Qantity for Last24 Months",
+                                    "meta:xdmType": "int"
+                                },
+                                "netVstLst12MnthQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "description": "",
+                                    "title": "Net Visit Qantity for Last12 Months",
+                                    "meta:xdmType": "int"
+                                },
+                                "netVst13To24MnthQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Net Visit Qantity for 13to24 Months",
+                                    "meta:xdmType": "int"
+                                },
+                                "netItemLst24MnthQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Net Item Quantity for Last24 Months",
+                                    "meta:xdmType": "int"
+                                },
+                                "netItemLst12MnthQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Net Item Quantity for Last12 Months",
+                                    "meta:xdmType": "int"
+                                },
+                                "netItem13To24MnthQty": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Net Item Quantity for 13to24 Months",
+                                    "meta:xdmType": "int"
+                                },
+                                "netPurchLst24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Net Purchase Amount for Last24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "netPurchLst12MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Net Purchase Amount for Last12 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "netPurch13To24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Net Purchase Amount for 13to24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "netNetPurchLtdAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Net Net Purchase LTD Amount",
+                                    "meta:xdmType": "object"
+                                },
+                                "netNetPurchLst24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Net Net Purchase Amount for Last24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "netNetPurchLst12MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Net Net Purchase Amount for Last12 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "netNetPurch13To24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Net Net Purchase Amount for 13to24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "grossPurchLst24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Gross Purchase Amount for Last24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "grossPurchLst12MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Gross Purchase Amount for Last12 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "grossPurch13To24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Gross Purchase Amount for 13to24 Months",
+                                    "meta:xdmType": "object"
+                                },
+                                "disc13To24MnthPct": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Discount Last 12to24 Month Percentage ",
+                                    "meta:xdmType": "object"
+                                },
+                                "disc13To24MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Discount Last 12to24 Month Amount ",
+                                    "meta:xdmType": "object"
+                                },
+                                "discLst12MnthPct": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Discount Last 12 Month Percentage ",
+                                    "meta:xdmType": "object"
+                                },
+                                "discLst12MnthAmt": {
+                                    "$ref": "https://ns.adobe.com/xdm/datatypes/currency",
+                                    "required": [],
+                                    "type": "object",
+                                    "title": "Discount Last 12 Month Amount ",
+                                    "meta:xdmType": "object"
+                                },
+                                "empCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Employee Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "home_number": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Home Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "homePhnLst7Nbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Home Phone Last 7 Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "homePhnAreaCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Home Phone Area Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "phnExistInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone Exist Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "cntryCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Country Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "prvncCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Province Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "state": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "State",
+                                    "meta:xdmType": "string"
+                                },
+                                "postalCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Postal code",
+                                    "meta:xdmType": "string"
+                                },
+                                "zipCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Zip Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "zip4Cd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Zip4  Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "city": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "City",
+                                    "meta:xdmType": "string"
+                                },
+                                "street2": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Street2",
+                                    "meta:xdmType": "string"
+                                },
+                                "street1": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Street1",
+                                    "meta:xdmType": "string"
+                                },
+                                "vacntInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Vacant Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "ncoaMoveTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "NCOA Effective Move Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "addrUpdNcoaTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Address NCOA Updated Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "addrUpdTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Address Updated Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "addrAcctRecdTypCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Address Account Record Type Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "addrCrdtLstChngTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Address Last Changed Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "addrLstHygnTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Address Last Hygiene Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "ttlCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Title Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "gndrCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Gender Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "altLangCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Alternate Language Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "lastName": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Last Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "mddlInitNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Middle Name Initial",
+                                    "meta:xdmType": "string"
+                                },
+                                "middleName": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Middle Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "firstName": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "First Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "corpEmpInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Corporate Employee Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "empInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Employee Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "prizmNewEvltHhldDesc": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Prizm New Evolution Household Code Description",
+                                    "meta:xdmType": "string"
+                                },
+                                "prizmNewEvltHhldCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Prizm New Evolution Household Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "prizmCdDesc": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Prizm Code Description",
+                                    "meta:xdmType": "string"
+                                },
+                                "extrnlAsgnStatCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Issuer Assigned Status Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "delvrSeqFileDelvrIndCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Delivery Seq File Indicator Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "dpbNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Deliver Point Barcode",
+                                    "meta:xdmType": "string"
+                                },
+                                "drctMktAssoctnCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Direct Market Assc Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "digitRecdInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Digit Record Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "cnsTractCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Census Tract Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "lstPurchDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "Last Purchase Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "delqCyclCnt": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "title": "Delinquent Cycle Count",
+                                    "meta:xdmType": "int"
+                                },
+                                "loyalAcctIndivInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Loyalty Account Individual Id",
+                                    "meta:xdmType": "string"
+                                },
+                                "loyalAcctId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Loyalty Account Id",
+                                    "meta:xdmType": "string"
+                                },
+                                "priorVipCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Prior VIP Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "currVipCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Current VIP Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "classicInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Classic Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "propInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Proprietary Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "ownRtlDivnCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Retail Division Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "acctOpenDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "Account Opened Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "acctTypCatCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Account Type category code",
+                                    "meta:xdmType": "string"
+                                },
+                                "acctTypCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Account Type Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "acctNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Account Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "ampId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Amperity ID",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "required": [],
+                            "type": "object",
+                            "title": "Macys_Corp_Account_Master",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/a00ec7211b1b2f28244103afa05a41604155d2a0d48a48a"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659509309553,
+        "repo:lastModifiedDate": 1661867737042,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E4C564E162FCEABC0A495FFA@c4e836675ab18e940a495cad",
+        "eTag": "05fa9490e96eb342495aa84d5a07cbb19a3f55245afc9cc4168e36de84e0a80a",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

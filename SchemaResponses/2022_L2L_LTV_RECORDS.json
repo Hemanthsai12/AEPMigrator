@@ -1,0 +1,47 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/schemas/842543d69a7878298b010f920022d25fab8e5bbbe45b5dbb",
+    "meta:altId": "_deloitte_digitalengage.schemas.842543d69a7878298b010f920022d25fab8e5bbbe45b5dbb",
+    "meta:resourceType": "schemas",
+    "version": "1.2",
+    "title": "2022_L2L_LTV_RECORDS",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/deloitte_digitalengage/mixins/3474daea18a0c51c6198209603304baff518751166ad697",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile",
+        "https://ns.adobe.com/deloitte_digitalengage/mixins/3474daea18a0c51c6198209603304baff518751166ad697"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1646216112121,
+        "repo:lastModifiedDate": 1646216124203,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "xdm:lastModifiedUserId": "3B2745BA615FC5800A495E27@AdobeID",
+        "eTag": "e924ff2360951d9781b9cd34eb381b0f301bdffdac1a69877091ffd9974f2883",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

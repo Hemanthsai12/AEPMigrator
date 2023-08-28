@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/da4e681a1a23eaa874656f25852b8c17b9395a38bf0cb68",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/accountDetails/accountName",
+        "xdm:namespace": "AccountID",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "fe3317d3-4bc9-4d04-b317-d34bc95d04ed",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

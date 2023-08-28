@@ -1,0 +1,103 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/deededa211e1b512695dffe4a7db177d87ecb4b24e0ff292",
+    "meta:altId": "_prudential.mixins.deededa211e1b512695dffe4a7db177d87ecb4b24e0ff292",
+    "meta:resourceType": "mixins",
+    "version": "1.2",
+    "title": "EDP Email Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "emailAttributes": {
+                            "items": {
+                                "properties": {
+                                    "preferredEmailInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Preferred Email Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "deletedInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Deleted Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "emailConsentInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Email Consent Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "undeliverableEmailInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "description": "",
+                                        "title": "Undeliverable Email Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "emailAddress": {
+                                        "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                                        "required": [],
+                                        "type": "object",
+                                        "title": "Email Address",
+                                        "meta:xdmType": "object"
+                                    }
+                                },
+                                "required": [],
+                                "type": "object",
+                                "meta:xdmType": "object"
+                            },
+                            "required": [],
+                            "type": "array",
+                            "title": "Email Attributes",
+                            "meta:xdmType": "array"
+                        },
+                        "emailAddress": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Email Address",
+                            "meta:xdmType": "string",
+                            "description": "",
+                            "format": "email"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1671524137263,
+        "repo:lastModifiedDate": 1672828617118,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "230c2f82a786eb8913061d81d1121c21af6117152bae07621d3af6fb1efa8e91",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

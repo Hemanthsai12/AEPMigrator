@@ -1,0 +1,38 @@
+{
+    "$id": "https://ns.adobe.com/deloitteemeanorthpartnersand/classes/7fe5ca127ac3b732d89a4c87cc5108527b64af0b492b8e93",
+    "meta:altId": "_deloitteemeanorthpartnersand.classes.7fe5ca127ac3b732d89a4c87cc5108527b64af0b492b8e93",
+    "meta:resourceType": "classes",
+    "version": "1.0",
+    "title": "Items_VP",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/data/record",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/data/record"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1630056671916,
+        "repo:lastModifiedDate": 1630056671916,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "6551497A61285ECF0A495E22@AdobeID",
+        "xdm:lastModifiedUserId": "6551497A61285ECF0A495E22@AdobeID",
+        "eTag": "06c339e7721219d712b66407de3c37de2ce250c36cb4a55383b4ce3b3fe6ab98",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitteemeanorthpartnersand",
+    "meta:allFieldAccess": true
+}

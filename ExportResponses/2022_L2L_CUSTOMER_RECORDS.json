@@ -1,0 +1,66 @@
+[
+    {
+        "$id": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6341cc812819cc4fe5ba72c5d96b73e2d4a226097c3a605f",
+        "meta:altId": "_<XDM_TENANTID_PLACEHOLDER>.schemas.6341cc812819cc4fe5ba72c5d96b73e2d4a226097c3a605f",
+        "meta:resourceType": "schemas",
+        "version": "1.7",
+        "title": "2022_L2L_CUSTOMER_RECORDS",
+        "type": "object",
+        "description": "",
+        "allOf": [
+            {
+                "$ref": "https://ns.adobe.com/xdm/context/profile",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/19738324c31df60584dc78d4dbf16e75ab484f513b0f942f",
+                "type": "object",
+                "meta:xdmType": "object"
+            },
+            {
+                "$ref": "https://ns.adobe.com/xdm/context/identitymap",
+                "type": "object",
+                "meta:xdmType": "object"
+            }
+        ],
+        "meta:extensible": false,
+        "meta:abstract": false,
+        "meta:extends": [
+            "https://ns.adobe.com/xdm/common/auditable",
+            "https://ns.adobe.com/xdm/data/record",
+            "https://ns.adobe.com/xdm/context/profile",
+            "https://ns.adobe.com/xdm/context/identitymap",
+            "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/mixins/19738324c31df60584dc78d4dbf16e75ab484f513b0f942f"
+        ],
+        "meta:xdmType": "object",
+        "meta:class": "https://ns.adobe.com/xdm/context/profile",
+        "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "meta:sandboxType": "production",
+        "meta:immutableTags": []
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6341cc812819cc4fe5ba72c5d96b73e2d4a226097c3a605f",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/L2L_CUSTOMER_RECORDS/CRM_ID",
+        "xdm:namespace": "CRMIdentity",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6341cc812819cc4fe5ba72c5d96b73e2d4a226097c3a605f",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/L2L_CUSTOMER_RECORDS/PRODUCT_ID",
+        "xdm:namespace": "ProductIdentity",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+        "meta:sandboxType": "production",
+        "meta:resourceType": "descriptors"
+    }
+]

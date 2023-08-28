@@ -1,0 +1,100 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/19655bc8d81606a6c4c969f15c61c70794a15d670095c82b",
+    "meta:altId": "_prudential.mixins.19655bc8d81606a6c4c969f15c61c70794a15d670095c82b",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Demographic Details (Customized-1657265137203)",
+    "type": "object",
+    "description": "Demographic information such as name, gender, and birth date of an individual.",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "person": {
+                    "properties": {
+                        "_prudential": {
+                            "properties": {
+                                "martialStatusCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Martial Status Code",
+                                    "description": "Marital Status as per System Codes",
+                                    "meta:xdmType": "string"
+                                },
+                                "genderCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Gender Code",
+                                    "description": "Gender as per System Codes",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        },
+                        "name": {
+                            "properties": {
+                                "_prudential": {
+                                    "properties": {
+                                        "preferredName": {
+                                            "required": [],
+                                            "type": "string",
+                                            "description": "Preferred Name of the customer",
+                                            "title": "Preferred Name",
+                                            "meta:xdmType": "string"
+                                        }
+                                    },
+                                    "type": "object",
+                                    "meta:xdmType": "object"
+                                }
+                            },
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile-person-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/context/profile-person-details"
+    ],
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703599172,
+        "repo:lastModifiedDate": 1669703599172,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "eTag": "b6ed371fb45d893f85db75b2af91ece0c1a0a2e781dbad00622e0e27fe5306e7",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:immutableTags": [
+        "extendedFieldGroup"
+    ],
+    "meta:allFieldAccess": true
+}

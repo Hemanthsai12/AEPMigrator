@@ -1,0 +1,230 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/3dd098e6639ed16b0f2117dda0953c4fa397a25bbab07ce7",
+    "meta:altId": "_deloitte_digitalengage.mixins.3dd098e6639ed16b0f2117dda0953c4fa397a25bbab07ce7",
+    "meta:resourceType": "mixins",
+    "version": "1.2",
+    "title": "Macys Phone Xref Details",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "Macys_Phone_Xref_Details": {
+                            "properties": {
+                                "daasStatCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Daas Status Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "ampCrtTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Amperity Created Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "ampUpdTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Amperity Updated Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "changeCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Customer Change Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "phnRltnshpScr": {
+                                    "required": [],
+                                    "type": "integer",
+                                    "description": "",
+                                    "title": "Phone Relationship Screen",
+                                    "meta:xdmType": "int"
+                                },
+                                "statCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Statistic code",
+                                    "meta:xdmType": "string"
+                                },
+                                "intlInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "International indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "clnteleInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Clientele indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "crdtInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Credit Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "rgstryInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Registry Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "ltyInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Loyalty Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "mcomInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "MCOM Indicator Flag",
+                                    "meta:xdmType": "string"
+                                },
+                                "bestPhnForAcctInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Best Pone To Account Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "bestAcctForPhnInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Best Account To Phone Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "finDivnNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Financial Division Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "lstAcqSrcTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Last Acquisition source timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "lstAcqSrcId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Last Acquisition Source Identifier",
+                                    "meta:xdmType": "string"
+                                },
+                                "frstAcqSrcTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "First Acquisition Source Timestamp",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "frstAcqSrcId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "First Acquisition source identifier",
+                                    "meta:xdmType": "string"
+                                },
+                                "ampHhldId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Amperity House Hold Id",
+                                    "meta:xdmType": "string"
+                                },
+                                "amptyId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Amperity ID",
+                                    "meta:xdmType": "string"
+                                },
+                                "dataSrcCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Data Source Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "phnNbrTyp": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone Number Type",
+                                    "meta:xdmType": "string"
+                                },
+                                "phnNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "ampidDivHash": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Amperity Div Hash ID",
+                                    "meta:xdmType": "string"
+                                },
+                                "phoneXHash": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone X Hash",
+                                    "meta:xdmType": "string",
+                                    "description": "",
+                                    "meta:enum": {}
+                                },
+                                "daaasUptTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "title": "Daas Updated Timestamp",
+                                    "meta:xdmType": "date-time"
+                                }
+                            },
+                            "required": [],
+                            "type": "object",
+                            "title": "Macys_Phone_Xref_Details",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/7311af07820a7280a0540ab3429ff71fb0336bb27b2acd5"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1661861630377,
+        "repo:lastModifiedDate": 1664454668476,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "E4C564E162FCEABC0A495FFA@c4e836675ab18e940a495cad",
+        "xdm:lastModifiedUserId": "E4BC4A3562FCEB340A495FEA@c4e836675ab18e940a495cad",
+        "eTag": "5598a8861e556f7a4eff50a58ec25ec731513e0c7b4f6649b9bedbc96d842a1d",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

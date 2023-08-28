@@ -1,0 +1,425 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/912c892b437c3c074ca9bf692eb12e86cdaff5e59ce273af",
+    "meta:altId": "_prudential.mixins.912c892b437c3c074ca9bf692eb12e86cdaff5e59ce273af",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Personal Contact Details (Customized-1657180467537)",
+    "type": "object",
+    "description": "Contact information for an individual person such as home address, phone number, fax, and email.",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "homeAddress": {
+                    "properties": {
+                        "_prudential": {
+                            "properties": {
+                                "countryCode": {
+                                    "title": "Country Code",
+                                    "description": "Party's address- Country code",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "partyAddressId": {
+                                    "title": "Party Address Id",
+                                    "description": "Id column to uniquely identify the party address",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "zipCodeExtension": {
+                                    "title": "Zip Code Extension",
+                                    "description": "Party's Address- Zip Code Extension (If any)",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                },
+                "homePhone": {
+                    "properties": {
+                        "_prudential": {
+                            "properties": {
+                                "partyPhoneId": {
+                                    "title": "Party Phone Id",
+                                    "description": "Id column to uniquely identify the party phone",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "phoneTypeCode": {
+                                    "title": "Phone Type Code",
+                                    "description": "Phone Description Add in Addtional Contact Information. Type of phone contact\n",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "areaCode": {
+                                    "title": "Area Code",
+                                    "description": "Telephone area code\n",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "dialNumber": {
+                                    "title": "Dial Number",
+                                    "description": "Telephone dial number\n",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                },
+                "personalEmail": {
+                    "properties": {},
+                    "type": "object",
+                    "meta:xdmType": "object"
+                },
+                "_prudential": {
+                    "properties": {
+                        "unknownAddress": {
+                            "$ref": "https://ns.adobe.com/xdm/common/address",
+                            "required": [],
+                            "type": "object",
+                            "title": "Unknown Address",
+                            "meta:xdmType": "object"
+                        },
+                        "alternateAddress": {
+                            "$ref": "https://ns.adobe.com/xdm/common/address",
+                            "required": [],
+                            "type": "object",
+                            "title": "Alternate Address",
+                            "meta:xdmType": "object"
+                        },
+                        "temporaryAddress": {
+                            "$ref": "https://ns.adobe.com/xdm/common/address",
+                            "required": [],
+                            "type": "object",
+                            "title": "Temporary Address",
+                            "meta:xdmType": "object"
+                        },
+                        "temporaryPhone": {
+                            "$ref": "https://ns.adobe.com/xdm/context/phonenumber",
+                            "required": [],
+                            "type": "object",
+                            "description": "",
+                            "title": "Temporary Phone",
+                            "meta:xdmType": "object"
+                        },
+                        "businessFax": {
+                            "$ref": "https://ns.adobe.com/xdm/context/phonenumber",
+                            "required": [],
+                            "type": "object",
+                            "title": "Business Fax",
+                            "meta:xdmType": "object"
+                        },
+                        "primaryPhone": {
+                            "$ref": "https://ns.adobe.com/xdm/context/phonenumber",
+                            "required": [],
+                            "type": "object",
+                            "title": "Primary Phone",
+                            "meta:xdmType": "object"
+                        },
+                        "unknownPhone": {
+                            "$ref": "https://ns.adobe.com/xdm/context/phonenumber",
+                            "required": [],
+                            "type": "object",
+                            "title": "Unknown Phone",
+                            "meta:xdmType": "object"
+                        },
+                        "partyPhoneId": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Party Phone Id",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "alternateEmail": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "title": "Alternate Email",
+                            "meta:xdmType": "object"
+                        },
+                        "primaryEmail": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "title": "Primary Email",
+                            "meta:xdmType": "object"
+                        },
+                        "otherEmail": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "title": "Other Email",
+                            "meta:xdmType": "object"
+                        },
+                        "unknownEmail": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "title": "Unknown Email",
+                            "meta:xdmType": "object"
+                        },
+                        "businessFaxDialNumber": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Business Fax Dial Number",
+                            "meta:xdmType": "string"
+                        },
+                        "businessFaxPhoneTypeCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Business Fax Phone Type Code",
+                            "meta:xdmType": "string"
+                        },
+                        "primaryPhoneAreaCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Primary Phone Area Code",
+                            "meta:xdmType": "string"
+                        },
+                        "primaryPhoneDialNumber": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Primary Phone Dial Number",
+                            "meta:xdmType": "string"
+                        },
+                        "primaryPhoneTypeCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Primary Phone Type Code",
+                            "meta:xdmType": "string"
+                        },
+                        "temporaryPhoneAreaCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Temporary Phone Area Code",
+                            "meta:xdmType": "string"
+                        },
+                        "temporaryPhoneDialNumber": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Temporary Phone Dial Number",
+                            "meta:xdmType": "string"
+                        },
+                        "temporaryPhoneTypeCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Temporary Phone Type Code",
+                            "meta:xdmType": "string"
+                        },
+                        "unknownPhoneAreaCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Unknown Phone Area Code",
+                            "meta:xdmType": "string"
+                        },
+                        "unknownPhoneDialNumber": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Unknown Phone Dial Number",
+                            "meta:xdmType": "string"
+                        },
+                        "unknownPhoneTypeCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Unknown Phone Type Code",
+                            "meta:xdmType": "string"
+                        },
+                        "businessFaxAreaCode": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Business Fax Area Code",
+                            "meta:xdmType": "string"
+                        },
+                        "primaryAddress": {
+                            "$ref": "https://ns.adobe.com/xdm/common/address",
+                            "required": [],
+                            "type": "object",
+                            "description": "",
+                            "title": "Primary Address",
+                            "meta:xdmType": "object"
+                        },
+                        "homeEmail": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "title": "Home Email",
+                            "meta:xdmType": "object"
+                        },
+                        "callerPreferredEmailRSP": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "title": "Caller Preferred Email RSP",
+                            "meta:xdmType": "object"
+                        },
+                        "entityEmail": {
+                            "$ref": "https://ns.adobe.com/xdm/context/emailaddress",
+                            "required": [],
+                            "type": "object",
+                            "title": "Entity Email",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                },
+                "mailingAddress": {
+                    "properties": {
+                        "_prudential": {
+                            "properties": {
+                                "countryCode": {
+                                    "title": "Country Code",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:enum": {},
+                                    "meta:xdmType": "string"
+                                },
+                                "zipCodeExtension": {
+                                    "title": "Zip Code Extension",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:enum": {},
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                },
+                "mobilePhone": {
+                    "properties": {
+                        "_prudential": {
+                            "properties": {
+                                "phoneTyeCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone Type Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "dialNumber": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Dial Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "areaCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Area Code",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                },
+                "faxPhone": {
+                    "properties": {
+                        "_prudential": {
+                            "properties": {
+                                "areaCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Area Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "dialNumber": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Dial Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "phoneTypeCode": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Phone Type Code",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "type": "object",
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "type": "object",
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile-personal-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/context/profile-personal-details"
+    ],
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1668496865314,
+        "repo:lastModifiedDate": 1668498924646,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "035a559ffe647d14676535ac989cac70ea03a81318d32a3161d686170ecb3ee9",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:immutableTags": [
+        "extendedFieldGroup"
+    ],
+    "meta:allFieldAccess": true
+}

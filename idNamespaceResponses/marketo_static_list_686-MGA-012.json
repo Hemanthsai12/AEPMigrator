@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169389937,
+    "code": "JDT",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_static_list_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506696,
+    "createTime": 1677169389937,
+    "idType": "B2B_MARKETING_LIST",
+    "namespaceType": "Custom",
+    "name": "marketo_static_list_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "static list",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

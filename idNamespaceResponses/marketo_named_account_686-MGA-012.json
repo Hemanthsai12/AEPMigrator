@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169379536,
+    "code": "PVT",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_named_account_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506576,
+    "createTime": 1677169379536,
+    "idType": "B2B_ACCOUNT",
+    "namespaceType": "Custom",
+    "name": "marketo_named_account_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "named account",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

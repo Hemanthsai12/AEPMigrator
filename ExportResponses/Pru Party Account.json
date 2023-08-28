@@ -1,0 +1,26 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/220ba76b47ba711576f662b3a8d394b03685747267ae4a9c",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyIdExp",
+        "xdm:namespace": "PruTestCross",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "ef19d81d-7d73-4f28-99d8-1d7d733f282f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/220ba76b47ba711576f662b3a8d394b03685747267ae4a9c",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/partyAccountRelId",
+        "xdm:namespace": "PruPartyAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "ef19d81d-7d73-4f28-99d8-1d7d733f282f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

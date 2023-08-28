@@ -1,0 +1,14 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/6bd1b024ee8dd4874dfc4e9f3a63b8901ddf8348f63ef33a",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/campaignKey/sourceKey",
+        "xdm:namespace": "KJJ",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

@@ -1,0 +1,94 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/6f7bc9d7a84c9cbafe54fe6bb6fb191f7afa075d2ebb3f6",
+    "meta:altId": "_deloitte_digitalengage.mixins.6f7bc9d7a84c9cbafe54fe6bb6fb191f7afa075d2ebb3f6",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "Personal_Data",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "Country_": {
+                            "title": "Personal Data",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "email_": {
+                            "title": "Personal Data",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "first_name_": {
+                            "title": "Personal Data",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "gender_": {
+                            "title": "Personal Data",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "last_name_": {
+                            "title": "Personal Data",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "phone_": {
+                            "title": "Personal Data",
+                            "description": "",
+                            "type": "integer",
+                            "required": [],
+                            "meta:xdmType": "int"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1630061954892,
+        "repo:lastModifiedDate": 1630061954892,
+        "xdm:createdClientId": "acp_ui_platform",
+        "xdm:lastModifiedClientId": "acp_ui_platform",
+        "xdm:createdUserId": "633A2C2761285ECA0A495CF2@AdobeID",
+        "xdm:lastModifiedUserId": "633A2C2761285ECA0A495CF2@AdobeID",
+        "eTag": "9a0f6e47b93e8dbecaf2c802b45ce5b662e78134d7befdaec3ee83bea6db1740",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxId": "22359c60-17cf-11eb-bb15-57f842587f2b",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

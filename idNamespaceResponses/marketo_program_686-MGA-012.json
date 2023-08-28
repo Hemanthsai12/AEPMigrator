@@ -1,0 +1,17 @@
+{
+    "updateTime": 1677169386551,
+    "code": "NTM",
+    "status": "ACTIVE",
+    "description": "Namespace marketo_program_686-MGA-012 created for B2B ingestion purpose",
+    "id": 13506656,
+    "createTime": 1677169386551,
+    "idType": "B2B_CAMPAIGN",
+    "namespaceType": "Custom",
+    "name": "marketo_program_686-MGA-012",
+    "custom": true,
+    "attributes": {
+        "issuerType": "marketo",
+        "issuerEntityType": "program",
+        "issuerInstanceId": "686-MGA-012"
+    }
+}

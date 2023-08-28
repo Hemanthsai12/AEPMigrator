@@ -1,0 +1,254 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/5f4b91a83d59f6e55db1f715835bad90465cbe306a4ba5c2",
+    "meta:altId": "_deloitte_digitalengage.mixins.5f4b91a83d59f6e55db1f715835bad90465cbe306a4ba5c2",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Macys Registry Details",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "registry_details": {
+                            "properties": {
+                                "srcPrcsCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Source Process",
+                                    "meta:xdmType": "string"
+                                },
+                                "srcSysID": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Source System",
+                                    "meta:xdmType": "string"
+                                },
+                                "clntRecdLstModTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Client Record Last Modify Date/Time",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "prcsSysTs": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Process System Date/Time ",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "clntRecdCrtTS": {
+                                    "required": [],
+                                    "format": "date-time",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Client Record Create Date/Time",
+                                    "meta:xdmType": "date-time"
+                                },
+                                "srcOptInDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Source Opt In Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "phnOptInInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Phone opt in Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "mailOptInInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Mail opt in Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "emailOptInInd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Email opt in Indicator",
+                                    "meta:xdmType": "string"
+                                },
+                                "emailEffDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Email Effective Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "emailAddrTxt": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Email Address Text",
+                                    "meta:xdmType": "string"
+                                },
+                                "evngPhnNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Evening Phone Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "dayPhnNbr": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Day Phone Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "ftreAddrDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Future Address Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "ftreZipCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Future Zip Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "ftreCntryNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Future Country Name",
+                                    "meta:xdmType": "string"
+                                },
+                                "ftreSttCd": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Future State Code",
+                                    "meta:xdmType": "string"
+                                },
+                                "ftreCityNm": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Future City",
+                                    "meta:xdmType": "string"
+                                },
+                                "ftreAddrLn2txt": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Future Address line 2 text",
+                                    "meta:xdmType": "string"
+                                },
+                                "ftreAddrLn1txt": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Future Address line 1 text",
+                                    "meta:xdmType": "string"
+                                },
+                                "roleDesc": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Role Description",
+                                    "meta:xdmType": "string"
+                                },
+                                "roleId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Role Identifier",
+                                    "meta:xdmType": "string"
+                                },
+                                "srcUpdDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "title": "Source Update Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "rgstryCrtDt": {
+                                    "required": [],
+                                    "format": "date",
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Registry Create Date",
+                                    "meta:xdmType": "date"
+                                },
+                                "financialDivNum": {
+                                    "required": [],
+                                    "type": "string",
+                                    "description": "",
+                                    "title": "Finance Division Number",
+                                    "meta:xdmType": "string"
+                                },
+                                "srcRgstryId": {
+                                    "required": [],
+                                    "type": "string",
+                                    "title": "Registry Identifier",
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "required": [],
+                            "note": "",
+                            "type": "object",
+                            "description": "",
+                            "title": "Registry Details",
+                            "meta:xdmType": "object"
+                        },
+                        "registryDiv": {
+                            "required": [],
+                            "type": "string",
+                            "title": "Registry Division",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "8D0867C25245AE650A490D4C@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/deloitte_digitalengage/classes/dfc9a031d10d9add185f5cc6a177502e7734aeff6d361fb9"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659509316030,
+        "repo:lastModifiedDate": 1659511882751,
+        "xdm:createdClientId": "c916220f349947bf94161cd8cb74b4a8",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "A38347AE62EA0A350A495FA0@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "72373419625013850A495C7F@c4e836675ab18e940a495cad",
+        "eTag": "3016d50f8aefea6227d0b8cda88e1cde186ac453711c636e0c1cf5085576142b",
+        "meta:globalLibVersion": "1.39.1.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "e0db4d28-ca91-4847-9b4d-28ca91184709",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

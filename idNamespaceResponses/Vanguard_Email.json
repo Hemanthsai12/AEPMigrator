@@ -1,0 +1,11 @@
+{
+    "updateTime": 1663911987605,
+    "code": "ve",
+    "status": "ACTIVE",
+    "id": 12710676,
+    "createTime": 1663911987605,
+    "idType": "EMAIL",
+    "namespaceType": "Custom",
+    "name": "Vanguard_Email",
+    "custom": true
+}

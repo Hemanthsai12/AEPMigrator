@@ -1,0 +1,11 @@
+{
+    "updateTime": 1669027704554,
+    "code": "CRMEventId",
+    "status": "ACTIVE",
+    "id": 13050756,
+    "createTime": 1669027704554,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "CRM Event Id",
+    "custom": true
+}

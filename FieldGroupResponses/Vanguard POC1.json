@@ -1,0 +1,77 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/c7c29f2c9513efd81a344763a15388c25e3d5822eb9d0cf2",
+    "meta:altId": "_deloitte_digitalengage.mixins.c7c29f2c9513efd81a344763a15388c25e3d5822eb9d0cf2",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "Vanguard POC1",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "required": [
+                        "id_van1"
+                    ],
+                    "type": "object",
+                    "properties": {
+                        "van_phonenumber": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "Phone Number Van",
+                            "meta:xdmType": "string"
+                        },
+                        "van_job": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "title": "Job Van",
+                            "meta:xdmType": "string",
+                            "description": ""
+                        },
+                        "id_van1": {
+                            "meta:enum": {},
+                            "required": [],
+                            "type": "string",
+                            "description": "",
+                            "title": "ID Van",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1666031875820,
+        "repo:lastModifiedDate": 1666033731074,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "BF5E03A662DD5B6C0A495EC4@c01c0af162dd3819495c7b.e",
+        "xdm:lastModifiedUserId": "BF5E03A662DD5B6C0A495EC4@c01c0af162dd3819495c7b.e",
+        "eTag": "e4cf9f183dcb12cad99a82fd9b249c016309b5a415788ace55a229fcd640e8a0",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "tenant",
+    "meta:sandboxId": "5e62b860-58be-11ea-a925-7351d2cba8ea",
+    "meta:sandboxType": "production",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

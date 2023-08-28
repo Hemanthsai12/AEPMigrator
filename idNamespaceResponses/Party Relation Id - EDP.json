@@ -1,0 +1,12 @@
+{
+    "updateTime": 1660808452646,
+    "code": "PartyRelationId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify party relation",
+    "id": 12498996,
+    "createTime": 1660808452646,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "Party Relation Id - EDP",
+    "custom": true
+}

@@ -1,0 +1,21 @@
+[
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/25a801a4eb68bde07345ebb9de5a3a54fc958280e3f16b0f",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/timestamp",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Current Timestamp"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

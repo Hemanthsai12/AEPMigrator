@@ -1,0 +1,11 @@
+{
+    "updateTime": 1664438835396,
+    "code": "MacysResponseTrackID",
+    "status": "ACTIVE",
+    "id": 12752576,
+    "createTime": 1664438835396,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "Macys Response Track ID",
+    "custom": true
+}

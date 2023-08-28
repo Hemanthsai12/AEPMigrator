@@ -1,0 +1,12 @@
+{
+    "updateTime": 1661264495550,
+    "code": "ProductId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify product",
+    "id": 12521296,
+    "createTime": 1661264495550,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "Product Id - EDP",
+    "custom": true
+}

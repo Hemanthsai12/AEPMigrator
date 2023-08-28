@@ -1,0 +1,64 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/aff11dce0924fc03c6e0fcdd642d6df7e63a9e26f282b389",
+    "meta:altId": "_prudential.mixins.aff11dce0924fc03c6e0fcdd642d6df7e63a9e26f282b389",
+    "meta:resourceType": "mixins",
+    "version": "1.1",
+    "title": "EDP Party Relation Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "relationshipTypeCode": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Relationship between the parties",
+                            "title": "Relationship Type Code",
+                            "meta:xdmType": "string"
+                        },
+                        "relatedPartyId": {
+                            "required": [],
+                            "type": "string",
+                            "description": "Id column to uniquely identify the related party",
+                            "title": "Related Party Id",
+                            "meta:xdmType": "string"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1659599954549,
+        "repo:lastModifiedDate": 1661262124169,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "46B43B00629DE77C0A495EC9@AdobeID",
+        "xdm:lastModifiedUserId": "46B43B00629DE77C0A495EC9@AdobeID",
+        "eTag": "f04370e60df6c37dc982ab0b2a3cb41d1c0bb00d1159a993cf5d803b9123b2b9",
+        "meta:globalLibVersion": "1.37.3"
+    },
+    "meta:containerId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

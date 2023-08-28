@@ -1,0 +1,1 @@
+{"name": "ClientLink Household Member Dataset", "schemaRef": {"id": "https://ns.adobe.com/prudential/schemas/d0cdbceabb8177428a6a1bb97fe2c55e001dcc639a87cf8a", "contentType": "application/vnd.adobe.xed-full+json;version=1"}, "fileDescription": {"format": "parquet"}}

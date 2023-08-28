@@ -1,0 +1,38 @@
+[
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/5e5258a06b4172065364db943557b7ebc86644c9a6d7f485",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/accountId",
+        "xdm:namespace": "CRMAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/5e5258a06b4172065364db943557b7ebc86644c9a6d7f485",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/eventId",
+        "xdm:namespace": "CRMEventId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/5e5258a06b4172065364db943557b7ebc86644c9a6d7f485",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/whoId",
+        "xdm:namespace": "CRMWhoId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

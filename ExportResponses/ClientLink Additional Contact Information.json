@@ -1,0 +1,268 @@
+[
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/state",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "State Add"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/street1",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Address Line 1"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Additional Contact Information Record Identifier"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/postalCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Zip Add"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/street3",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Address Line  3"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personalEmail/address",
+        "xdm:namespace": "Email",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_id",
+        "xdm:namespace": "AddContactInfoId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": true,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personalEmail/type",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Email Address Description Add"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:descriptorIdentity",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/_<XDM_TENANTID_PLACEHOLDER>/contactName",
+        "xdm:namespace": "CRMAccountId",
+        "xdm:property": "xdm:code",
+        "xdm:isPrimary": false,
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/city",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "City Add"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/street2",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Address Line 2"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/label",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Address Description Add"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homePhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Phone Add"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/personalEmail/address",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Email Address Add"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:enum": {},
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/ee06cea709a0e50121bf7cb9b3b759acd7bd5681f0f61b85",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/homeAddress/country",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Country "
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "87ae5ec3-c2a2-4372-ae5e-c3c2a233724d",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

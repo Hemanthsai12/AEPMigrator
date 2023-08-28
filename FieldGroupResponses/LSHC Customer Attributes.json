@@ -1,0 +1,167 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/53b4bdf129e893f78481bbd495bcd1c41a24f49d2c8a6623",
+    "meta:altId": "_deloitte_digitalengage.mixins.53b4bdf129e893f78481bbd495bcd1c41a24f49d2c8a6623",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "LSHC Customer Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "type": "object",
+            "properties": {
+                "_deloitte_digitalengage": {
+                    "type": "object",
+                    "properties": {
+                        "email": {
+                            "title": "email",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "hasOptedOutofEmail": {
+                                    "title": "Has Opted Out of Email",
+                                    "description": "",
+                                    "type": "boolean",
+                                    "required": [],
+                                    "meta:xdmType": "boolean"
+                                },
+                                "emailOptedInMethod": {
+                                    "title": "Email Opted In Method",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "preferredLanguage": {
+                                    "title": "Preferred Language",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        },
+                        "interests": {
+                            "title": "Interests",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "productInterests": {
+                                    "title": "Product Interests",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                },
+                                "areasOfInterest": {
+                                    "title": "Areas of Interest",
+                                    "description": "",
+                                    "type": "string",
+                                    "required": [],
+                                    "meta:xdmType": "string"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        },
+                        "customerType": {
+                            "title": "Customer Type",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "customerIndustry": {
+                            "title": "Customer Industry",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "projectedBudgetRange": {
+                            "title": "Projected Budget Range",
+                            "description": "",
+                            "type": "string",
+                            "required": [],
+                            "meta:xdmType": "string"
+                        },
+                        "customerBudget": {
+                            "title": "Customer Budget (in k)",
+                            "description": "",
+                            "type": "number",
+                            "required": [],
+                            "meta:xdmType": "number"
+                        },
+                        "customerCreatedDate": {
+                            "title": "Customer Created Date",
+                            "description": "",
+                            "type": "object",
+                            "isRequired": false,
+                            "required": [],
+                            "properties": {
+                                "createdDate": {
+                                    "title": "Created Date",
+                                    "description": "",
+                                    "type": "string",
+                                    "format": "date-time",
+                                    "required": [],
+                                    "meta:xdmType": "date-time"
+                                },
+                                "createdMonth": {
+                                    "title": "Created Month",
+                                    "description": "",
+                                    "type": "integer",
+                                    "required": [],
+                                    "meta:xdmType": "int"
+                                },
+                                "createdYear": {
+                                    "title": "Created Year",
+                                    "description": "",
+                                    "type": "integer",
+                                    "required": [],
+                                    "meta:xdmType": "int"
+                                }
+                            },
+                            "meta:xdmType": "object"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "1F6324765762BE0E7F000101@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1652944277458,
+        "repo:lastModifiedDate": 1652944277458,
+        "xdm:createdClientId": "feb4ec6d2c524987930dd13bf20f2b93",
+        "xdm:lastModifiedClientId": "feb4ec6d2c524987930dd13bf20f2b93",
+        "xdm:createdUserId": "0D7234E86225AB8A0A495FC6@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "0D7234E86225AB8A0A495FC6@techacct.adobe.com",
+        "eTag": "1196c618711186cdb230b20939c83237b857f1f31bca2e25826fbb835bccae8f",
+        "meta:globalLibVersion": "1.35.2"
+    },
+    "meta:containerId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxId": "02df70fd-9823-48f7-9f70-fd982378f723",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

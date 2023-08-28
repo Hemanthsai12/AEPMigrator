@@ -1,0 +1,12 @@
+{
+    "updateTime": 1659434711974,
+    "code": "AddressId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the address",
+    "id": 12395696,
+    "createTime": 1659434711974,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "Address Id - EDP",
+    "custom": true
+}

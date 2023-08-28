@@ -1,0 +1,12 @@
+{
+    "updateTime": 1659440375186,
+    "code": "PhoneId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the phone",
+    "id": 12396136,
+    "createTime": 1659440375186,
+    "idType": "NON_PEOPLE",
+    "namespaceType": "Custom",
+    "name": "Phone Id - EDP",
+    "custom": true
+}

@@ -1,0 +1,51 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/6bd1b024ee8dd4874dfc4e9f3a63b8901ddf8348f63ef33a",
+    "meta:altId": "_prudential.schemas.6bd1b024ee8dd4874dfc4e9f3a63b8901ddf8348f63ef33a",
+    "meta:resourceType": "schemas",
+    "version": "1.4",
+    "title": "Marketo Program 376-GUV-649",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/classes/campaign",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "$ref": "https://ns.adobe.com/xdm/mixins/campaign-details",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/xdm/mixins/record-status",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/mixins/campaign-details",
+        "https://ns.adobe.com/xdm/classes/campaign",
+        "https://ns.adobe.com/xdm/common/external-source-system-audit-details"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1658131310454,
+        "repo:lastModifiedDate": 1662103538641,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "a0666f0549a8a766a2b3a190d4f1c013eca2523afef48b4015c45a9015a31f96",
+        "meta:globalLibVersion": "1.37.4"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/classes/campaign",
+    "meta:containerId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxId": "53cf37c3-c7ce-4523-8f37-c3c7ce05236f",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:immutableTags": [
+        "union"
+    ],
+    "meta:allFieldAccess": true
+}

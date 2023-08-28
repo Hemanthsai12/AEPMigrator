@@ -1,0 +1,211 @@
+[
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mailingAddress/street2",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Address Line 2"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mailingAddress/country",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Address Country"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workAddress/state",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Company State"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mailingAddress/state",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Address State"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/b2b/personScore",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Lead Score"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/workAddress/postalCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Company Zip"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/userAccount/startDate",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Account Open Date"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/person/gender",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Gender Account"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/userAccount/contactDetails/homePhone/number",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Home Phone"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mailingAddress/postalCode",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Address Zip"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    },
+    {
+        "@type": "xdm:alternateDisplayInfo",
+        "xdm:sourceSchema": "https://ns.adobe.com/<XDM_TENANTID_PLACEHOLDER>/schemas/aa91fefb3a01e1beca435581a4a4dcf14254d539c93e85d4",
+        "xdm:sourceVersion": 1,
+        "xdm:sourceProperty": "/mailingAddress/label",
+        "xdm:excludeMetaEnum": {},
+        "xdm:title": {
+            "en_us": "Primary Address"
+        },
+        "xdm:description": {
+            "en_us": ""
+        },
+        "xdm:note": {
+            "en_us": ""
+        },
+        "meta:sandboxId": "b7ba0b0f-2458-4ab2-ba0b-0f2458dab27b",
+        "meta:sandboxType": "development",
+        "meta:resourceType": "descriptors"
+    }
+]

@@ -1,0 +1,73 @@
+{
+    "$id": "https://ns.adobe.com/prudential/schemas/a20b37ff06f9dc62ea9622600b2be004ad3709f8c8f74262",
+    "meta:altId": "_prudential.schemas.a20b37ff06f9dc62ea9622600b2be004ad3709f8c8f74262",
+    "meta:resourceType": "schemas",
+    "version": "1.4",
+    "title": "EDP Address",
+    "type": "object",
+    "description": "",
+    "allOf": [
+        {
+            "$ref": "https://ns.adobe.com/xdm/context/profile",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/partyAddressId",
+                "/_prudential/partyId"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+            "type": "object",
+            "meta:xdmType": "object"
+        },
+        {
+            "meta:refProperty": [
+                "/_prudential/addressAttributes[*]/address/city",
+                "/_prudential/addressAttributes[*]/address/country",
+                "/_prudential/addressAttributes[*]/address/label",
+                "/_prudential/addressAttributes[*]/address/postalCode",
+                "/_prudential/addressAttributes[*]/address/state",
+                "/_prudential/addressAttributes[*]/address/street1",
+                "/_prudential/addressAttributes[*]/address/street2",
+                "/_prudential/addressAttributes[*]/address/street3",
+                "/_prudential/addressAttributes[*]/address/street4",
+                "/_prudential/addressAttributes[*]/address/region",
+                "/_prudential/addressAttributes[*]/preferredAddressInd",
+                "/_prudential/addressAttributes[*]/undeliverableAddressInd",
+                "/_prudential/addressAttributes[*]/mailConsentInd",
+                "/_prudential/addressAttributes[*]/addressDeletedInd"
+            ],
+            "$ref": "https://ns.adobe.com/prudential/mixins/47208fe0013c6a725704877aa92db6a11a87c068c138f740",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": false,
+    "meta:abstract": false,
+    "meta:extends": [
+        "https://ns.adobe.com/prudential/mixins/29ee3bb68f725e02998489087167e06929287c2f826e7e1c",
+        "https://ns.adobe.com/prudential/mixins/47208fe0013c6a725704877aa92db6a11a87c068c138f740",
+        "https://ns.adobe.com/xdm/common/auditable",
+        "https://ns.adobe.com/xdm/data/record",
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1669703622021,
+        "repo:lastModifiedDate": 1671534847715,
+        "xdm:createdClientId": "84f33f69f3fb4e5892cf05e503891de9",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "8D40475162A085200A495FB7@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "79394238a258da3518d773e91b08e19307abc95dd07d5a85373befd197a5cdba",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:class": "https://ns.adobe.com/xdm/context/profile",
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}

@@ -1,0 +1,11 @@
+{
+    "updateTime": 1667825208067,
+    "code": "SF",
+    "status": "ACTIVE",
+    "id": 12970696,
+    "createTime": 1667825208067,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "demo_salesforce_id",
+    "custom": true
+}

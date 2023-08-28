@@ -1,0 +1,51 @@
+{
+    "$id": "https://ns.adobe.com/deloitte_digitalengage/mixins/35727620dddf2ebc313d3e4713c2d1cfc81f4439eeb23e49",
+    "meta:altId": "_deloitte_digitalengage.mixins.35727620dddf2ebc313d3e4713c2d1cfc81f4439eeb23e49",
+    "meta:resourceType": "mixins",
+    "version": "1.0",
+    "title": "hemanth_test_migration",
+    "type": "object",
+    "description": "",
+    "properties": {
+        "_deloitte_digitalengage": {
+            "type": "object",
+            "properties": {
+                "name_test_migration": {
+                    "required": [],
+                    "type": "string",
+                    "title": "name_test_migration",
+                    "meta:xdmType": "string"
+                },
+                "email_test_migration": {
+                    "required": [],
+                    "type": "string",
+                    "title": "email_test_migration",
+                    "meta:xdmType": "string"
+                }
+            },
+            "meta:xdmType": "object"
+        }
+    },
+    "imsOrg": "FD6415F354EEF3250A4C98A4@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1671647442506,
+        "repo:lastModifiedDate": 1671647442506,
+        "xdm:createdClientId": "703979b89f2449f0848e7029fbf9e5fe",
+        "xdm:lastModifiedClientId": "703979b89f2449f0848e7029fbf9e5fe",
+        "xdm:createdUserId": "D69947BC63A333320A495E0B@techacct.adobe.com",
+        "xdm:lastModifiedUserId": "D69947BC63A333320A495E0B@techacct.adobe.com",
+        "eTag": "cc1b463b3f5ea7e5613d0d5c8ed25c94df41eb9540c7da868de2f199a0657b5d",
+        "meta:globalLibVersion": "1.39.3.1"
+    },
+    "meta:containerId": "798b8024-4b71-4993-8b80-244b71b993e8",
+    "meta:sandboxId": "798b8024-4b71-4993-8b80-244b71b993e8",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_deloitte_digitalengage",
+    "meta:allFieldAccess": true
+}

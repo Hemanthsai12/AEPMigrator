@@ -1,0 +1,12 @@
+{
+    "updateTime": 1659440471210,
+    "code": "AccountId",
+    "status": "ACTIVE",
+    "description": "Identity to uniquely identify the account",
+    "id": 12396176,
+    "createTime": 1659440471210,
+    "idType": "CROSS_DEVICE",
+    "namespaceType": "Custom",
+    "name": "Account Id - EDP",
+    "custom": true
+}

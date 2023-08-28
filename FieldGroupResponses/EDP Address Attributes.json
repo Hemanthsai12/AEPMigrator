@@ -1,0 +1,94 @@
+{
+    "$id": "https://ns.adobe.com/prudential/mixins/47208fe0013c6a725704877aa92db6a11a87c068c138f740",
+    "meta:altId": "_prudential.mixins.47208fe0013c6a725704877aa92db6a11a87c068c138f740",
+    "meta:resourceType": "mixins",
+    "version": "1.2",
+    "title": "EDP Address Attributes",
+    "type": "object",
+    "description": "",
+    "definitions": {
+        "customFields": {
+            "properties": {
+                "_prudential": {
+                    "type": "object",
+                    "properties": {
+                        "addressAttributes": {
+                            "items": {
+                                "properties": {
+                                    "address": {
+                                        "$ref": "https://ns.adobe.com/xdm/common/address",
+                                        "required": [],
+                                        "type": "object",
+                                        "title": "Address",
+                                        "meta:xdmType": "object"
+                                    },
+                                    "preferredAddressInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Preferred Address Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "undeliverableAddressInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Undeliverable Address Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "mailConsentInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Mail Consent Ind",
+                                        "meta:xdmType": "boolean"
+                                    },
+                                    "addressDeletedInd": {
+                                        "required": [],
+                                        "type": "boolean",
+                                        "title": "Address Deleted Ind",
+                                        "meta:xdmType": "boolean"
+                                    }
+                                },
+                                "required": [],
+                                "type": "object",
+                                "meta:xdmType": "object"
+                            },
+                            "required": [],
+                            "type": "array",
+                            "title": "Address Attributes",
+                            "meta:xdmType": "array"
+                        }
+                    },
+                    "meta:xdmType": "object"
+                }
+            }
+        }
+    },
+    "allOf": [
+        {
+            "$ref": "#/definitions/customFields",
+            "type": "object",
+            "meta:xdmType": "object"
+        }
+    ],
+    "imsOrg": "A3F5A8DC5886052D0A495CC3@AdobeOrg",
+    "meta:extensible": true,
+    "meta:abstract": true,
+    "meta:intendedToExtend": [
+        "https://ns.adobe.com/xdm/context/profile"
+    ],
+    "meta:xdmType": "object",
+    "meta:registryMetadata": {
+        "repo:createdDate": 1671531034670,
+        "repo:lastModifiedDate": 1671532400316,
+        "xdm:createdClientId": "acp_xql_gateway",
+        "xdm:lastModifiedClientId": "acp_xql_gateway",
+        "xdm:createdUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "xdm:lastModifiedUserId": "E193342C630F91B20A495C0A@58f520ae5b81c35b0a495d34",
+        "eTag": "0d05435e81855aa8c30c08ca3c8cb3d33e04d1758acc5b1ed708fcf4c3c30982",
+        "meta:globalLibVersion": "1.38.2"
+    },
+    "meta:containerId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxId": "2b9fdbb3-2ab1-403d-9fdb-b32ab1a03dbb",
+    "meta:sandboxType": "development",
+    "meta:tenantNamespace": "_prudential",
+    "meta:allFieldAccess": true
+}
